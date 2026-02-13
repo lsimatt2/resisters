@@ -30,7 +30,7 @@ function Navbar() {
             href="https://resistersct.us18.list-manage.com/subscribe?u=3f5471ab184963199413bde34&id=ffa6171dfe"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-berry-600 text-white px-5 py-2 rounded-full hover:bg-berry-700 transition-colors"
+            className="bg-purple-logo text-white px-5 py-2 rounded-full hover:bg-berry-700 transition-colors"
           >
             Join Us
           </a>
@@ -39,7 +39,7 @@ function Navbar() {
           href="https://resistersct.us18.list-manage.com/subscribe?u=3f5471ab184963199413bde34&id=ffa6171dfe"
           target="_blank"
           rel="noopener noreferrer"
-          className="md:hidden bg-berry-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-berry-700 transition-colors"
+          className="md:hidden bg-purple-logo text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-berry-700 transition-colors"
         >
           Join Us
         </a>
@@ -50,21 +50,21 @@ function Navbar() {
 
 function Hero() {
   return (
-    <section className="relative bg-gradient-to-br from-berry-900 via-berry-800 to-green-800 text-white pt-32 pb-20 px-6">
-      <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC4wMyI+PHBhdGggZD0iTTM2IDE4YzMuMzEzIDAgNiAyLjY4NyA2IDZzLTIuNjg3IDYtNiA2LTYtMi42ODctNi02IDIuNjg3LTYgNi02eiIvPjwvZz48L2c+PC9zdmc+')] opacity-50" />
+    <section className="relative bg-gradient-to-br from-green-50 via-green-50 to-emerald-50 pt-32 pb-20 px-6">
       <div className="relative mx-auto max-w-4xl text-center">
         <Image
           src="/logo.png"
           alt="ReSisters CT"
           width={150}
           height={96}
-          className="mx-auto mb-8 drop-shadow-lg bg-white/90 rounded-2xl p-4"
+          className="mx-auto mb-8 drop-shadow-md"
         />
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6">
-          Educate. Activate.{" "}
-          <span className="text-green-400">Defend Democracy.</span>
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 text-green-logo">
+          Educate. Activate.
+          <br />
+          <span className="!text-purple-logo">Defend Democracy.</span>
         </h1>
-        <p className="text-lg sm:text-xl text-pink-100 max-w-2xl mx-auto mb-10 leading-relaxed">
+        <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed">
           Grassroots activists in lower Fairfield County, Connecticut promoting
           candidates and causes that support democracy at every level.
         </p>
@@ -73,13 +73,13 @@ function Hero() {
             href="https://resistersct.us18.list-manage.com/subscribe?u=3f5471ab184963199413bde34&id=ffa6171dfe"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-berry-500 hover:bg-berry-600 text-white font-semibold px-8 py-4 rounded-full text-lg transition-colors shadow-lg"
+            className="bg-purple-logo hover:bg-berry-700 text-white font-semibold px-8 py-4 rounded-full text-lg transition-colors shadow-lg"
           >
             Join the Movement
           </a>
           <a
             href="#about"
-            className="border-2 border-white/30 hover:border-white/60 text-white font-semibold px-8 py-4 rounded-full text-lg transition-colors"
+            className="border-2 border-berry-300 hover:border-berry-500 text-berry-700 font-semibold px-8 py-4 rounded-full text-lg transition-colors"
           >
             Learn More
           </a>

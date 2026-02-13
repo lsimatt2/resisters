@@ -3,11 +3,16 @@
 @theme inline {
   --color-background: #ffffff;
   --color-foreground: #2d2235;
-  --color-berry-500: #c2185b;
-  --color-berry-600: #a1144d;
-  --color-berry-700: #880e4f;
-  --color-berry-800: #6a0a3d;
-  --color-berry-900: #4a0730;
+  --color-berry-100: #fce4ec;
+  --color-berry-300: #f48fb1;
+  --color-berry-500: #e91e7a;
+  --color-berry-600: #d81b6b;
+  --color-berry-700: #c2185b;
+  --color-berry-800: #b44a78;
+  --color-berry-900: #9e4b72;
+  --color-purple-logo: #9f1662;
+  --color-green-50: #e8f5e9;
+  --color-green-logo: #4a7c2e;
   --color-green-600: #2e7d32;
   --color-green-700: #1b5e20;
   --color-green-800: #145218;
