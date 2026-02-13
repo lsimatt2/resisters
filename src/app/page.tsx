@@ -65,7 +65,7 @@ function Hero() {
           <span className="!text-purple-logo">Defend Democracy.</span>
         </h1>
         <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed">
-          Grassroots activists in lower Fairfield County, Connecticut promoting
+          Grassroots activists, started in lower Fairfield County, Connecticut, promoting
           candidates and causes that support democracy at every level.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -134,7 +134,7 @@ const actions = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
       </svg>
     ),
-    href: "https://resistersct.org/take-action/make-phone-calls/",
+    href: "/take-action/phone",
   },
   {
     title: "Text Bank",
@@ -154,7 +154,7 @@ const actions = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
       </svg>
     ),
-    href: "https://resistersct.org/take-action/letters/",
+    href: "/take-action/letters",
   },
   {
     title: "Send Postcards",
@@ -164,7 +164,7 @@ const actions = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
       </svg>
     ),
-    href: "https://resistersct.org/take-action/postcards/",
+    href: "/take-action/postcards",
   },
   {
     title: "Canvass",
@@ -174,7 +174,7 @@ const actions = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
       </svg>
     ),
-    href: "https://resistersct.org/take-action/personal-connections/",
+    href: "/take-action/canvass",
   },
   {
     title: "Social Media",
@@ -184,7 +184,7 @@ const actions = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
       </svg>
     ),
-    href: "https://resistersct.org/take-action/tweets/",
+    href: "/take-action/social-media",
   },
 ];
 
@@ -226,21 +226,21 @@ function TakeAction() {
 
 function ResistanceCafe() {
   return (
-    <section id="cafe" className="py-20 px-6 bg-berry-900 text-white">
+    <section id="cafe" className="py-20 px-6 bg-gradient-to-br from-green-50 via-green-50 to-emerald-50">
       <div className="mx-auto max-w-4xl text-center">
-        <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+        <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-green-logo">
           Resistance Cafe
         </h2>
-        <div className="w-16 h-1 bg-green-400 mx-auto mb-10 rounded-full" />
-        <p className="text-xl text-pink-100 mb-8 leading-relaxed">
+        <div className="w-16 h-1 bg-purple-logo mx-auto mb-10 rounded-full" />
+        <p className="text-xl text-gray-600 mb-8 leading-relaxed">
           A weekly gathering of the ReSisters and Misters &mdash; activists
           supporting each other and working to make significant political
           change.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10 text-left">
-          <div className="bg-white/10 rounded-2xl p-6 backdrop-blur-sm">
-            <h3 className="font-semibold text-lg mb-2">When</h3>
-            <p className="text-pink-100">
+          <div className="bg-white rounded-2xl p-6 border border-gray-200 shadow-sm">
+            <h3 className="font-semibold text-lg mb-2 text-green-logo">When</h3>
+            <p className="text-gray-600">
               Every Monday
               <br />
               10&ndash;11 a.m. on Zoom
@@ -248,20 +248,20 @@ function ResistanceCafe() {
               7 p.m. Monday recap session
             </p>
           </div>
-          <div className="bg-white/10 rounded-2xl p-6 backdrop-blur-sm">
-            <h3 className="font-semibold text-lg mb-2">Weekly Menu</h3>
-            <ul className="text-pink-100 space-y-1">
+          <div className="bg-white rounded-2xl p-6 border border-gray-200 shadow-sm">
+            <h3 className="font-semibold text-lg mb-2 text-green-logo">Weekly Menu</h3>
+            <ul className="text-gray-600 space-y-1">
               <li>
-                <strong>Lift Your Spirits</strong> &mdash; positive news
+                <strong className="text-gray-800">Lift Your Spirits</strong> &mdash; positive news
               </li>
               <li>
-                <strong>Starters</strong> &mdash; between-meeting actions
+                <strong className="text-gray-800">Starters</strong> &mdash; between-meeting actions
               </li>
               <li>
-                <strong>Mains</strong> &mdash; group activities & speakers
+                <strong className="text-gray-800">Mains</strong> &mdash; group activities & speakers
               </li>
               <li>
-                <strong>Desserts</strong> &mdash; articles & humor
+                <strong className="text-gray-800">Desserts</strong> &mdash; articles & humor
               </li>
             </ul>
           </div>
@@ -270,7 +270,7 @@ function ResistanceCafe() {
           href="https://resistersct.us18.list-manage.com/subscribe?u=3f5471ab184963199413bde34&id=ffa6171dfe"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold px-8 py-4 rounded-full text-lg transition-colors"
+          className="inline-block bg-purple-logo hover:bg-berry-700 text-white font-semibold px-8 py-4 rounded-full text-lg transition-colors"
         >
           Subscribe to Get the Zoom Link
         </a>
@@ -279,114 +279,83 @@ function ResistanceCafe() {
   );
 }
 
-function Priorities() {
-  return (
-    <section className="py-20 px-6 bg-plum-50">
-      <div className="mx-auto max-w-6xl">
-        <h2 className="text-3xl sm:text-4xl font-bold text-center text-berry-900 mb-4">
-          Our Priorities
-        </h2>
-        <div className="w-16 h-1 bg-berry-600 mx-auto mb-12 rounded-full" />
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <a
-            href="https://resistersct.org/candidates/local-candidates/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group bg-white rounded-2xl p-8 text-center shadow-sm hover:shadow-lg transition-shadow border border-gray-100"
-          >
-            <div className="w-14 h-14 bg-berry-100 text-berry-700 rounded-xl flex items-center justify-center mb-4 mx-auto text-2xl">
-              <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
-              </svg>
-            </div>
-            <h3 className="text-xl font-bold text-berry-800 mb-2">
-              CT / Local
-            </h3>
-            <p className="text-gray-600">
-              Supporting pro-democracy candidates in Connecticut and local races.
-            </p>
-          </a>
-          <a
-            href="https://resistersct.org/candidates/pa-candidates/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group bg-white rounded-2xl p-8 text-center shadow-sm hover:shadow-lg transition-shadow border border-gray-100"
-          >
-            <div className="w-14 h-14 bg-green-50 text-green-700 rounded-xl flex items-center justify-center mb-4 mx-auto text-2xl">
-              <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 6.75V15m6-6v8.25m.503 3.498l4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 00-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0z" />
-              </svg>
-            </div>
-            <h3 className="text-xl font-bold text-berry-800 mb-2">
-              State Priorities
-            </h3>
-            <p className="text-gray-600">
-              Focused campaigns in key swing states to flip and keep seats blue.
-            </p>
-          </a>
-          <a
-            href="https://resistersct.org/candidates/national-candidates/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group bg-white rounded-2xl p-8 text-center shadow-sm hover:shadow-lg transition-shadow border border-gray-100"
-          >
-            <div className="w-14 h-14 bg-berry-100 text-berry-700 rounded-xl flex items-center justify-center mb-4 mx-auto text-2xl">
-              <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
-              </svg>
-            </div>
-            <h3 className="text-xl font-bold text-berry-800 mb-2">
-              Federal Priorities
-            </h3>
-            <p className="text-gray-600">
-              National races where your actions can make the greatest impact.
-            </p>
-          </a>
-        </div>
-      </div>
-    </section>
-  );
-}
-
 function Resources() {
-  const partners = [
-    { name: "Turn PA Blue", url: "https://www.turnpablue.org/" },
-    { name: "Lean Left VT", url: "https://www.leanleftvt.org/" },
-    { name: "Swing Left", url: "https://swingleft.org/" },
-    { name: "Sister District", url: "https://sisterdistrict.com" },
-    { name: "Vote Forward", url: "https://votefwd.org/" },
-    { name: "Vote411", url: "https://www.vote411.org/" },
-  ];
-
   return (
     <section id="resources" className="py-20 px-6">
-      <div className="mx-auto max-w-4xl">
+      <div className="mx-auto max-w-5xl">
         <h2 className="text-3xl sm:text-4xl font-bold text-center text-berry-900 mb-4">
-          Resources & Partners
+          Resources
         </h2>
         <div className="w-16 h-1 bg-green-600 mx-auto mb-12 rounded-full" />
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-          {partners.map((partner) => (
-            <a
-              key={partner.name}
-              href={partner.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-plum-50 hover:bg-plum-100 border border-plum-200 hover:border-berry-300 rounded-xl p-5 text-center font-medium text-gray-700 hover:text-berry-700 transition-all"
-            >
-              {partner.name}
-            </a>
-          ))}
-        </div>
-        <div className="mt-8 text-center">
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {/* Training Card */}
           <a
-            href="https://resistersct.org/resources/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-berry-600 hover:text-berry-800 font-medium underline underline-offset-4"
+            href="/take-action/training"
+            className="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow block"
           >
-            View all training resources and toolkits &rarr;
+            <div className="flex items-center gap-3 mb-5">
+              <div className="w-10 h-10 bg-green-50 text-green-700 rounded-lg flex items-center justify-center">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.26 10.147a60.438 60.438 0 00-.491 6.347A48.62 48.62 0 0112 20.904a48.62 48.62 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.636 50.636 0 00-2.658-.813A59.906 59.906 0 0112 3.493a59.903 59.903 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-green-logo">Training</h3>
+            </div>
+            <p className="text-sm text-gray-700 mb-3">
+              Guides for letters to the editor, phone banking, text banking, Slack, Zoom, and more.
+            </p>
+            <span className="text-sm text-berry-600 font-medium">
+              View training resources &rarr;
+            </span>
           </a>
+
+          {/* Voting Card */}
+          <a
+            href="/take-action/voting"
+            className="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow block"
+          >
+            <div className="flex items-center gap-3 mb-5">
+              <div className="w-10 h-10 bg-green-50 text-green-700 rounded-lg flex items-center justify-center">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-green-logo">Voting</h3>
+            </div>
+            <p className="text-sm text-gray-700 mb-3">
+              Registration, absentee ballots, and voting information for CT, PA, and other states.
+            </p>
+            <span className="text-sm text-berry-600 font-medium">
+              View voting resources &rarr;
+            </span>
+          </a>
+
+          {/* Other Resources Card */}
+          <div className="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow">
+            <div className="flex items-center gap-3 mb-5">
+              <div className="w-10 h-10 bg-green-50 text-green-700 rounded-lg flex items-center justify-center">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m9.86-2.54a4.5 4.5 0 00-6.364-6.364L4.5 8.188" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-green-logo">Other Resources</h3>
+            </div>
+            <ul className="space-y-3">
+              <li className="text-sm text-gray-700">
+                <a href="https://iwillvote.com" target="_blank" rel="noopener noreferrer" className="text-berry-600 hover:text-berry-800 underline underline-offset-4">
+                  IWillVote.com
+                </a>
+                {" "}&mdash; DNC site for understanding how to vote in your state
+              </li>
+              <li className="text-sm text-gray-700">
+                <a href="https://store.usps.com/store/m/category.jsp?id=mobile-stamp" target="_blank" rel="noopener noreferrer" className="text-berry-600 hover:text-berry-800 underline underline-offset-4">
+                  Stamps
+                </a>
+                {" "}&mdash; US Post Office
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
@@ -395,12 +364,12 @@ function Resources() {
 
 function CTA() {
   return (
-    <section className="py-20 px-6 bg-gradient-to-r from-berry-600 to-green-700 text-white">
+    <section className="py-20 px-6 bg-gradient-to-br from-green-50 via-green-50 to-emerald-50">
       <div className="mx-auto max-w-3xl text-center">
-        <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+        <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-green-logo">
           New to ReSisters?
         </h2>
-        <p className="text-xl text-pink-100 mb-8">
+        <p className="text-xl text-gray-600 mb-8">
           Join our email list to receive the Weekly Menu with Zoom links,
           action items, and ways to get involved.
         </p>
@@ -408,7 +377,7 @@ function CTA() {
           href="https://resistersct.us18.list-manage.com/subscribe?u=3f5471ab184963199413bde34&id=ffa6171dfe"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block bg-white text-berry-700 font-bold px-10 py-4 rounded-full text-lg hover:bg-pink-50 transition-colors shadow-lg"
+          className="inline-block bg-purple-logo text-white font-bold px-10 py-4 rounded-full text-lg hover:bg-berry-700 transition-colors shadow-lg"
         >
           Sign Up Now
         </a>
@@ -480,6 +449,41 @@ function Footer() {
               <li>Lower Fairfield County, Connecticut</li>
               <li>Zoom Mondays at 10 a.m. and 7 p.m.</li>
             </ul>
+            <div className="flex gap-4 mt-4">
+              <a
+                href="https://www.facebook.com/groups/493346374331322/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-pink-200 hover:text-white transition-colors"
+                aria-label="Follow on Facebook"
+              >
+                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                </svg>
+              </a>
+              <a
+                href="https://www.instagram.com/resistersct/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-pink-200 hover:text-white transition-colors"
+                aria-label="Follow on Instagram"
+              >
+                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                </svg>
+              </a>
+              <a
+                href="https://bsky.app/profile/resistersct.bsky.social"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-pink-200 hover:text-white transition-colors"
+                aria-label="Follow on Bluesky"
+              >
+                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.785 2.643 3.593 3.519 6.178 3.279-3.91.567-7.369 2.17-2.977 7.594 4.913 5.207 6.852-1.39 7.447-3.346.141-.465.226-.742.728-.742s.587.277.728.742c.595 1.956 2.534 8.553 7.447 3.346 4.392-5.424.933-7.027-2.977-7.594 2.585.24 5.393-.636 6.178-3.279C23.622 9.418 24 4.458 24 3.768c0-.688-.139-1.86-.902-2.203-.659-.299-1.664-.621-4.3 1.24C16.046 4.747 13.087 8.686 12 10.8z" />
+                </svg>
+              </a>
+            </div>
           </div>
         </div>
         <div className="border-t border-berry-800 pt-6 text-center text-sm text-pink-300">
@@ -499,7 +503,6 @@ export default function Home() {
         <About />
         <TakeAction />
         <ResistanceCafe />
-        <Priorities />
         <Resources />
         <CTA />
       </main>
