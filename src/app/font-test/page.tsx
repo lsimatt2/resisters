@@ -68,8 +68,8 @@ function HeroBlock({
           <p
             className={`text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto mb-8 leading-relaxed ${bodyFont}`}
           >
-            Grassroots activists, started in lower Fairfield County, Connecticut, promoting
-            candidates and causes that support democracy at every level.
+            Grassroots activists founded in Westport, CT in 2016, now active throughout
+            Connecticut and beyond, promoting candidates and causes that support democracy.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <span

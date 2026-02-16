@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Training Resources | ReSisters CT",
+  title: "How to be an Activist | ReSisters CT",
   description:
-    "Training resources for ReSisters CT activists — guides for letters to the editor, phone banking, text banking, Slack, Zoom, and more.",
+    "Learn how to be an activist with ReSisters CT — guides for letters to the editor, phone banking, text banking, Slack, Zoom, and more.",
 };
 
 function Navbar() {
@@ -64,7 +64,7 @@ function Hero() {
           &larr; Back to Resources
         </Link>
         <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight mb-4 text-green-logo">
-          Training Resources
+          How to be an Activist
         </h1>
         <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
           Guides, toolkits, and training materials to help you become a more
@@ -300,8 +300,9 @@ function Footer() {
               className="mb-4 bg-white/90 rounded-xl p-2"
             />
             <p className="text-sm leading-relaxed">
-              Grassroots activists, started in lower Fairfield County, Connecticut,
-              promoting candidates and causes that support democracy.
+              Grassroots activists founded in Westport, CT in 2016, now active
+              throughout Connecticut and beyond, promoting candidates and causes
+              that support democracy.
             </p>
           </div>
           <div>
@@ -340,7 +341,7 @@ function Footer() {
                   ReSistersCT@gmail.com
                 </a>
               </li>
-              <li>Lower Fairfield County, Connecticut</li>
+              <li>Founded in Westport, CT — now throughout CT &amp; beyond</li>
               <li>Zoom Mondays at 10 a.m. and 7 p.m.</li>
             </ul>
             <div className="flex gap-4 mt-4">

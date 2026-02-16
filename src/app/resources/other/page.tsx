@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Send Postcards | ReSisters CT",
+  title: "Other Resources | ReSisters CT",
   description:
-    "Learn how to send postcards with ReSisters CT. Handwritten postcards are personal and effective voter outreach.",
+    "Helpful resources for activists including stamps and more.",
 };
 
 function Navbar() {
@@ -58,216 +58,44 @@ function Hero() {
     <section className="relative bg-gradient-to-br from-green-50 via-green-50 to-emerald-50 pt-28 pb-16 px-6">
       <div className="relative mx-auto max-w-4xl text-center">
         <Link
-          href="/#actions"
+          href="/#resources"
           className="inline-block text-green-logo hover:text-berry-700 text-sm mb-4 transition-colors"
         >
-          &larr; Back to Take Action
+          &larr; Back to Resources
         </Link>
         <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight mb-4 text-green-logo">
-          Send Postcards
+          Other Resources
         </h1>
         <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-          In a sea of junk mail, a personally addressed handwritten message has
-          real meaning. No internet required!
+          Helpful links and tools for activists.
         </p>
       </div>
     </section>
   );
 }
 
-function WhyPostcards() {
+function ResourcesList() {
   return (
     <section className="py-16 px-6 bg-plum-50">
       <div className="mx-auto max-w-4xl">
-        <h2 className="text-3xl font-bold text-berry-900 mb-4">
-          Why Postcards?
-        </h2>
-        <div className="w-16 h-1 bg-green-600 rounded-full mb-8" />
-        <div className="space-y-5 text-lg text-gray-700 leading-relaxed">
-          <p>
-            Handwritten postcards are personal and they are an effective tool for
-            reaching people. A personally addressed message stands out and is
-            memorable. Fun, attractive postcards make an impact that digital
-            messages simply can&rsquo;t match.
-          </p>
-          <p>
-            Postcards are used to Get Out The Vote, create awareness about voter
-            registration, and support specific political candidates. They&rsquo;re
-            also incredibly easy to do from any location &mdash; all you need is
-            a pen, a postcard, and a stamp.
-          </p>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function WhenAndWhere() {
-  const benefits = [
-    {
-      title: "Do Them Anywhere",
-      description:
-        "The beauty of postcards is that you can write them at any time or any place. At home, at a cafe, while traveling — no internet needed.",
-      icon: (
-        <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-        </svg>
-      ),
-    },
-    {
-      title: "Join a Campaign",
-      description:
-        "Join us at a Resistance Cafe on Zoom when we're doing a postcard campaign. It's more fun writing together!",
-      icon: (
-        <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
-        </svg>
-      ),
-    },
-    {
-      title: "Personal Touch",
-      description:
-        "Your handwriting makes each card unique. Recipients can feel the genuine human effort behind every message.",
-      icon: (
-        <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
-        </svg>
-      ),
-    },
-    {
-      title: "Highly Effective",
-      description:
-        "Studies show handwritten mail has dramatically higher open and read rates than digital outreach. Your card will be seen.",
-      icon: (
-        <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" />
-        </svg>
-      ),
-    },
-  ];
-
-  return (
-    <section className="py-16 px-6">
-      <div className="mx-auto max-w-4xl">
-        <h2 className="text-3xl font-bold text-berry-900 mb-4">
-          Why It Works
-        </h2>
-        <div className="w-16 h-1 bg-berry-600 rounded-full mb-10" />
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          {benefits.map((benefit) => (
-            <div
-              key={benefit.title}
-              className="flex gap-4 bg-white border border-gray-200 rounded-2xl p-6"
-            >
-              <div className="w-12 h-12 bg-green-50 text-green-700 rounded-xl flex items-center justify-center shrink-0">
-                {benefit.icon}
-              </div>
-              <div>
-                <h3 className="font-semibold text-gray-900 text-lg mb-1">
-                  {benefit.title}
-                </h3>
-                <p className="text-gray-600">{benefit.description}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function HowToGetStarted() {
-  const steps = [
-    {
-      number: "1",
-      title: "Get your supplies",
-      description:
-        "You'll need postcards and stamps. For some campaigns we use plain postcards; for others, you can order themed postcards online. Postcard stamps are 35¢.",
-    },
-    {
-      number: "2",
-      title: "Get your addresses",
-      description:
-        "Check the Weekly Menu or join a Resistance Cafe session to find out which campaign we're working on and get your list of addresses to write to.",
-    },
-    {
-      number: "3",
-      title: "Write your messages",
-      description:
-        "Follow the campaign script and add your personal touch. Keep it short, friendly, and genuine. Your handwriting makes each card unique and meaningful.",
-    },
-    {
-      number: "4",
-      title: "Mail them out",
-      description:
-        "Add your stamps and drop them in the mail. It's that simple! Each postcard you send is a personal invitation for someone to participate in democracy.",
-    },
-  ];
-
-  return (
-    <section className="py-16 px-6 bg-plum-50">
-      <div className="mx-auto max-w-4xl">
-        <h2 className="text-3xl font-bold text-berry-900 mb-4">
-          How to Get Started
-        </h2>
-        <div className="w-16 h-1 bg-green-600 rounded-full mb-10" />
-        <div className="space-y-6">
-          {steps.map((step) => (
-            <div key={step.number} className="flex gap-5 items-start">
-              <div className="w-10 h-10 bg-berry-600 text-white rounded-full flex items-center justify-center font-bold text-lg shrink-0">
-                {step.number}
-              </div>
-              <div>
-                <h3 className="font-semibold text-gray-900 text-lg mb-1">
-                  {step.title}
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  {step.description}
-                </p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function Resources() {
-  return (
-    <section className="py-16 px-6">
-      <div className="mx-auto max-w-4xl">
-        <h2 className="text-3xl font-bold text-berry-900 mb-4">
-          Supplies & Resources
-        </h2>
-        <div className="w-16 h-1 bg-berry-600 rounded-full mb-8" />
-        <div className="max-w-md">
           <a
             href="https://store.usps.com/store/m/category.jsp?id=mobile-stamp"
             target="_blank"
             rel="noopener noreferrer"
-            className="group bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg hover:border-green-200 transition-all block"
+            className="group bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg hover:border-green-200 transition-all"
           >
             <div className="flex items-center gap-3 mb-3">
-              <div className="w-10 h-10 bg-green-50 text-green-700 rounded-lg flex items-center justify-center group-hover:bg-green-700 group-hover:text-white transition-colors">
-                <svg
-                  className="w-5 h-5"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={1.5}
-                    d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
-                  />
+              <div className="w-12 h-12 bg-green-50 text-green-700 rounded-xl flex items-center justify-center group-hover:bg-green-700 group-hover:text-white transition-colors">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                 </svg>
               </div>
-              <h3 className="font-semibold text-gray-900">Buy Postcard Stamps</h3>
+              <h3 className="font-semibold text-gray-900 text-lg">Stamps</h3>
             </div>
-            <p className="text-gray-600 text-sm">Purchase postcard stamps online from the USPS store.</p>
+            <p className="text-gray-600 text-sm">
+              Purchase stamps online from the US Post Office.
+            </p>
           </a>
         </div>
       </div>
@@ -277,14 +105,14 @@ function Resources() {
 
 function CTA() {
   return (
-    <section className="py-16 px-6 bg-gradient-to-br from-green-50 via-green-50 to-emerald-50">
+    <section className="py-20 px-6 bg-gradient-to-br from-green-50 via-green-50 to-emerald-50">
       <div className="mx-auto max-w-3xl text-center">
-        <h2 className="text-3xl font-bold mb-4 text-green-logo">
-          Ready to Write Postcards?
+        <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-green-logo">
+          New to ReSisters?
         </h2>
         <p className="text-xl text-gray-600 mb-8">
-          Join our email list to get the Weekly Menu with postcard campaigns,
-          address lists, and Zoom links.
+          Join our email list to receive the Weekly Menu with Zoom links,
+          action items, and ways to get involved.
         </p>
         <a
           href="https://resistersct.us18.list-manage.com/subscribe?u=3f5471ab184963199413bde34&id=ffa6171dfe"
@@ -402,16 +230,13 @@ function Footer() {
   );
 }
 
-export default function Postcards() {
+export default function OtherResources() {
   return (
     <>
       <Navbar />
       <main>
         <Hero />
-        <WhyPostcards />
-        <WhenAndWhere />
-        <HowToGetStarted />
-        <Resources />
+        <ResourcesList />
         <CTA />
       </main>
       <Footer />

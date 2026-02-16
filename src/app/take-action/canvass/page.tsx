@@ -343,8 +343,9 @@ function Footer() {
               className="mb-4 bg-white/90 rounded-xl p-2"
             />
             <p className="text-sm leading-relaxed">
-              Grassroots activists, started in lower Fairfield County, Connecticut,
-              promoting candidates and causes that support democracy.
+              Grassroots activists founded in Westport, CT in 2016, now active
+              throughout Connecticut and beyond, promoting candidates and causes
+              that support democracy.
             </p>
           </div>
           <div>
@@ -383,7 +384,7 @@ function Footer() {
                   ReSistersCT@gmail.com
                 </a>
               </li>
-              <li>Lower Fairfield County, Connecticut</li>
+              <li>Founded in Westport, CT — now throughout CT &amp; beyond</li>
               <li>Zoom Mondays at 10 a.m. and 7 p.m.</li>
             </ul>
             <div className="flex gap-4 mt-4">

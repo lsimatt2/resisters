@@ -213,24 +213,44 @@ function OtherStates() {
         <p className="text-lg text-gray-700 leading-relaxed mb-8">
           Find voting information for any state in the country using these nonpartisan resources.
         </p>
-        <a
-          href="https://www.vote411.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="group bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg hover:border-green-200 transition-all inline-block"
-        >
-          <div className="flex items-center gap-3 mb-3">
-            <div className="w-12 h-12 bg-green-50 text-green-700 rounded-xl flex items-center justify-center group-hover:bg-green-700 group-hover:text-white transition-colors">
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
-              </svg>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <a
+            href="https://www.vote411.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg hover:border-green-200 transition-all"
+          >
+            <div className="flex items-center gap-3 mb-3">
+              <div className="w-12 h-12 bg-green-50 text-green-700 rounded-xl flex items-center justify-center group-hover:bg-green-700 group-hover:text-white transition-colors">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                </svg>
+              </div>
+              <h3 className="font-semibold text-gray-900 text-lg">Vote411.org</h3>
             </div>
-            <h3 className="font-semibold text-gray-900 text-lg">Vote411.org</h3>
-          </div>
-          <p className="text-gray-600 text-sm">
-            Find voting information for your state &mdash; registration, polling locations, ballot information, and more.
-          </p>
-        </a>
+            <p className="text-gray-600 text-sm">
+              Find voting information for your state &mdash; registration, polling locations, ballot information, and more.
+            </p>
+          </a>
+          <a
+            href="https://iwillvote.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg hover:border-green-200 transition-all"
+          >
+            <div className="flex items-center gap-3 mb-3">
+              <div className="w-12 h-12 bg-green-50 text-green-700 rounded-xl flex items-center justify-center group-hover:bg-green-700 group-hover:text-white transition-colors">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+                </svg>
+              </div>
+              <h3 className="font-semibold text-gray-900 text-lg">IWillVote.com</h3>
+            </div>
+            <p className="text-gray-600 text-sm">
+              DNC site for understanding how to vote in your state.
+            </p>
+          </a>
+        </div>
       </div>
     </section>
   );
@@ -274,8 +294,9 @@ function Footer() {
               className="mb-4 bg-white/90 rounded-xl p-2"
             />
             <p className="text-sm leading-relaxed">
-              Grassroots activists, started in lower Fairfield County, Connecticut,
-              promoting candidates and causes that support democracy.
+              Grassroots activists founded in Westport, CT in 2016, now active
+              throughout Connecticut and beyond, promoting candidates and causes
+              that support democracy.
             </p>
           </div>
           <div>
@@ -314,7 +335,7 @@ function Footer() {
                   ReSistersCT@gmail.com
                 </a>
               </li>
-              <li>Lower Fairfield County, Connecticut</li>
+              <li>Founded in Westport, CT — now throughout CT &amp; beyond</li>
               <li>Zoom Mondays at 10 a.m. and 7 p.m.</li>
             </ul>
             <div className="flex gap-4 mt-4">

@@ -65,8 +65,8 @@ function Hero() {
           <span className="!text-purple-logo">Defend Democracy.</span>
         </h1>
         <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed">
-          Grassroots activists, started in lower Fairfield County, Connecticut, promoting
-          candidates and causes that support democracy at every level.
+          Grassroots activists founded in Westport, CT in 2016, now active throughout
+          Connecticut and beyond, promoting candidates and causes that support democracy.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
@@ -104,10 +104,10 @@ function About() {
             women decided to become politically engaged.
           </p>
           <p>
-            We are grassroots activists based in lower Fairfield County,
-            Connecticut. We campaign for pro-democracy candidates at local and
-            national levels, research policy impacts, and advocate for initiatives
-            that strengthen our democracy.
+            Founded in Westport, Connecticut in 2016, we have expanded
+            throughout CT and beyond. We campaign for pro-democracy candidates at
+            local and national levels, research policy impacts, and advocate for
+            initiatives that strengthen our democracy.
           </p>
           <p>
             Our strategy centers on building a team of dedicated activists highly
@@ -300,13 +300,13 @@ function Resources() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.26 10.147a60.438 60.438 0 00-.491 6.347A48.62 48.62 0 0112 20.904a48.62 48.62 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.636 50.636 0 00-2.658-.813A59.906 59.906 0 0112 3.493a59.903 59.903 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-green-logo">Training</h3>
+              <h3 className="text-xl font-bold text-green-logo">How to be an Activist</h3>
             </div>
             <p className="text-sm text-gray-700 mb-3">
               Guides for letters to the editor, phone banking, text banking, Slack, Zoom, and more.
             </p>
             <span className="text-sm text-berry-600 font-medium">
-              View training resources &rarr;
+              View activist resources &rarr;
             </span>
           </a>
 
@@ -332,7 +332,10 @@ function Resources() {
           </a>
 
           {/* Other Resources Card */}
-          <div className="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow">
+          <a
+            href="/resources/other"
+            className="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow block"
+          >
             <div className="flex items-center gap-3 mb-5">
               <div className="w-10 h-10 bg-green-50 text-green-700 rounded-lg flex items-center justify-center">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -341,21 +344,13 @@ function Resources() {
               </div>
               <h3 className="text-xl font-bold text-green-logo">Other Resources</h3>
             </div>
-            <ul className="space-y-3">
-              <li className="text-sm text-gray-700">
-                <a href="https://iwillvote.com" target="_blank" rel="noopener noreferrer" className="text-berry-600 hover:text-berry-800 underline underline-offset-4">
-                  IWillVote.com
-                </a>
-                {" "}&mdash; DNC site for understanding how to vote in your state
-              </li>
-              <li className="text-sm text-gray-700">
-                <a href="https://store.usps.com/store/m/category.jsp?id=mobile-stamp" target="_blank" rel="noopener noreferrer" className="text-berry-600 hover:text-berry-800 underline underline-offset-4">
-                  Stamps
-                </a>
-                {" "}&mdash; US Post Office
-              </li>
-            </ul>
-          </div>
+            <p className="text-sm text-gray-700 mb-3">
+              Stamps and other helpful links for activists.
+            </p>
+            <span className="text-sm text-berry-600 font-medium">
+              View other resources &rarr;
+            </span>
+          </a>
         </div>
       </div>
     </section>
@@ -400,8 +395,9 @@ function Footer() {
               className="mb-4 bg-white/90 rounded-xl p-2"
             />
             <p className="text-sm leading-relaxed">
-              Grassroots activists in lower Fairfield County, CT promoting
-              candidates and causes that support democracy.
+              Grassroots activists founded in Westport, CT in 2016, now active
+              throughout Connecticut and beyond, promoting candidates and causes
+              that support democracy.
             </p>
           </div>
           <div>
@@ -446,7 +442,7 @@ function Footer() {
                   ReSistersCT@gmail.com
                 </a>
               </li>
-              <li>Lower Fairfield County, Connecticut</li>
+              <li>Founded in Westport, CT — now throughout CT &amp; beyond</li>
               <li>Zoom Mondays at 10 a.m. and 7 p.m.</li>
             </ul>
             <div className="flex gap-4 mt-4">
