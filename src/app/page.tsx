@@ -99,14 +99,13 @@ function About() {
         <div className="w-16 h-1 bg-green-600 mx-auto mb-10 rounded-full" />
         <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
           <p>
-            The ReSisters began meeting weekly shortly after the 2016
-            Presidential election, when a group of formerly politically inactive
-            women decided to become politically engaged.
+            Shortly after the 2016 Presidential election, the ReSisters began
+            meeting weekly, when a group of formerly politically inactive women
+            decided to become politically engaged.
           </p>
           <p>
-            Founded in Westport, Connecticut in 2016, we have expanded
-            throughout CT and beyond. We campaign for pro-democracy candidates at
-            local and national levels, research policy impacts, and advocate for
+            Our mission is to campaign for pro-democracy candidates at local and
+            national levels, research policy impacts, and advocate for
             initiatives that strengthen our democracy.
           </p>
           <p>
@@ -117,7 +116,8 @@ function About() {
           </p>
           <p className="text-base italic text-gray-500">
             We do not fundraise but encourage donating to organizations also
-            working to defend democracy.
+            working to defend democracy and we work with our members to help
+            them donate effectively.
           </p>
         </div>
       </div>
@@ -168,7 +168,7 @@ const actions = [
   },
   {
     title: "Canvass",
-    description: "Go door-to-door in your community for face-to-face voter outreach.",
+    description: "Go door-to-door for face-to-face voter outreach.",
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
@@ -178,7 +178,7 @@ const actions = [
   },
   {
     title: "Social Media",
-    description: "Amplify our message on Twitter, Bluesky, and other platforms.",
+    description: "Amplify our message.",
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
@@ -198,7 +198,7 @@ function TakeAction() {
         <div className="w-16 h-1 bg-green-600 mx-auto mb-4 rounded-full" />
         <p className="text-center text-gray-600 text-lg mb-12 max-w-2xl mx-auto">
           You are the Power of One! More and more elections are decided by
-          razor-thin margins &mdash; your actions can make the difference.
+          razor-thin margins. Your actions can make the difference.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {actions.map((action) => (
@@ -215,7 +215,10 @@ function TakeAction() {
               <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 {action.title}
               </h3>
-              <p className="text-gray-600">{action.description}</p>
+              <p className="text-gray-600 mb-4">{action.description}</p>
+              <span className="inline-block bg-purple-logo hover:bg-berry-700 text-white font-semibold px-5 py-2.5 rounded-full text-sm transition-colors shadow-md">
+                Learn More &rarr;
+              </span>
             </a>
           ))}
         </div>
@@ -233,19 +236,16 @@ function ResistanceCafe() {
         </h2>
         <div className="w-16 h-1 bg-purple-logo mx-auto mb-10 rounded-full" />
         <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-          A weekly gathering of the ReSisters and Misters &mdash; activists
-          supporting each other and working to make significant political
-          change.
+          A weekly gathering where activists come together to support each
+          other and work to make significant political change.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10 text-left">
           <div className="bg-white rounded-2xl p-6 border border-gray-200 shadow-sm">
             <h3 className="font-semibold text-lg mb-2 text-green-logo">When</h3>
             <p className="text-gray-600">
-              Every Monday
+              Every Monday morning from 10 - 11 a.m. on Zoom
               <br />
-              10&ndash;11 a.m. on Zoom
-              <br />
-              7 p.m. Monday recap session
+              If you can not attend at 10 a.m., there is a 7 p.m. recap, also on Zoom.
             </p>
           </div>
           <div className="bg-white rounded-2xl p-6 border border-gray-200 shadow-sm">
@@ -264,6 +264,9 @@ function ResistanceCafe() {
                 <strong className="text-gray-800">Desserts</strong> &mdash; articles & humor
               </li>
             </ul>
+            <p className="text-gray-600 mt-4 italic">
+              A literal menu of options for engagement, action and education.
+            </p>
           </div>
         </div>
         <a
@@ -302,11 +305,11 @@ function Resources() {
               </div>
               <h3 className="text-xl font-bold text-green-logo">How to be an Activist</h3>
             </div>
-            <p className="text-sm text-gray-700 mb-3">
-              Guides for letters to the editor, phone banking, text banking, Slack, Zoom, and more.
+            <p className="text-sm text-gray-700 mb-4">
+              Guides for learning how to take action.
             </p>
-            <span className="text-sm text-berry-600 font-medium">
-              View activist resources &rarr;
+            <span className="inline-block bg-purple-logo hover:bg-berry-700 text-white font-semibold px-5 py-2.5 rounded-full text-sm transition-colors shadow-md">
+              View Resources &rarr;
             </span>
           </a>
 
@@ -323,11 +326,11 @@ function Resources() {
               </div>
               <h3 className="text-xl font-bold text-green-logo">Voting</h3>
             </div>
-            <p className="text-sm text-gray-700 mb-3">
-              Registration, absentee ballots, and voting information for CT, PA, and other states.
+            <p className="text-sm text-gray-700 mb-4">
+              Registration, absentee ballots, and voting information.
             </p>
-            <span className="text-sm text-berry-600 font-medium">
-              View voting resources &rarr;
+            <span className="inline-block bg-purple-logo hover:bg-berry-700 text-white font-semibold px-5 py-2.5 rounded-full text-sm transition-colors shadow-md">
+              View Resources &rarr;
             </span>
           </a>
 
@@ -344,11 +347,11 @@ function Resources() {
               </div>
               <h3 className="text-xl font-bold text-green-logo">Other Resources</h3>
             </div>
-            <p className="text-sm text-gray-700 mb-3">
-              Stamps and other helpful links for activists.
+            <p className="text-sm text-gray-700 mb-4">
+              Helpful links for activists.
             </p>
-            <span className="text-sm text-berry-600 font-medium">
-              View other resources &rarr;
+            <span className="inline-block bg-purple-logo hover:bg-berry-700 text-white font-semibold px-5 py-2.5 rounded-full text-sm transition-colors shadow-md">
+              View Resources &rarr;
             </span>
           </a>
         </div>
