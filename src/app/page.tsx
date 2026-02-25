@@ -494,7 +494,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="bg-purple-logo text-white text-center py-3 px-6 text-sm font-medium mt-[60px]">
+      <div className="bg-purple-logo text-white text-center py-6 px-6 text-2xl font-bold mt-[60px]">
         Website is under development
       </div>
       <main>
