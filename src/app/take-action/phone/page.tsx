@@ -313,6 +313,87 @@ function Resources() {
             </a>
           ))}
         </div>
+
+        <h3 className="text-2xl font-bold text-berry-900 mt-12 mb-6">
+          Phone Bank Training Videos
+        </h3>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <a
+            href="https://youtu.be/mgQsjCl06vE?feature=shared"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg hover:border-green-200 transition-all"
+          >
+            <div className="flex items-center gap-3 mb-3">
+              <div className="w-10 h-10 bg-red-50 text-red-600 rounded-lg flex items-center justify-center group-hover:bg-red-600 group-hover:text-white transition-colors">
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </div>
+              <h3 className="font-semibold text-gray-900">Open VPB</h3>
+            </div>
+            <p className="text-gray-600 text-sm">
+              You dial yourself on your own phone (or sometimes on the computer. Depends on how the campaign sets it up.)
+            </p>
+          </a>
+
+          <a
+            href="https://youtu.be/cMqsfqpHPvU?si=2WRygm5QXX3B1OgL"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg hover:border-green-200 transition-all"
+          >
+            <div className="flex items-center gap-3 mb-3">
+              <div className="w-10 h-10 bg-red-50 text-red-600 rounded-lg flex items-center justify-center group-hover:bg-red-600 group-hover:text-white transition-colors">
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </div>
+              <h3 className="font-semibold text-gray-900">Scale To Win</h3>
+            </div>
+            <p className="text-gray-600 text-sm">
+              Computer dials and only connects you when someone picks up.
+            </p>
+          </a>
+
+          <a
+            href="https://youtu.be/mgQsjCl06vE?feature=shared"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg hover:border-green-200 transition-all"
+          >
+            <div className="flex items-center gap-3 mb-3">
+              <div className="w-10 h-10 bg-red-50 text-red-600 rounded-lg flex items-center justify-center group-hover:bg-red-600 group-hover:text-white transition-colors">
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </div>
+              <h3 className="font-semibold text-gray-900">Hub Dialer</h3>
+            </div>
+            <p className="text-gray-600 text-sm">
+              Computer dials and only connects you when someone picks up. <em className="text-gray-500">May be going out of business.</em>
+            </p>
+          </a>
+
+          <a
+            href="https://youtu.be/l6vpmz01ZDE?si=HR2tvJYbZHrao-4f"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg hover:border-green-200 transition-all"
+          >
+            <div className="flex items-center gap-3 mb-3">
+              <div className="w-10 h-10 bg-red-50 text-red-600 rounded-lg flex items-center justify-center group-hover:bg-red-600 group-hover:text-white transition-colors">
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </div>
+              <h3 className="font-semibold text-gray-900">Callfire</h3>
+            </div>
+            <p className="text-gray-600 text-sm">
+              Cool new dialer that a recent Shelton, CT campaign used. Will likely be used again, especially if HubDialer goes away.
+            </p>
+          </a>
+        </div>
       </div>
     </section>
   );
