@@ -65,8 +65,8 @@ function Hero() {
           <span className="!text-purple-logo">Defend Democracy.</span>
         </h1>
         <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed">
-          Grassroots activists founded in Westport, CT in 2016, now active throughout
-          Connecticut and beyond, promoting candidates and causes that support democracy.
+          Grassroots activist organization founded in Westport, CT in 2016. Now active throughout
+          Connecticut and beyond, promoting candidates and causes in support of American democracy.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
@@ -395,9 +395,9 @@ function Footer() {
               className="mb-4 bg-white/90 rounded-xl p-2"
             />
             <p className="text-sm leading-relaxed">
-              Grassroots activists founded in Westport, CT in 2016, now active
-              throughout Connecticut and beyond, promoting candidates and causes
-              that support democracy.
+              Grassroots activist organization founded in Westport, CT in 2016.
+              Now active throughout Connecticut and beyond, promoting candidates
+              and causes in support of American democracy.
             </p>
           </div>
           <div>
@@ -494,6 +494,9 @@ export default function Home() {
   return (
     <>
       <Navbar />
+      <div className="bg-purple-logo text-white text-center py-3 px-6 text-sm font-medium mt-[60px]">
+        Website is under development
+      </div>
       <main>
         <Hero />
         <About />

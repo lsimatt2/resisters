@@ -385,9 +385,9 @@ function Footer() {
               className="mb-4 bg-white/90 rounded-xl p-2"
             />
             <p className="text-sm leading-relaxed">
-              Grassroots activists founded in Westport, CT in 2016, now active
-              throughout Connecticut and beyond, promoting candidates and causes
-              that support democracy.
+              Grassroots activist organization founded in Westport, CT in 2016.
+              Now active throughout Connecticut and beyond, promoting candidates
+              and causes in support of American democracy.
             </p>
           </div>
           <div>

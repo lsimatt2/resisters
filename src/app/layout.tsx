@@ -10,7 +10,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "ReSisters CT | Organizing, Action & Discussion",
   description:
-    "Grassroots activists founded in Westport, CT in 2016, now active throughout Connecticut and beyond, promoting candidates and causes that support democracy.",
+    "Grassroots activist organization founded in Westport, CT in 2016. Now active throughout Connecticut and beyond, promoting candidates and causes in support of American democracy.",
 };
 
 export default function RootLayout({
