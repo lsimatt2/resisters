@@ -259,11 +259,6 @@ function Resources() {
       href: "https://www.youtube.com/watch?v=wMla1q2BdNY&feature=youtu.be",
     },
     {
-      title: "Phone Banking: Conquering Your Fears",
-      description: "A journey from reluctant phone banker to believer, from the Sister District Project.",
-      href: "https://whystatesmatter.sisterdistrict.com/phone-banking-conquering-your-fears-making-a-difference-c2d475f99a86",
-    },
-    {
       title: "Masking Your Phone Number",
       description: "Instructions for how to mask your personal number when making calls.",
       href: "https://docs.google.com/document/d/1saXUBNnRAbvPBS8YSRD_EMw2xv4tVm7zlZEv8XOaxYc/edit",
