@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import SignupForm from "@/components/SignupForm";
 
 export const metadata: Metadata = {
   title: "Social Media | ReSisters CT",
@@ -32,18 +33,14 @@ function Navbar() {
             Resources
           </Link>
           <a
-            href="https://resistersct.us18.list-manage.com/subscribe?u=3f5471ab184963199413bde34&id=ffa6171dfe"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#signup"
             className="bg-purple-logo text-white px-5 py-2 rounded-full hover:bg-berry-700 transition-colors"
           >
             Join Us
           </a>
         </div>
         <a
-          href="https://resistersct.us18.list-manage.com/subscribe?u=3f5471ab184963199413bde34&id=ffa6171dfe"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="#signup"
           className="md:hidden bg-purple-logo text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-berry-700 transition-colors"
         >
           Join Us
@@ -305,14 +302,7 @@ function CTA() {
           Join our email list to get the Weekly Menu with social media actions,
           sample posts, and ways to get involved.
         </p>
-        <a
-          href="https://resistersct.us18.list-manage.com/subscribe?u=3f5471ab184963199413bde34&id=ffa6171dfe"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block bg-purple-logo text-white font-bold px-10 py-4 rounded-full text-lg hover:bg-berry-700 transition-colors shadow-lg"
-        >
-          Sign Up Now
-        </a>
+        <SignupForm />
       </div>
     </section>
   );

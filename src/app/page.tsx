@@ -1,6 +1,40 @@
-import Image from "next/image";
+"use client";
 
-function Navbar() {
+import { useState } from "react";
+import Image from "next/image";
+import SignupForm from "@/components/SignupForm";
+
+function SignupModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) {
+  if (!isOpen) return null;
+  return (
+    <div
+      className="fixed inset-0 z-[100] flex items-center justify-center bg-black/50 backdrop-blur-sm p-4"
+      onClick={onClose}
+    >
+      <div
+        className="relative bg-white rounded-2xl shadow-2xl w-full max-w-2xl max-h-[90vh] overflow-y-auto p-8"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <button
+          onClick={onClose}
+          className="absolute top-4 right-4 text-gray-400 hover:text-gray-700 transition-colors"
+          aria-label="Close"
+        >
+          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+        <h2 className="text-2xl sm:text-3xl font-bold text-center text-berry-900 mb-2">
+          Join the Movement
+        </h2>
+        <div className="w-12 h-1 bg-green-600 mx-auto mb-6 rounded-full" />
+        <SignupForm />
+      </div>
+    </div>
+  );
+}
+
+function Navbar({ onOpenSignup }: { onOpenSignup: () => void }) {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100 shadow-sm">
       <div className="mx-auto max-w-6xl flex items-center justify-between px-6 py-3">
@@ -26,29 +60,25 @@ function Navbar() {
           >
             Resources
           </a>
-          <a
-            href="https://resistersct.us18.list-manage.com/subscribe?u=3f5471ab184963199413bde34&id=ffa6171dfe"
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            onClick={onOpenSignup}
             className="bg-purple-logo text-white px-5 py-2 rounded-full hover:bg-berry-700 transition-colors"
           >
             Join Us
-          </a>
+          </button>
         </div>
-        <a
-          href="https://resistersct.us18.list-manage.com/subscribe?u=3f5471ab184963199413bde34&id=ffa6171dfe"
-          target="_blank"
-          rel="noopener noreferrer"
+        <button
+          onClick={onOpenSignup}
           className="md:hidden bg-purple-logo text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-berry-700 transition-colors"
         >
           Join Us
-        </a>
+        </button>
       </div>
     </nav>
   );
 }
 
-function Hero() {
+function Hero({ onOpenSignup }: { onOpenSignup: () => void }) {
   return (
     <section className="relative bg-gradient-to-br from-green-50 via-green-50 to-emerald-50 pt-32 pb-20 px-6">
       <div className="relative mx-auto max-w-4xl text-center">
@@ -69,14 +99,12 @@ function Hero() {
           Connecticut and beyond, promoting candidates and causes in support of American democracy.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a
-            href="https://resistersct.us18.list-manage.com/subscribe?u=3f5471ab184963199413bde34&id=ffa6171dfe"
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            onClick={onOpenSignup}
             className="bg-purple-logo hover:bg-berry-700 text-white font-semibold px-8 py-4 rounded-full text-lg transition-colors shadow-lg"
           >
             Join the Movement
-          </a>
+          </button>
           <a
             href="#about"
             className="border-2 border-berry-300 hover:border-berry-500 text-berry-700 font-semibold px-8 py-4 rounded-full text-lg transition-colors"
@@ -88,6 +116,8 @@ function Hero() {
     </section>
   );
 }
+
+
 
 function About() {
   return (
@@ -227,7 +257,7 @@ function TakeAction() {
   );
 }
 
-function ResistanceCafe() {
+function ResistanceCafe({ onOpenSignup }: { onOpenSignup: () => void }) {
   return (
     <section id="cafe" className="py-20 px-6 bg-gradient-to-br from-green-50 via-green-50 to-emerald-50">
       <div className="mx-auto max-w-4xl text-center">
@@ -269,14 +299,12 @@ function ResistanceCafe() {
             </p>
           </div>
         </div>
-        <a
-          href="https://resistersct.us18.list-manage.com/subscribe?u=3f5471ab184963199413bde34&id=ffa6171dfe"
-          target="_blank"
-          rel="noopener noreferrer"
+        <button
+          onClick={onOpenSignup}
           className="inline-block bg-purple-logo hover:bg-berry-700 text-white font-semibold px-8 py-4 rounded-full text-lg transition-colors"
         >
           Subscribe to Get the Zoom Link
-        </a>
+        </button>
       </div>
     </section>
   );
@@ -360,7 +388,7 @@ function Resources() {
   );
 }
 
-function CTA() {
+function CTA({ onOpenSignup }: { onOpenSignup: () => void }) {
   return (
     <section className="py-20 px-6 bg-gradient-to-br from-green-50 via-green-50 to-emerald-50">
       <div className="mx-auto max-w-3xl text-center">
@@ -371,14 +399,12 @@ function CTA() {
           Join our email list to receive the Weekly Menu with Zoom links,
           action items, and ways to get involved.
         </p>
-        <a
-          href="https://resistersct.us18.list-manage.com/subscribe?u=3f5471ab184963199413bde34&id=ffa6171dfe"
-          target="_blank"
-          rel="noopener noreferrer"
+        <button
+          onClick={onOpenSignup}
           className="inline-block bg-purple-logo text-white font-bold px-10 py-4 rounded-full text-lg hover:bg-berry-700 transition-colors shadow-lg"
         >
           Sign Up Now
-        </a>
+        </button>
       </div>
     </section>
   );
@@ -494,19 +520,24 @@ function Footer() {
 }
 
 export default function Home() {
+  const [isSignupOpen, setIsSignupOpen] = useState(false);
+  const openSignup = () => setIsSignupOpen(true);
+  const closeSignup = () => setIsSignupOpen(false);
+
   return (
     <>
-      <Navbar />
+      <SignupModal isOpen={isSignupOpen} onClose={closeSignup} />
+      <Navbar onOpenSignup={openSignup} />
       <div className="bg-purple-logo text-white text-center py-6 px-6 text-2xl font-bold mt-[60px]">
         Website is under development
       </div>
       <main>
-        <Hero />
+        <Hero onOpenSignup={openSignup} />
         <About />
         <TakeAction />
-        <ResistanceCafe />
+        <ResistanceCafe onOpenSignup={openSignup} />
         <Resources />
-        <CTA />
+        <CTA onOpenSignup={openSignup} />
       </main>
       <Footer />
     </>
