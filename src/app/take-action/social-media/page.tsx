@@ -299,8 +299,8 @@ function CTA() {
           Ready to Amplify Your Voice?
         </h2>
         <p className="text-xl text-gray-600 mb-8">
-          Join our email list to get the Weekly Menu with social media actions,
-          sample posts, and ways to get involved.
+          Join our email list using this form.
+
         </p>
         <SignupForm />
       </div>

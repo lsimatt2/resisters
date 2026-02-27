@@ -280,8 +280,8 @@ function CTA() {
           Ready to Write Postcards?
         </h2>
         <p className="text-xl text-gray-600 mb-8">
-          Join our email list to get the Weekly Menu with postcard campaigns,
-          address lists, and Zoom links.
+          Join our email list using this form.
+
         </p>
         <SignupForm />
       </div>

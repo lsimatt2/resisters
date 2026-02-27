@@ -261,8 +261,8 @@ function CTA() {
           Ready to Take Action?
         </h2>
         <p className="text-xl text-gray-600 mb-8">
-          Join our email list to receive the Weekly Menu with action items
-          and ways to get involved.
+          Join our email list using this form.
+
         </p>
         <SignupForm />
       </div>

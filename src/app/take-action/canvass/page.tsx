@@ -310,8 +310,8 @@ function CTA() {
           Ready to Make Connections?
         </h2>
         <p className="text-xl text-gray-600 mb-8">
-          Join our email list to get the Weekly Menu with canvassing
-          opportunities, testimony alerts, and ways to get involved.
+          Join our email list using this form.
+
         </p>
         <SignupForm />
       </div>

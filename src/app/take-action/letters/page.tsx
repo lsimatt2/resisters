@@ -285,8 +285,8 @@ function CTA() {
           Ready to Write Letters?
         </h2>
         <p className="text-xl text-gray-600 mb-8">
-          Join our email list to get the Weekly Menu with letter-writing
-          campaigns, templates, and Zoom links.
+          Join our email list using this form.
+
         </p>
         <SignupForm />
       </div>
