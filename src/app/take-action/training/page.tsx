@@ -261,9 +261,9 @@ function ToolsTraining() {
 
 function CTA() {
   return (
-    <section className="py-20 px-6 bg-gradient-to-br from-green-50 via-green-50 to-emerald-50">
+    <section className="py-20 px-6 bg-gradient-to-r from-berry-100 to-green-50">
       <div className="mx-auto max-w-3xl text-center">
-        <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-green-logo">
+        <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-berry-800">
           Ready to Take Action?
         </h2>
         <p className="text-xl text-gray-600 mb-8">

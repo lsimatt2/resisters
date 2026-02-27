@@ -393,10 +393,10 @@ function Resources() {
 
 function CTA() {
   return (
-    <section className="py-16 px-6 bg-gradient-to-r from-berry-600 to-green-700 text-white">
+    <section className="py-16 px-6 bg-gradient-to-r from-berry-100 to-green-50 text-gray-900">
       <div className="mx-auto max-w-3xl text-center">
-        <h2 className="text-3xl font-bold mb-4">Ready to Make Calls?</h2>
-        <p className="text-xl text-pink-100 mb-8">
+        <h2 className="text-3xl font-bold mb-4 text-berry-800">Ready to Make Calls?</h2>
+        <p className="text-xl text-gray-600 mb-8">
           Join our email list to get the Weekly Menu with phone banking
           opportunities, training sessions, and Zoom links.
         </p>

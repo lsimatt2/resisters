@@ -64,18 +64,18 @@ function Navbar() {
 
 function Hero() {
   return (
-    <section className="relative bg-gradient-to-br from-berry-900 via-berry-800 to-green-800 text-white pt-28 pb-16 px-6">
+    <section className="relative bg-green-50 text-gray-900 pt-28 pb-16 px-6">
       <div className="relative mx-auto max-w-4xl text-center">
         <Link
           href="/#actions"
-          className="inline-block text-pink-200 hover:text-white text-sm mb-4 transition-colors"
+          className="inline-block text-green-700 hover:text-green-800 text-sm mb-4 transition-colors"
         >
           &larr; Back to Take Action
         </Link>
-        <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight mb-4">
+        <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight mb-4 text-berry-800">
           Text Banking
         </h1>
-        <p className="text-lg sm:text-xl text-pink-100 max-w-2xl mx-auto leading-relaxed">
+        <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
           Send 100&ndash;500 texts in minutes from the comfort of your home.
           It&rsquo;s one of the most efficient ways to reach voters.
         </p>
@@ -348,10 +348,10 @@ function TrainingResources() {
 
 function CTA() {
   return (
-    <section className="py-16 px-6 bg-gradient-to-r from-berry-600 to-green-700 text-white">
+    <section className="py-16 px-6 bg-gradient-to-r from-berry-100 to-green-50 text-gray-900">
       <div className="mx-auto max-w-3xl text-center">
-        <h2 className="text-3xl font-bold mb-4">Ready to Start Texting?</h2>
-        <p className="text-xl text-pink-100 mb-8">
+        <h2 className="text-3xl font-bold mb-4 text-berry-800">Ready to Start Texting?</h2>
+        <p className="text-xl text-gray-600 mb-8">
           Join our email list to get the Weekly Menu with texting opportunities,
           training sessions, and Zoom links.
         </p>
@@ -363,7 +363,7 @@ function CTA() {
 
 function Footer() {
   return (
-    <footer className="bg-berry-900 text-pink-200 py-12 px-6">
+    <footer className="bg-berry-100 text-gray-700 py-12 px-6">
       <div className="mx-auto max-w-6xl">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
@@ -381,12 +381,12 @@ function Footer() {
             </p>
           </div>
           <div>
-            <h3 className="text-white font-semibold mb-3">Quick Links</h3>
+            <h3 className="text-berry-900 font-semibold mb-3">Quick Links</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
                   href="/#about"
-                  className="hover:text-white transition-colors"
+                  className="hover:text-berry-700 transition-colors"
                 >
                   Who We Are
                 </Link>
@@ -394,7 +394,7 @@ function Footer() {
               <li>
                 <Link
                   href="/#actions"
-                  className="hover:text-white transition-colors"
+                  className="hover:text-berry-700 transition-colors"
                 >
                   Take Action
                 </Link>
@@ -402,7 +402,7 @@ function Footer() {
               <li>
                 <Link
                   href="/#cafe"
-                  className="hover:text-white transition-colors"
+                  className="hover:text-berry-700 transition-colors"
                 >
                   Resistance Cafe
                 </Link>
@@ -410,7 +410,7 @@ function Footer() {
               <li>
                 <Link
                   href="/#resources"
-                  className="hover:text-white transition-colors"
+                  className="hover:text-berry-700 transition-colors"
                 >
                   Resources
                 </Link>
@@ -418,12 +418,12 @@ function Footer() {
             </ul>
           </div>
           <div>
-            <h3 className="text-white font-semibold mb-3">Contact</h3>
+            <h3 className="text-berry-900 font-semibold mb-3">Contact</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <a
                   href="mailto:ReSistersCT@gmail.com"
-                  className="hover:text-white transition-colors"
+                  className="hover:text-berry-700 transition-colors"
                 >
                   ReSistersCT@gmail.com
                 </a>
@@ -433,7 +433,7 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div className="border-t border-berry-800 pt-6 text-center text-sm text-pink-300">
+        <div className="border-t border-berry-300 pt-6 text-center text-sm text-gray-500">
           &copy; {new Date().getFullYear()} ReSisters CT. All rights reserved.
         </div>
       </div>
