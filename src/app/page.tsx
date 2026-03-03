@@ -36,7 +36,7 @@ function SignupModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => void
 
 function Navbar({ onOpenSignup }: { onOpenSignup: () => void }) {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100 shadow-sm">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-green-50/95 backdrop-blur-sm border-b border-green-100 shadow-sm">
       <div className="mx-auto max-w-6xl flex items-center justify-between px-6 py-3">
         <a href="#" className="flex items-center gap-3">
           <Image src="/logo.png" alt="ReSisters CT" width={60} height={38} />
@@ -85,8 +85,8 @@ function Hero({ onOpenSignup }: { onOpenSignup: () => void }) {
         <Image
           src="/logo.png"
           alt="ReSisters CT"
-          width={150}
-          height={96}
+          width={200}
+          height={128}
           className="mx-auto mb-8 drop-shadow-md"
         />
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 text-green-logo">
@@ -95,7 +95,7 @@ function Hero({ onOpenSignup }: { onOpenSignup: () => void }) {
           <span className="!text-purple-logo">Defend Democracy.</span>
         </h1>
         <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed">
-          Grassroots activist organization founded in Westport, CT in 2016. Now active throughout
+          ReSistersCT is a grassroots activist organization founded in Westport, CT in 2016. Now active throughout
           Connecticut and beyond, promoting candidates and causes in support of American democracy.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -103,7 +103,7 @@ function Hero({ onOpenSignup }: { onOpenSignup: () => void }) {
             onClick={onOpenSignup}
             className="bg-purple-logo hover:bg-berry-700 text-white font-semibold px-8 py-4 rounded-full text-lg transition-colors shadow-lg"
           >
-            Join the Movement
+            Join Us
           </button>
           <a
             href="#about"
@@ -157,6 +157,16 @@ function About() {
 
 const actions = [
   {
+    title: "Canvass",
+    description: "Go door-to-door for face-to-face voter outreach.",
+    icon: (
+      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
+      </svg>
+    ),
+    href: "/take-action/canvass",
+  },
+  {
     title: "Phone Bank",
     description: "Make persuasive calls to voters in key districts across the country.",
     icon: (
@@ -165,6 +175,36 @@ const actions = [
       </svg>
     ),
     href: "/take-action/phone",
+  },
+  {
+    title: "Protests/Gatherings",
+    description: "Join rallies, marches, and community gatherings to make our voices heard.",
+    icon: (
+      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 3v1.5M3 21v-6m0 0l2.77-.693a9 9 0 016.208.682l.108.054a9 9 0 006.086.71l3.114-.732a48.524 48.524 0 01-.005-10.499l-3.11.732a9 9 0 01-6.085-.711l-.108-.054a9 9 0 00-6.208-.682L3 4.5M3 15V4.5" />
+      </svg>
+    ),
+    href: "/take-action/protests",
+  },
+  {
+    title: "Send Postcards",
+    description: "Write postcards to voters as a personal touch in outreach campaigns.",
+    icon: (
+      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
+      </svg>
+    ),
+    href: "/take-action/postcards",
+  },
+  {
+    title: "Social Media",
+    description: "Amplify our message.",
+    icon: (
+      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
+      </svg>
+    ),
+    href: "/take-action/social-media",
   },
   {
     title: "Text Bank",
@@ -185,36 +225,6 @@ const actions = [
       </svg>
     ),
     href: "/take-action/letters",
-  },
-  {
-    title: "Send Postcards",
-    description: "Write postcards to voters as a personal touch in outreach campaigns.",
-    icon: (
-      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
-      </svg>
-    ),
-    href: "/take-action/postcards",
-  },
-  {
-    title: "Canvass",
-    description: "Go door-to-door for face-to-face voter outreach.",
-    icon: (
-      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
-      </svg>
-    ),
-    href: "/take-action/canvass",
-  },
-  {
-    title: "Social Media",
-    description: "Amplify our message.",
-    icon: (
-      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
-      </svg>
-    ),
-    href: "/take-action/social-media",
   },
 ];
 
@@ -303,7 +313,7 @@ function ResistanceCafe({ onOpenSignup }: { onOpenSignup: () => void }) {
           onClick={onOpenSignup}
           className="inline-block bg-purple-logo hover:bg-berry-700 text-white font-semibold px-8 py-4 rounded-full text-lg transition-colors"
         >
-          Subscribe to Get the Zoom Link
+          Join Us
         </button>
       </div>
     </section>
@@ -320,27 +330,6 @@ function Resources() {
         <div className="w-16 h-1 bg-green-600 mx-auto mb-12 rounded-full" />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {/* Training Card */}
-          <a
-            href="/take-action/training"
-            className="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow block"
-          >
-            <div className="flex items-center gap-3 mb-5">
-              <div className="w-10 h-10 bg-green-50 text-green-700 rounded-lg flex items-center justify-center">
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.26 10.147a60.438 60.438 0 00-.491 6.347A48.62 48.62 0 0112 20.904a48.62 48.62 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.636 50.636 0 00-2.658-.813A59.906 59.906 0 0112 3.493a59.903 59.903 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold text-green-logo">How to be an Activist</h3>
-            </div>
-            <p className="text-sm text-gray-700 mb-4">
-              Guides for learning how to take action.
-            </p>
-            <span className="inline-block bg-purple-logo hover:bg-berry-700 text-white font-semibold px-5 py-2.5 rounded-full text-sm transition-colors shadow-md">
-              View Resources &rarr;
-            </span>
-          </a>
-
           {/* Voting Card */}
           <a
             href="/take-action/voting"

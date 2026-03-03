@@ -212,7 +212,7 @@ function ToolsTraining() {
         <div className="w-16 h-1 bg-green-600 rounded-full mb-8" />
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <a
-            href="https://standuply.com/how-to-use-slack"
+            href="https://slack.com/help/articles/360059928654-How-to-use-Slack--your-quick-start-guide"
             target="_blank"
             rel="noopener noreferrer"
             className="group bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg hover:border-green-200 transition-all"

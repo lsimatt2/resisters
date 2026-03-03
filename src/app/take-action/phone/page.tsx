@@ -64,18 +64,18 @@ function Navbar() {
 
 function Hero() {
   return (
-    <section className="relative bg-gradient-to-br from-berry-900 via-berry-800 to-green-800 text-white pt-28 pb-16 px-6">
+    <section className="relative bg-green-50 text-gray-900 pt-28 pb-16 px-6">
       <div className="relative mx-auto max-w-4xl text-center">
         <Link
           href="/#actions"
-          className="inline-block text-pink-200 hover:text-white text-sm mb-4 transition-colors"
+          className="inline-block text-green-700 hover:text-green-800 text-sm mb-4 transition-colors"
         >
           &larr; Back to Take Action
         </Link>
-        <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight mb-4">
+        <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight mb-4 text-berry-800">
           Phone Banking
         </h1>
-        <p className="text-lg sm:text-xl text-pink-100 max-w-2xl mx-auto leading-relaxed">
+        <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
           Outside of face-to-face canvassing, phone banking is the most
           effective way to Get Out The Vote.
         </p>
@@ -263,7 +263,7 @@ function Resources() {
     {
       title: "Slack Guide",
       description: "Learn how to use Slack to connect with coaches and get quick answers during campaigns.",
-      href: "https://standuply.com/how-to-use-slack",
+      href: "https://slack.com/help/articles/360059928654-How-to-use-Slack--your-quick-start-guide",
     },
   ];
 

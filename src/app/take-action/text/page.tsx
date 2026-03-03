@@ -293,7 +293,7 @@ function TrainingResources() {
     {
       title: "Slack Guide",
       description: "Learn how to use Slack to coordinate with other texters and stay in the loop.",
-      href: "https://standuply.com/how-to-use-slack",
+      href: "https://slack.com/help/articles/360059928654-How-to-use-Slack--your-quick-start-guide",
     },
   ];
 
