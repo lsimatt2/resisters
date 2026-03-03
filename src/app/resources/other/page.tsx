@@ -77,19 +77,75 @@ function ResourcesList() {
       <div className="mx-auto max-w-4xl">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <a
-            href="/take-action/training"
+            href="https://docs.google.com/document/d/1zBqcDj9Tyt983MWCEeg0qbmBB1IAcO6llzdCJuqsVu8/edit"
+            target="_blank"
+            rel="noopener noreferrer"
             className="group bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg hover:border-green-200 transition-all"
           >
             <div className="flex items-center gap-3 mb-3">
               <div className="w-12 h-12 bg-green-50 text-green-700 rounded-xl flex items-center justify-center group-hover:bg-green-700 group-hover:text-white transition-colors">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.26 10.147a60.438 60.438 0 00-.491 6.347A48.62 48.62 0 0112 20.904a48.62 48.62 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.636 50.636 0 00-2.658-.813A59.906 59.906 0 0112 3.493a59.903 59.903 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
                 </svg>
               </div>
-              <h3 className="font-semibold text-gray-900 text-lg">How to be an Activist</h3>
+              <h3 className="font-semibold text-gray-900 text-lg">How to Avoid Burnout</h3>
             </div>
             <p className="text-gray-600 text-sm">
-              Guides for learning how to take action.
+              Summary of Zoom with Robert Hubbell on sustaining activism long-term.
+            </p>
+          </a>
+          <a
+            href="https://slack.com/help/articles/360059928654-How-to-use-Slack--your-quick-start-guide"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg hover:border-green-200 transition-all"
+          >
+            <div className="flex items-center gap-3 mb-3">
+              <div className="w-12 h-12 bg-green-50 text-green-700 rounded-xl flex items-center justify-center group-hover:bg-green-700 group-hover:text-white transition-colors">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
+                </svg>
+              </div>
+              <h3 className="font-semibold text-gray-900 text-lg">Slack Guide</h3>
+            </div>
+            <p className="text-gray-600 text-sm">
+              Learn how to use Slack to stay connected with the ReSisters team.
+            </p>
+          </a>
+          <a
+            href="https://docs.google.com/presentation/d/1Np1xjsk92ggdknxQlBUCMST74jgEZeri6E_qgirtcaQ/edit"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg hover:border-green-200 transition-all"
+          >
+            <div className="flex items-center gap-3 mb-3">
+              <div className="w-12 h-12 bg-green-50 text-green-700 rounded-xl flex items-center justify-center group-hover:bg-green-700 group-hover:text-white transition-colors">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m15.75 10.5 4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z" />
+                </svg>
+              </div>
+              <h3 className="font-semibold text-gray-900 text-lg">Connecting to Zoom</h3>
+            </div>
+            <p className="text-gray-600 text-sm">
+              Step-by-step guide for joining our weekly Zoom meetings.
+            </p>
+          </a>
+          <a
+            href="https://docs.google.com/document/d/1RFLkJq6LDGE-T9oHw-qHGmqsmMyhfCl-cV1gS4lygdY/edit"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg hover:border-green-200 transition-all"
+          >
+            <div className="flex items-center gap-3 mb-3">
+              <div className="w-12 h-12 bg-green-50 text-green-700 rounded-xl flex items-center justify-center group-hover:bg-green-700 group-hover:text-white transition-colors">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909M18 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75z" />
+                </svg>
+              </div>
+              <h3 className="font-semibold text-gray-900 text-lg">Adding a ReSistersCT Zoom Background</h3>
+            </div>
+            <p className="text-gray-600 text-sm">
+              Instructions for adding the ReSisters CT background to your Zoom screen.
             </p>
           </a>
           <a

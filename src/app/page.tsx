@@ -167,6 +167,16 @@ const actions = [
     href: "/take-action/canvass",
   },
   {
+    title: "Gatherings",
+    description: "Join rallies, marches, and community gatherings to make our voices heard.",
+    icon: (
+      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 3v1.5M3 21v-6m0 0l2.77-.693a9 9 0 016.208.682l.108.054a9 9 0 006.086.71l3.114-.732a48.524 48.524 0 01-.005-10.499l-3.11.732a9 9 0 01-6.085-.711l-.108-.054a9 9 0 00-6.208-.682L3 4.5M3 15V4.5" />
+      </svg>
+    ),
+    href: "/take-action/protests",
+  },
+  {
     title: "Phone Bank",
     description: "Make persuasive calls to voters in key districts across the country.",
     icon: (
@@ -175,16 +185,6 @@ const actions = [
       </svg>
     ),
     href: "/take-action/phone",
-  },
-  {
-    title: "Protests/Gatherings",
-    description: "Join rallies, marches, and community gatherings to make our voices heard.",
-    icon: (
-      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 3v1.5M3 21v-6m0 0l2.77-.693a9 9 0 016.208.682l.108.054a9 9 0 006.086.71l3.114-.732a48.524 48.524 0 01-.005-10.499l-3.11.732a9 9 0 01-6.085-.711l-.108-.054a9 9 0 00-6.208-.682L3 4.5M3 15V4.5" />
-      </svg>
-    ),
-    href: "/take-action/protests",
   },
   {
     title: "Send Postcards",
@@ -249,12 +249,14 @@ function TakeAction() {
               rel="noopener noreferrer"
               className="group bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg hover:border-berry-200 transition-all duration-200"
             >
-              <div className="w-14 h-14 bg-green-50 text-green-700 rounded-xl flex items-center justify-center mb-4 group-hover:bg-green-700 group-hover:text-white transition-colors">
-                {action.icon}
+              <div className="flex items-center gap-4 mb-3">
+                <div className="w-12 h-12 bg-green-50 text-green-700 rounded-xl flex items-center justify-center shrink-0 group-hover:bg-green-700 group-hover:text-white transition-colors">
+                  {action.icon}
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900">
+                  {action.title}
+                </h3>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                {action.title}
-              </h3>
               <p className="text-gray-600 mb-4">{action.description}</p>
               <span className="inline-block bg-purple-logo hover:bg-berry-700 text-white font-semibold px-5 py-2.5 rounded-full text-sm transition-colors shadow-md">
                 Learn More &rarr;
@@ -413,7 +415,7 @@ function Footer() {
               className="mb-4 bg-white/90 rounded-xl p-2"
             />
             <p className="text-sm leading-relaxed">
-              Grassroots activist organization founded in Westport, CT in 2016.
+              ReSistersCT is a grassroots activist organization founded in Westport, CT in 2016.
               Now active throughout Connecticut and beyond, promoting candidates
               and causes in support of American democracy.
             </p>
