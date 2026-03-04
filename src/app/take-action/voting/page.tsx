@@ -76,10 +76,7 @@ function CTVoting() {
   return (
     <section className="py-16 px-6 bg-plum-50">
       <div className="mx-auto max-w-4xl">
-        <h2 className="text-3xl font-bold text-berry-900 mb-4">
-          Connecticut Voting
-        </h2>
-        <div className="w-16 h-1 bg-green-600 rounded-full mb-8" />
+
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
           <a
             href="https://portaldir.ct.gov/sots/LookUp.aspx"
@@ -146,10 +143,7 @@ function PAVoting() {
   return (
     <section className="py-16 px-6">
       <div className="mx-auto max-w-4xl">
-        <h2 className="text-3xl font-bold text-berry-900 mb-4">
-          Pennsylvania Voting
-        </h2>
-        <div className="w-16 h-1 bg-green-600 rounded-full mb-8" />
+
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
           <a
             href="https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx"
@@ -203,10 +197,7 @@ function OtherStates() {
   return (
     <section className="py-16 px-6 bg-plum-50">
       <div className="mx-auto max-w-4xl">
-        <h2 className="text-3xl font-bold text-berry-900 mb-4">
-          Other States
-        </h2>
-        <div className="w-16 h-1 bg-green-600 rounded-full mb-8" />
+
         <p className="text-lg text-gray-700 leading-relaxed mb-8">
           Find voting information for any state in the country using these nonpartisan resources.
         </p>
@@ -379,8 +370,6 @@ export default function Voting() {
       <Navbar />
       <main>
         <Hero />
-        <CTVoting />
-        <PAVoting />
         <OtherStates />
         <CTA />
       </main>
