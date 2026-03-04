@@ -4,7 +4,7 @@ import Link from "next/link";
 import SignupForm from "@/components/SignupForm";
 
 export const metadata: Metadata = {
-  title: "Gatherings | ReSisters CT",
+  title: "Gather | ReSisters CT",
   description:
     "Join ReSisters CT at visibility brigades, activist afternoons, and social gatherings to make our voices heard.",
 };
@@ -61,7 +61,7 @@ function Hero() {
           &larr; Back to Take Action
         </Link>
         <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight mb-4 text-berry-800">
-          Gatherings
+          Gather
         </h1>
         <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
           Show up, stand together, and make our voices heard in our communities.

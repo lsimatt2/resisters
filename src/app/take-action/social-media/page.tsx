@@ -4,7 +4,7 @@ import Link from "next/link";
 import SignupForm from "@/components/SignupForm";
 
 export const metadata: Metadata = {
-  title: "Social Media | ReSisters CT",
+  title: "Amplify | ReSisters CT",
   description:
     "Learn how to use social media to amplify your voice and support democracy with ReSisters CT.",
 };
@@ -61,7 +61,7 @@ function Hero() {
           &larr; Back to Take Action
         </Link>
         <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight mb-4 text-green-logo">
-          Social Media
+          Amplify
         </h1>
         <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
           Use your voice on social media to amplify our message, reach new
@@ -77,7 +77,7 @@ function WhySocialMedia() {
     <section className="py-16 px-6 bg-plum-50">
       <div className="mx-auto max-w-4xl">
         <h2 className="text-3xl font-bold text-berry-900 mb-4">
-          Why Social Media?
+          Why Amplify?
         </h2>
         <div className="w-16 h-1 bg-green-600 rounded-full mb-8" />
         <div className="space-y-5 text-lg text-gray-700 leading-relaxed">

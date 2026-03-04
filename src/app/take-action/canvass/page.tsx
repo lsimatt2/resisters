@@ -112,16 +112,6 @@ function ActionAreas() {
       ),
     },
     {
-      title: "Give Testimony",
-      description:
-        "Testify in person or virtually before committees and decision-makers. There is nothing more impactful than sharing your personal story.",
-      icon: (
-        <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 18.75a6 6 0 006-6v-1.5m-6 7.5a6 6 0 01-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 01-3-3V4.5a3 3 0 116 0v8.25a3 3 0 01-3 3z" />
-        </svg>
-      ),
-    },
-    {
       title: "Reach Friends & Family",
       description:
         "Grow your own army by reaching out to people you know. Match their skills and availability to our action efforts — from postcards to phone banking.",
@@ -251,11 +241,6 @@ function Resources() {
       title: "Deep Canvass Persuasion",
       description: "A detailed document on deep canvass persuasion strategies.",
       href: "https://docs.google.com/document/d/1jcz-jxl0P8e_UjdZ2gFjfdmtDxlogrEj/edit",
-    },
-    {
-      title: "Sample Letters to Friends & Family",
-      description: "Templates for reaching out to friends and family about getting involved.",
-      href: "https://docs.google.com/document/d/1upx-dP_nJSVoQGmI_pBvBUSQpOpA10dS/edit",
     },
   ];
 

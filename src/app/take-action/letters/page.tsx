@@ -277,6 +277,35 @@ function HowToGetStarted() {
   );
 }
 
+function Resources() {
+  return (
+    <section className="py-16 px-6">
+      <div className="mx-auto max-w-4xl">
+        <h2 className="text-3xl font-bold text-berry-900 mb-4">
+          Resources & Tools
+        </h2>
+        <div className="w-16 h-1 bg-berry-600 rounded-full mb-8" />
+        <a
+          href="https://docs.google.com/document/d/1upx-dP_nJSVoQGmI_pBvBUSQpOpA10dS/edit"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg hover:border-green-200 transition-all inline-block"
+        >
+          <div className="flex items-center gap-3 mb-3">
+            <div className="w-10 h-10 bg-green-50 text-green-700 rounded-lg flex items-center justify-center group-hover:bg-green-700 group-hover:text-white transition-colors">
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+              </svg>
+            </div>
+            <h3 className="font-semibold text-gray-900 text-sm">Sample Letters to Friends & Family</h3>
+          </div>
+          <p className="text-gray-600 text-sm">Templates for reaching out to friends and family about getting involved.</p>
+        </a>
+      </div>
+    </section>
+  );
+}
+
 function CTA() {
   return (
     <section className="py-16 px-6 bg-gradient-to-r from-berry-100 to-green-50">
@@ -396,6 +425,7 @@ export default function Letters() {
         <VoteForward />
         <LettersToEditor />
         <HowToGetStarted />
+        <Resources />
         <CTA />
       </main>
       <Footer />

@@ -113,24 +113,6 @@ function ResourcesList() {
             </p>
           </a>
           <a
-            href="https://docs.google.com/presentation/d/1Np1xjsk92ggdknxQlBUCMST74jgEZeri6E_qgirtcaQ/edit"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg hover:border-green-200 transition-all"
-          >
-            <div className="flex items-center gap-3 mb-3">
-              <div className="w-12 h-12 bg-green-50 text-green-700 rounded-xl flex items-center justify-center group-hover:bg-green-700 group-hover:text-white transition-colors">
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m15.75 10.5 4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z" />
-                </svg>
-              </div>
-              <h3 className="font-semibold text-gray-900 text-lg">Connecting to Zoom</h3>
-            </div>
-            <p className="text-gray-600 text-sm">
-              Step-by-step guide for joining our weekly Zoom meetings.
-            </p>
-          </a>
-          <a
             href="https://docs.google.com/document/d/1RFLkJq6LDGE-T9oHw-qHGmqsmMyhfCl-cV1gS4lygdY/edit"
             target="_blank"
             rel="noopener noreferrer"
@@ -146,24 +128,6 @@ function ResourcesList() {
             </div>
             <p className="text-gray-600 text-sm">
               Instructions for adding the ReSisters CT background to your Zoom screen.
-            </p>
-          </a>
-          <a
-            href="https://store.usps.com/store/m/category.jsp?id=mobile-stamp"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg hover:border-green-200 transition-all"
-          >
-            <div className="flex items-center gap-3 mb-3">
-              <div className="w-12 h-12 bg-green-50 text-green-700 rounded-xl flex items-center justify-center group-hover:bg-green-700 group-hover:text-white transition-colors">
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
-                </svg>
-              </div>
-              <h3 className="font-semibold text-gray-900 text-lg">Stamps</h3>
-            </div>
-            <p className="text-gray-600 text-sm">
-              Purchase stamps online from the US Post Office.
             </p>
           </a>
         </div>
