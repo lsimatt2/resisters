@@ -219,64 +219,6 @@ function LettersToEditor() {
     </section>
   );
 }
-
-function HowToGetStarted() {
-  const steps = [
-    {
-      number: "1",
-      title: "Choose your format",
-      description:
-        "Decide between Vote Forward voter outreach letters or Letters to the Editor for press coverage. Check the Weekly Menu for current campaigns.",
-    },
-    {
-      number: "2",
-      title: "Get your materials",
-      description:
-        "For Vote Forward, download letter templates from their platform. For LTEs, use our toolkit for guidance and sample letters as thought starters.",
-    },
-    {
-      number: "3",
-      title: "Personalize your message",
-      description:
-        "Add your personal touch. For Vote Forward letters, a brief personal paragraph makes all the difference. For LTEs, share your authentic perspective.",
-    },
-    {
-      number: "4",
-      title: "Send it off",
-      description:
-        "Mail your Vote Forward letters by the campaign deadline, or submit your LTE to your local newspaper. Every letter amplifies our collective voice.",
-    },
-  ];
-
-  return (
-    <section className="py-16 px-6">
-      <div className="mx-auto max-w-4xl">
-        <h2 className="text-3xl font-bold text-berry-900 mb-4">
-          How to Get Started
-        </h2>
-        <div className="w-16 h-1 bg-berry-600 rounded-full mb-10" />
-        <div className="space-y-6">
-          {steps.map((step) => (
-            <div key={step.number} className="flex gap-5 items-start">
-              <div className="w-10 h-10 bg-berry-600 text-white rounded-full flex items-center justify-center font-bold text-lg shrink-0">
-                {step.number}
-              </div>
-              <div>
-                <h3 className="font-semibold text-gray-900 text-lg mb-1">
-                  {step.title}
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  {step.description}
-                </p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
 function Resources() {
   return (
     <section className="py-16 px-6">
@@ -424,7 +366,6 @@ export default function Letters() {
         <WhyLetters />
         <VoteForward />
         <LettersToEditor />
-        <HowToGetStarted />
         <Resources />
         <CTA />
       </main>

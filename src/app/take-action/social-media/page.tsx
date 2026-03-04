@@ -171,71 +171,8 @@ function WhatYouCanDo() {
     </section>
   );
 }
-
-function HowToGetStarted() {
-  const steps = [
-    {
-      number: "1",
-      title: "Choose your platforms",
-      description:
-        "Create accounts on platforms like Twitter/X, Bluesky, Threads, or Facebook if you don't already have them. Each platform has its own strengths for reaching different audiences.",
-    },
-    {
-      number: "2",
-      title: "Follow key accounts",
-      description:
-        "Follow ReSisters CT, local politicians, news outlets, and organizations that align with your values. This keeps you informed and connected.",
-    },
-    {
-      number: "3",
-      title: "Share and amplify",
-      description:
-        "Repost important messages, add your own commentary, and use hashtags to reach a broader audience. Even a simple share helps spread the word.",
-    },
-    {
-      number: "4",
-      title: "Engage and discuss",
-      description:
-        "Comment on posts, join discussions, and respond to elected officials. Your voice matters and adds to the collective impact of our community.",
-    },
-  ];
-
-  return (
-    <section className="py-16 px-6 bg-plum-50">
-      <div className="mx-auto max-w-4xl">
-        <h2 className="text-3xl font-bold text-berry-900 mb-4">
-          How to Get Started
-        </h2>
-        <div className="w-16 h-1 bg-green-600 rounded-full mb-10" />
-        <div className="space-y-6">
-          {steps.map((step) => (
-            <div key={step.number} className="flex gap-5 items-start">
-              <div className="w-10 h-10 bg-berry-600 text-white rounded-full flex items-center justify-center font-bold text-lg shrink-0">
-                {step.number}
-              </div>
-              <div>
-                <h3 className="font-semibold text-gray-900 text-lg mb-1">
-                  {step.title}
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  {step.description}
-                </p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
 function Resources() {
   const resources = [
-    {
-      title: "How to Tweet",
-      description: "Twitter's official guide on how to compose and send tweets.",
-      href: "https://help.twitter.com/en/using-twitter/how-to-tweet",
-    },
     {
       title: "ReSisters on Facebook",
       description: "Join our Facebook group to connect with fellow activists.",
@@ -419,7 +356,6 @@ export default function SocialMedia() {
         <Hero />
         <WhySocialMedia />
         <WhatYouCanDo />
-        <HowToGetStarted />
         <Resources />
         <CTA />
       </main>

@@ -173,64 +173,6 @@ function WhenAndWhere() {
     </section>
   );
 }
-
-function HowToGetStarted() {
-  const steps = [
-    {
-      number: "1",
-      title: "Get your supplies",
-      description:
-        "You'll need postcards and stamps. For some campaigns we use plain postcards; for others, you can order themed postcards online. Postcard stamps are 35¢.",
-    },
-    {
-      number: "2",
-      title: "Get your addresses",
-      description:
-        "Check the Weekly Menu or join a Resistance Cafe session to find out which campaign we're working on and get your list of addresses to write to.",
-    },
-    {
-      number: "3",
-      title: "Write your messages",
-      description:
-        "Follow the campaign script and add your personal touch. Keep it short, friendly, and genuine. Your handwriting makes each card unique and meaningful.",
-    },
-    {
-      number: "4",
-      title: "Mail them out",
-      description:
-        "Add your stamps and drop them in the mail. It's that simple! Each postcard you send is a personal invitation for someone to participate in democracy.",
-    },
-  ];
-
-  return (
-    <section className="py-16 px-6 bg-plum-50">
-      <div className="mx-auto max-w-4xl">
-        <h2 className="text-3xl font-bold text-berry-900 mb-4">
-          How to Get Started
-        </h2>
-        <div className="w-16 h-1 bg-green-600 rounded-full mb-10" />
-        <div className="space-y-6">
-          {steps.map((step) => (
-            <div key={step.number} className="flex gap-5 items-start">
-              <div className="w-10 h-10 bg-berry-600 text-white rounded-full flex items-center justify-center font-bold text-lg shrink-0">
-                {step.number}
-              </div>
-              <div>
-                <h3 className="font-semibold text-gray-900 text-lg mb-1">
-                  {step.title}
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  {step.description}
-                </p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
 function Resources() {
   return (
     <section className="py-16 px-6">
@@ -400,7 +342,6 @@ export default function Postcards() {
         <Hero />
         <WhyPostcards />
         <WhenAndWhere />
-        <HowToGetStarted />
         <Resources />
         <CTA />
       </main>

@@ -163,63 +163,6 @@ function ActionAreas() {
   );
 }
 
-function HowToGetStarted() {
-  const steps = [
-    {
-      number: "1",
-      title: "Join the email list",
-      description:
-        "Sign up for the Weekly Menu to learn about upcoming canvassing opportunities, testimony hearings, and other ways to get involved with personal outreach.",
-    },
-    {
-      number: "2",
-      title: "Attend a Resistance Cafe",
-      description:
-        "Join us on Monday Zoom sessions to learn about current campaigns and connect with experienced canvassers who can help you get started.",
-    },
-    {
-      number: "3",
-      title: "Recruit friends and family",
-      description:
-        "Reach out to people you know who are frustrated and want change. Match their skills and interests — someone who loves writing might do postcards, while an analytical person might enjoy texting campaigns.",
-    },
-    {
-      number: "4",
-      title: "Show up and connect",
-      description:
-        "Whether it's knocking on doors, testifying at a hearing, or having a conversation with a neighbor — your personal presence makes the biggest impact.",
-    },
-  ];
-
-  return (
-    <section className="py-16 px-6 bg-plum-50">
-      <div className="mx-auto max-w-4xl">
-        <h2 className="text-3xl font-bold text-berry-900 mb-4">
-          How to Get Started
-        </h2>
-        <div className="w-16 h-1 bg-green-600 rounded-full mb-10" />
-        <div className="space-y-6">
-          {steps.map((step) => (
-            <div key={step.number} className="flex gap-5 items-start">
-              <div className="w-10 h-10 bg-berry-600 text-white rounded-full flex items-center justify-center font-bold text-lg shrink-0">
-                {step.number}
-              </div>
-              <div>
-                <h3 className="font-semibold text-gray-900 text-lg mb-1">
-                  {step.title}
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  {step.description}
-                </p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
 function Resources() {
   const resources = [
     {
@@ -415,7 +358,6 @@ export default function Canvass() {
         <Hero />
         <Canvassing />
         <ActionAreas />
-        <HowToGetStarted />
         <Resources />
         <CTA />
       </main>

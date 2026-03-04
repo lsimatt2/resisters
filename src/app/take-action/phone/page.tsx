@@ -190,64 +190,6 @@ function TheImpact() {
     </section>
   );
 }
-
-function HowItWorks() {
-  const steps = [
-    {
-      number: "1",
-      title: "Get trained",
-      description:
-        "We partner with various organizations that provide regular training sessions. If you've never phone banked, you'll be impressed with the slick, easy-to-use tools that let you make a maximum number of calls with minimum effort.",
-    },
-    {
-      number: "2",
-      title: "Grab your devices",
-      description:
-        "You'll need your smartphone and a computer or iPad. Technology tools let you phone without revealing your personal number.",
-    },
-    {
-      number: "3",
-      title: "Pick your time",
-      description:
-        "Phone bank with fellow ReSisters during our Resistance Cafe action sessions, or on your own. Organizations typically limit calling to daytime hours in the recipient's time zone.",
-    },
-    {
-      number: "4",
-      title: "Make the call",
-      description:
-        "Follow the provided scripts. Listen, be genuine, and remember — you're helping people exercise their most fundamental right. Check the Weekly Menu for current phone banking actions.",
-    },
-  ];
-
-  return (
-    <section className="py-16 px-6 bg-plum-50">
-      <div className="mx-auto max-w-4xl">
-        <h2 className="text-3xl font-bold text-berry-900 mb-4">
-          How to Get Started
-        </h2>
-        <div className="w-16 h-1 bg-green-600 rounded-full mb-10" />
-        <div className="space-y-6">
-          {steps.map((step) => (
-            <div key={step.number} className="flex gap-5 items-start">
-              <div className="w-10 h-10 bg-berry-600 text-white rounded-full flex items-center justify-center font-bold text-lg shrink-0">
-                {step.number}
-              </div>
-              <div>
-                <h3 className="font-semibold text-gray-900 text-lg mb-1">
-                  {step.title}
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  {step.description}
-                </p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
 function Resources() {
   const resources = [
     {
@@ -482,7 +424,6 @@ export default function PhoneBanking() {
         <Hero />
         <WhyPhoneBank />
         <TheImpact />
-        <HowItWorks />
         <Resources />
         <CTA />
       </main>
