@@ -83,7 +83,12 @@ function WriteOptions() {
             <div className="flex items-center gap-4 mb-4">
               <div className="w-14 h-14 bg-green-50 text-green-700 rounded-xl flex items-center justify-center group-hover:bg-green-700 group-hover:text-white transition-colors">
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
+                  <rect x="2" y="4" width="20" height="16" rx="1.5" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} />
+                  <line x1="12" y1="4" x2="12" y2="20" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} />
+                  <rect x="17" y="6" width="3" height="3.5" rx="0.5" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} />
+                  <line x1="14.5" y1="13" x2="19.5" y2="13" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} />
+                  <line x1="14.5" y1="15.5" x2="19.5" y2="15.5" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} />
+                  <line x1="14.5" y1="18" x2="19.5" y2="18" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} />
                 </svg>
               </div>
               <h2 className="text-2xl font-bold text-gray-900">Send Postcards</h2>
@@ -108,7 +113,7 @@ function WriteOptions() {
               <h2 className="text-2xl font-bold text-gray-900">Write Letters</h2>
             </div>
             <p className="text-gray-600 mb-4">
-              There is nothing quite like receiving an envelope hand-addressed to you. Your letter won’t get thrown out with the junk mail.
+              There is nothing quite like receiving an envelope hand-addressed to you. Your letter won’t get thrown out.
             </p>
             <span className="inline-block bg-purple-logo hover:bg-berry-700 text-white font-semibold px-5 py-2.5 rounded-full text-sm transition-colors shadow-md mt-auto">
               Learn More &rarr;

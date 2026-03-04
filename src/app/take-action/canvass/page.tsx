@@ -4,7 +4,7 @@ import Link from "next/link";
 import SignupForm from "@/components/SignupForm";
 
 export const metadata: Metadata = {
-  title: "Personal Connections | ReSisters CT",
+  title: "Canvass | ReSisters CT",
   description:
     "Learn about canvassing, testimony, and personal outreach with ReSisters CT. One-on-one contact is the most effective way to reach voters.",
 };
@@ -60,8 +60,8 @@ function Hero() {
         >
           &larr; Back to Take Action
         </Link>
-        <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight mb-4 text-green-logo">
-          Personal Connections
+        <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight mb-4 text-berry-800">
+          Canvass
         </h1>
         <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
           Nothing is more effective than one-on-one personal contact. From

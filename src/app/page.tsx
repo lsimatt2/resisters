@@ -129,9 +129,9 @@ function About() {
         <div className="w-16 h-1 bg-green-600 mx-auto mb-10 rounded-full" />
         <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
           <p>
-            Shortly after the 2016 Presidential election, the ReSisters began
-            meeting weekly, when a group of formerly politically inactive women
-            decided to become politically engaged.
+            The ReSisters began meeting weekly shortly after the 2016
+            Presidential Election, when a group of formerly politically
+            inactive women felt compelled to become politically engaged.
           </p>
           <p>
             Our mission is to campaign for pro-democracy candidates at local and
@@ -139,9 +139,9 @@ function About() {
             initiatives that strengthen our democracy.
           </p>
           <p>
-            Our strategy centers on building a team of dedicated activists highly
-            skilled in letter writing, phone banking, text banking, canvassing,
-            and social media communication. We position ourselves as a rapid
+            Our strategy centers on building a team of dedicated activists
+            skilled in writing letters and postcards, phone and text banking,
+            canvassing, and social media communication. We position ourselves as a rapid
             response team available to support Democratic candidates nationwide.
           </p>
           <p className="text-base italic text-gray-500">
@@ -282,7 +282,7 @@ function ResistanceCafe({ onOpenSignup }: { onOpenSignup: () => void }) {
             <p className="text-gray-600">
               Every Monday morning from 10 - 11 a.m. on Zoom
               <br />
-              If you can not attend at 10 a.m., there is a 7 p.m. recap, also on Zoom.
+              If you cannot attend at 10 a.m., there is a 7 p.m. recap, also on Zoom.
             </p>
           </div>
           <div className="bg-white rounded-2xl p-6 border border-gray-200 shadow-sm">
@@ -398,7 +398,7 @@ function CTA({ onOpenSignup }: { onOpenSignup: () => void }) {
 
 function Footer() {
   return (
-    <footer className="bg-berry-900 text-pink-200 py-12 px-6">
+    <footer className="bg-plum-50 text-berry-800 py-12 px-6">
       <div className="mx-auto max-w-6xl">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
@@ -407,7 +407,7 @@ function Footer() {
               alt="ReSisters CT"
               width={80}
               height={51}
-              className="mb-4 bg-white/90 rounded-xl p-2"
+              className="mb-4"
             />
             <p className="text-sm leading-relaxed">
               ReSistersCT is a grassroots activist organization founded in Westport, CT in 2016.
@@ -416,10 +416,10 @@ function Footer() {
             </p>
           </div>
           <div>
-            <h3 className="text-white font-semibold mb-3">Quick Links</h3>
+            <h3 className="text-berry-900 font-semibold mb-3">Quick Links</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#about" className="hover:text-white transition-colors">
+                <a href="#about" className="hover:text-berry-900 transition-colors">
                   Who We Are
                 </a>
               </li>
@@ -432,14 +432,14 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#cafe" className="hover:text-white transition-colors">
+                <a href="#cafe" className="hover:text-berry-900 transition-colors">
                   Resistance Cafe
                 </a>
               </li>
               <li>
                 <a
                   href="#resources"
-                  className="hover:text-white transition-colors"
+                  className="hover:text-berry-900 transition-colors"
                 >
                   Resources
                 </a>
@@ -447,25 +447,23 @@ function Footer() {
             </ul>
           </div>
           <div>
-            <h3 className="text-white font-semibold mb-3">Contact</h3>
+            <h3 className="text-berry-900 font-semibold mb-3">Contact</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <a
                   href="mailto:ReSistersCT@gmail.com"
-                  className="hover:text-white transition-colors"
+                  className="hover:text-berry-900 transition-colors"
                 >
                   ReSistersCT@gmail.com
                 </a>
               </li>
-              <li>Founded in Westport, CT — now throughout CT &amp; beyond</li>
-              <li>Zoom Mondays at 10 a.m. and 7 p.m.</li>
             </ul>
             <div className="flex gap-4 mt-4">
               <a
                 href="https://www.facebook.com/groups/493346374331322/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-pink-200 hover:text-white transition-colors"
+                className="text-berry-700 hover:text-berry-900 transition-colors"
                 aria-label="Follow on Facebook"
               >
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -476,7 +474,7 @@ function Footer() {
                 href="https://www.instagram.com/resistersct/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-pink-200 hover:text-white transition-colors"
+                className="text-berry-700 hover:text-berry-900 transition-colors"
                 aria-label="Follow on Instagram"
               >
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -487,7 +485,7 @@ function Footer() {
                 href="https://bsky.app/profile/resistersct.bsky.social"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-pink-200 hover:text-white transition-colors"
+                className="text-berry-700 hover:text-berry-900 transition-colors"
                 aria-label="Follow on Bluesky"
               >
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -497,7 +495,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="border-t border-berry-800 pt-6 text-center text-sm text-pink-300">
+        <div className="border-t border-berry-200 pt-6 text-center text-sm text-berry-600">
           &copy; {new Date().getFullYear()} ReSisters CT. All rights reserved.
         </div>
       </div>
