@@ -78,7 +78,7 @@ function WriteOptions() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           <a
             href="/take-action/postcards"
-            className="group bg-white border border-gray-200 rounded-2xl p-8 hover:shadow-lg hover:border-green-200 transition-all"
+            className="group bg-white border border-gray-200 rounded-2xl p-8 hover:shadow-lg hover:border-green-200 transition-all flex flex-col"
           >
             <div className="flex items-center gap-4 mb-4">
               <div className="w-14 h-14 bg-green-50 text-green-700 rounded-xl flex items-center justify-center group-hover:bg-green-700 group-hover:text-white transition-colors">
@@ -91,13 +91,13 @@ function WriteOptions() {
             <p className="text-gray-600 mb-4">
               In a sea of junk mail, a personally addressed handwritten message has real meaning. No internet required!
             </p>
-            <span className="inline-block bg-purple-logo hover:bg-berry-700 text-white font-semibold px-5 py-2.5 rounded-full text-sm transition-colors shadow-md">
+            <span className="inline-block bg-purple-logo hover:bg-berry-700 text-white font-semibold px-5 py-2.5 rounded-full text-sm transition-colors shadow-md mt-auto">
               Learn More &rarr;
             </span>
           </a>
           <a
             href="/take-action/letters"
-            className="group bg-white border border-gray-200 rounded-2xl p-8 hover:shadow-lg hover:border-green-200 transition-all"
+            className="group bg-white border border-gray-200 rounded-2xl p-8 hover:shadow-lg hover:border-green-200 transition-all flex flex-col"
           >
             <div className="flex items-center gap-4 mb-4">
               <div className="w-14 h-14 bg-green-50 text-green-700 rounded-xl flex items-center justify-center group-hover:bg-green-700 group-hover:text-white transition-colors">
@@ -110,13 +110,13 @@ function WriteOptions() {
             <p className="text-gray-600 mb-4">
               There is nothing quite like receiving an envelope hand-addressed to you. Your letter won’t get thrown out with the junk mail.
             </p>
-            <span className="inline-block bg-purple-logo hover:bg-berry-700 text-white font-semibold px-5 py-2.5 rounded-full text-sm transition-colors shadow-md">
+            <span className="inline-block bg-purple-logo hover:bg-berry-700 text-white font-semibold px-5 py-2.5 rounded-full text-sm transition-colors shadow-md mt-auto">
               Learn More &rarr;
             </span>
           </a>
           <a
             href="/take-action/canvass"
-            className="group bg-white border border-gray-200 rounded-2xl p-8 hover:shadow-lg hover:border-green-200 transition-all"
+            className="group bg-white border border-gray-200 rounded-2xl p-8 hover:shadow-lg hover:border-green-200 transition-all flex flex-col"
           >
             <div className="flex items-center gap-4 mb-4">
               <div className="w-14 h-14 bg-green-50 text-green-700 rounded-xl flex items-center justify-center group-hover:bg-green-700 group-hover:text-white transition-colors">
@@ -129,7 +129,7 @@ function WriteOptions() {
             <p className="text-gray-600 mb-4">
               Testify in person or virtually before committees and decision-makers. Your personal story is powerful.
             </p>
-            <span className="inline-block bg-purple-logo hover:bg-berry-700 text-white font-semibold px-5 py-2.5 rounded-full text-sm transition-colors shadow-md">
+            <span className="inline-block bg-purple-logo hover:bg-berry-700 text-white font-semibold px-5 py-2.5 rounded-full text-sm transition-colors shadow-md mt-auto">
               Learn More &rarr;
             </span>
           </a>
