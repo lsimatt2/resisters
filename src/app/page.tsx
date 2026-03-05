@@ -289,16 +289,16 @@ function ResistanceCafe({ onOpenSignup }: { onOpenSignup: () => void }) {
             <h3 className="font-semibold text-lg mb-2 text-green-logo">Weekly Menu</h3>
             <ul className="text-gray-600 space-y-1">
               <li>
-                <strong className="text-gray-800">Lift Your Spirits</strong> &mdash; positive news
+                <strong className="text-gray-800">Lift Your Spirits</strong>, positive news
               </li>
               <li>
-                <strong className="text-gray-800">Starters</strong> &mdash; between-meeting actions
+                <strong className="text-gray-800">Starters</strong>, between-meeting actions
               </li>
               <li>
-                <strong className="text-gray-800">Mains</strong> &mdash; group activities & speakers
+                <strong className="text-gray-800">Mains</strong>, group activities & speakers
               </li>
               <li>
-                <strong className="text-gray-800">Desserts</strong> &mdash; articles & humor
+                <strong className="text-gray-800">Desserts</strong>, articles & humor
               </li>
             </ul>
             <p className="text-gray-600 mt-4 italic">
@@ -398,7 +398,7 @@ function CTA({ onOpenSignup }: { onOpenSignup: () => void }) {
 
 function Footer() {
   return (
-    <footer className="bg-plum-50 text-berry-800 py-12 px-6">
+    <footer className="bg-plum-50 text-black py-12 px-6">
       <div className="mx-auto max-w-6xl">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
@@ -416,10 +416,10 @@ function Footer() {
             </p>
           </div>
           <div>
-            <h3 className="text-berry-900 font-semibold mb-3">Quick Links</h3>
+            <h3 className="text-black font-semibold mb-3">Quick Links</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#about" className="hover:text-berry-900 transition-colors">
+                <a href="#about" className="hover:text-gray-600 transition-colors">
                   Who We Are
                 </a>
               </li>
@@ -432,14 +432,14 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#cafe" className="hover:text-berry-900 transition-colors">
+                <a href="#cafe" className="hover:text-gray-600 transition-colors">
                   Resistance Cafe
                 </a>
               </li>
               <li>
                 <a
                   href="#resources"
-                  className="hover:text-berry-900 transition-colors"
+                  className="hover:text-gray-600 transition-colors"
                 >
                   Resources
                 </a>
@@ -447,12 +447,12 @@ function Footer() {
             </ul>
           </div>
           <div>
-            <h3 className="text-berry-900 font-semibold mb-3">Contact</h3>
+            <h3 className="text-black font-semibold mb-3">Contact</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <a
                   href="mailto:ReSistersCT@gmail.com"
-                  className="hover:text-berry-900 transition-colors"
+                  className="hover:text-gray-600 transition-colors"
                 >
                   ReSistersCT@gmail.com
                 </a>
@@ -463,7 +463,7 @@ function Footer() {
                 href="https://www.facebook.com/groups/493346374331322/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-berry-700 hover:text-berry-900 transition-colors"
+                className="text-berry-700 hover:text-gray-600 transition-colors"
                 aria-label="Follow on Facebook"
               >
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -474,7 +474,7 @@ function Footer() {
                 href="https://www.instagram.com/resistersct/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-berry-700 hover:text-berry-900 transition-colors"
+                className="text-berry-700 hover:text-gray-600 transition-colors"
                 aria-label="Follow on Instagram"
               >
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -485,7 +485,7 @@ function Footer() {
                 href="https://bsky.app/profile/resistersct.bsky.social"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-berry-700 hover:text-berry-900 transition-colors"
+                className="text-berry-700 hover:text-gray-600 transition-colors"
                 aria-label="Follow on Bluesky"
               >
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -495,7 +495,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="border-t border-berry-200 pt-6 text-center text-sm text-berry-600">
+        <div className="border-t border-gray-300 pt-6 text-center text-sm text-black">
           &copy; {new Date().getFullYear()} ReSisters CT. All rights reserved.
         </div>
       </div>

@@ -192,7 +192,7 @@ function CTA() {
 
 function Footer() {
   return (
-    <footer className="bg-berry-900 text-pink-200 py-12 px-6">
+    <footer className="bg-plum-50 text-black py-12 px-6">
       <div className="mx-auto max-w-6xl">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
@@ -201,59 +201,63 @@ function Footer() {
               alt="ReSisters CT"
               width={80}
               height={51}
-              className="mb-4 bg-white/90 rounded-xl p-2"
+              className="mb-4"
             />
             <p className="text-sm leading-relaxed">
-              Grassroots activist organization founded in Westport, CT in 2016.
+              ReSistersCT is a grassroots activist organization founded in Westport, CT in 2016.
               Now active throughout Connecticut and beyond, promoting candidates
               and causes in support of American democracy.
             </p>
           </div>
           <div>
-            <h3 className="text-white font-semibold mb-3">Quick Links</h3>
+            <h3 className="text-black font-semibold mb-3">Quick Links</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/#about" className="hover:text-white transition-colors">
+                <a href="#about" className="hover:text-gray-600 transition-colors">
                   Who We Are
-                </Link>
+                </a>
               </li>
               <li>
-                <Link href="/#actions" className="hover:text-white transition-colors">
+                <a
+                  href="#actions"
+                  className="hover:text-white transition-colors"
+                >
                   Take Action
-                </Link>
+                </a>
               </li>
               <li>
-                <Link href="/#cafe" className="hover:text-white transition-colors">
+                <a href="#cafe" className="hover:text-gray-600 transition-colors">
                   Resistance Cafe
-                </Link>
+                </a>
               </li>
               <li>
-                <Link href="/#resources" className="hover:text-white transition-colors">
+                <a
+                  href="#resources"
+                  className="hover:text-gray-600 transition-colors"
+                >
                   Resources
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
           <div>
-            <h3 className="text-white font-semibold mb-3">Contact</h3>
+            <h3 className="text-black font-semibold mb-3">Contact</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <a
                   href="mailto:ReSistersCT@gmail.com"
-                  className="hover:text-white transition-colors"
+                  className="hover:text-gray-600 transition-colors"
                 >
                   ReSistersCT@gmail.com
                 </a>
               </li>
-              <li>Founded in Westport, CT — now throughout CT &amp; beyond</li>
-              <li>Zoom Mondays at 10 a.m. and 7 p.m.</li>
             </ul>
             <div className="flex gap-4 mt-4">
               <a
                 href="https://www.facebook.com/groups/493346374331322/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-pink-200 hover:text-white transition-colors"
+                className="text-berry-700 hover:text-gray-600 transition-colors"
                 aria-label="Follow on Facebook"
               >
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -264,7 +268,7 @@ function Footer() {
                 href="https://www.instagram.com/resistersct/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-pink-200 hover:text-white transition-colors"
+                className="text-berry-700 hover:text-gray-600 transition-colors"
                 aria-label="Follow on Instagram"
               >
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -275,7 +279,7 @@ function Footer() {
                 href="https://bsky.app/profile/resistersct.bsky.social"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-pink-200 hover:text-white transition-colors"
+                className="text-berry-700 hover:text-gray-600 transition-colors"
                 aria-label="Follow on Bluesky"
               >
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -285,7 +289,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="border-t border-berry-800 pt-6 text-center text-sm text-pink-300">
+        <div className="border-t border-gray-300 pt-6 text-center text-sm text-black">
           &copy; {new Date().getFullYear()} ReSisters CT. All rights reserved.
         </div>
       </div>

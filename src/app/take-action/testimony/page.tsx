@@ -83,8 +83,8 @@ function WhyTestimony() {
         <div className="space-y-5 text-lg text-gray-700 leading-relaxed">
           <p>
             Testimony is one of the most direct ways to influence legislation
-            and policy. When you testify &mdash; whether in writing or in
-            person &mdash; you put your personal story and perspective directly
+            and policy. When you testify, whether in writing or in
+            person, you put your personal story and perspective directly
             in front of the people making decisions.
           </p>
           <p>
@@ -219,7 +219,7 @@ function CTA() {
     <section className="py-16 px-6 bg-gradient-to-r from-green-50 to-white">
       <div className="mx-auto max-w-3xl text-center">
         <h2 className="text-3xl font-bold mb-4 text-berry-800">
-          Ready to Make Your Voice Heard?
+          Ready to Give Testimony?
         </h2>
         <p className="text-xl text-gray-600 mb-8">
           Join our email list using this form.
@@ -232,7 +232,7 @@ function CTA() {
 
 function Footer() {
   return (
-    <footer className="bg-berry-900 text-pink-200 py-12 px-6">
+    <footer className="bg-plum-50 text-black py-12 px-6">
       <div className="mx-auto max-w-6xl">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
@@ -241,47 +241,63 @@ function Footer() {
               alt="ReSisters CT"
               width={80}
               height={51}
-              className="mb-4 bg-white/90 rounded-xl p-2"
+              className="mb-4"
             />
             <p className="text-sm leading-relaxed">
-              Grassroots activist organization founded in Westport, CT in 2016.
+              ReSistersCT is a grassroots activist organization founded in Westport, CT in 2016.
               Now active throughout Connecticut and beyond, promoting candidates
               and causes in support of American democracy.
             </p>
           </div>
           <div>
-            <h3 className="text-white font-semibold mb-3">Quick Links</h3>
+            <h3 className="text-black font-semibold mb-3">Quick Links</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/#about" className="hover:text-white transition-colors">Who We Are</Link>
+                <a href="#about" className="hover:text-gray-600 transition-colors">
+                  Who We Are
+                </a>
               </li>
               <li>
-                <Link href="/#actions" className="hover:text-white transition-colors">Take Action</Link>
+                <a
+                  href="#actions"
+                  className="hover:text-white transition-colors"
+                >
+                  Take Action
+                </a>
               </li>
               <li>
-                <Link href="/#cafe" className="hover:text-white transition-colors">Resistance Cafe</Link>
+                <a href="#cafe" className="hover:text-gray-600 transition-colors">
+                  Resistance Cafe
+                </a>
               </li>
               <li>
-                <Link href="/#resources" className="hover:text-white transition-colors">Resources</Link>
+                <a
+                  href="#resources"
+                  className="hover:text-gray-600 transition-colors"
+                >
+                  Resources
+                </a>
               </li>
             </ul>
           </div>
           <div>
-            <h3 className="text-white font-semibold mb-3">Contact</h3>
+            <h3 className="text-black font-semibold mb-3">Contact</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="mailto:ReSistersCT@gmail.com" className="hover:text-white transition-colors">
+                <a
+                  href="mailto:ReSistersCT@gmail.com"
+                  className="hover:text-gray-600 transition-colors"
+                >
                   ReSistersCT@gmail.com
                 </a>
               </li>
-              <li>Founded in Westport, CT &mdash; now throughout CT &amp; beyond</li>
             </ul>
             <div className="flex gap-4 mt-4">
               <a
                 href="https://www.facebook.com/groups/493346374331322/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-pink-200 hover:text-white transition-colors"
+                className="text-berry-700 hover:text-gray-600 transition-colors"
                 aria-label="Follow on Facebook"
               >
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -292,7 +308,7 @@ function Footer() {
                 href="https://www.instagram.com/resistersct/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-pink-200 hover:text-white transition-colors"
+                className="text-berry-700 hover:text-gray-600 transition-colors"
                 aria-label="Follow on Instagram"
               >
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -303,7 +319,7 @@ function Footer() {
                 href="https://bsky.app/profile/resistersct.bsky.social"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-pink-200 hover:text-white transition-colors"
+                className="text-berry-700 hover:text-gray-600 transition-colors"
                 aria-label="Follow on Bluesky"
               >
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -313,7 +329,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="border-t border-berry-800 pt-6 text-center text-sm text-pink-300">
+        <div className="border-t border-gray-300 pt-6 text-center text-sm text-black">
           &copy; {new Date().getFullYear()} ReSisters CT. All rights reserved.
         </div>
       </div>
