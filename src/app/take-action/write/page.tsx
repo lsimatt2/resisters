@@ -120,7 +120,7 @@ function WriteOptions() {
             </span>
           </a>
           <a
-            href="/take-action/canvass"
+            href="/take-action/testimony"
             className="group bg-white border border-gray-200 rounded-2xl p-8 hover:shadow-lg hover:border-green-200 transition-all flex flex-col"
           >
             <div className="flex items-center gap-4 mb-4">
@@ -132,7 +132,7 @@ function WriteOptions() {
               <h2 className="text-2xl font-bold text-gray-900">Give Testimony</h2>
             </div>
             <p className="text-gray-600 mb-4">
-              Testify in person or virtually before committees and decision-makers. Your personal story is powerful.
+              Make your voice heard through written and oral testimony on the issues that matter most.
             </p>
             <span className="inline-block bg-purple-logo hover:bg-berry-700 text-white font-semibold px-5 py-2.5 rounded-full text-sm transition-colors shadow-md mt-auto">
               Learn More &rarr;
@@ -146,7 +146,7 @@ function WriteOptions() {
 
 function CTA() {
   return (
-    <section className="py-20 px-6 bg-gradient-to-br from-green-50 via-green-50 to-emerald-50">
+    <section className="py-20 px-6 bg-gradient-to-br from-green-50 to-white">
       <div className="mx-auto max-w-3xl text-center">
         <h2 id="signup" className="text-3xl sm:text-4xl font-bold text-berry-800 mb-3">
           New to ReSisters?

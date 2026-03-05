@@ -4,9 +4,9 @@ import Link from "next/link";
 import SignupForm from "@/components/SignupForm";
 
 export const metadata: Metadata = {
-  title: "Amplify | ReSisters CT",
+  title: "Give Testimony | ReSisters CT",
   description:
-    "Learn how to use social media to amplify your voice and support democracy with ReSisters CT.",
+    "Make your voice heard through written and oral testimony on issues that matter.",
 };
 
 function Navbar() {
@@ -55,42 +55,42 @@ function Hero() {
     <section className="relative bg-gradient-to-br from-green-50 to-white pt-28 pb-16 px-6">
       <div className="relative mx-auto max-w-4xl text-center">
         <Link
-          href="/#actions"
+          href="/take-action/write"
           className="inline-block text-green-logo hover:text-berry-700 text-sm mb-4 transition-colors"
         >
-          &larr; Back to Take Action
+          &larr; Back to Write
         </Link>
         <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight mb-4 text-berry-800">
-          Amplify
+          Give Testimony
         </h1>
         <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-          Use your voice on social media to amplify our message, reach new
-          audiences, and support democracy.
+          Make your voice heard through written and oral testimony on the issues
+          that matter most.
         </p>
       </div>
     </section>
   );
 }
 
-function WhySocialMedia() {
+function WhyTestimony() {
   return (
     <section className="py-16 px-6 bg-plum-50">
       <div className="mx-auto max-w-4xl">
         <h2 className="text-3xl font-bold text-berry-900 mb-4">
-          Why Amplify?
+          Why Give Testimony?
         </h2>
         <div className="w-16 h-1 bg-green-600 rounded-full mb-8" />
         <div className="space-y-5 text-lg text-gray-700 leading-relaxed">
           <p>
-            Social media is a powerful, free tool for reaching people quickly and
-            spreading important messages. When you post, share, or comment, you
-            help amplify information to a broader audience &mdash; including
-            policymakers, politicians, and the general public.
+            Testimony is one of the most direct ways to influence legislation
+            and policy. When you testify &mdash; whether in writing or in
+            person &mdash; you put your personal story and perspective directly
+            in front of the people making decisions.
           </p>
           <p>
-            The snappy nature of social media means it&rsquo;s widely used by
-            people on the go who want quick, digestible content. Your posts can
-            inform, persuade, and inspire others to take action.
+            Legislators and committee members pay attention to constituent
+            testimony. Your voice carries real weight in shaping the laws and
+            policies that affect your community.
           </p>
         </div>
       </div>
@@ -98,45 +98,35 @@ function WhySocialMedia() {
   );
 }
 
-function WhatYouCanDo() {
-  const benefits = [
+function TestimonyTypes() {
+  const types = [
     {
-      title: "Reach People Quickly",
+      title: "Written Testimony",
       description:
-        "Share posts to spread important messages to a large number of people instantly.",
+        "Submit written statements to legislative committees. Written testimony becomes part of the official record and can be submitted even if you cannot attend a hearing in person.",
       icon: (
         <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
         </svg>
       ),
     },
     {
-      title: "Follow Issues & Politicians",
+      title: "Oral Testimony",
       description:
-        "Stay up-to-date with the latest news and developments on issues that matter to you.",
+        "Speak directly before legislative committees at public hearings. Oral testimony lets you make a personal connection with lawmakers and answer their questions.",
       icon: (
         <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 01-2.25 2.25M16.5 7.5V18a2.25 2.25 0 002.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 002.25 2.25h13.5M6 7.5h3v3H6v-3z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 18.75a6 6 0 006-6v-1.5m-6 7.5a6 6 0 01-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 01-3-3V4.5a3 3 0 116 0v8.25a3 3 0 01-3 3z" />
         </svg>
       ),
     },
     {
-      title: "Join Conversations",
+      title: "Tips for Effective Testimony",
       description:
-        "Follow and contribute to discussions on events, legislation, and causes you care about.",
+        "Be concise and personal. Share how the issue affects you directly. Stick to one or two key points and be respectful. Your real-life experience is your most powerful tool.",
       icon: (
         <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
-        </svg>
-      ),
-    },
-    {
-      title: "Share Information",
-      description:
-        "Help spread accurate, timely information with others and combat misinformation in your community.",
-      icon: (
-        <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
         </svg>
       ),
     },
@@ -146,23 +136,23 @@ function WhatYouCanDo() {
     <section className="py-16 px-6">
       <div className="mx-auto max-w-4xl">
         <h2 className="text-3xl font-bold text-berry-900 mb-4">
-          What You Can Do
+          Ways to Testify
         </h2>
         <div className="w-16 h-1 bg-berry-600 rounded-full mb-10" />
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          {benefits.map((benefit) => (
+          {types.map((type) => (
             <div
-              key={benefit.title}
+              key={type.title}
               className="flex gap-4 bg-white border border-gray-200 rounded-2xl p-6"
             >
               <div className="w-12 h-12 bg-green-50 text-green-700 rounded-xl flex items-center justify-center shrink-0">
-                {benefit.icon}
+                {type.icon}
               </div>
               <div>
                 <h3 className="font-semibold text-gray-900 text-lg mb-1">
-                  {benefit.title}
+                  {type.title}
                 </h3>
-                <p className="text-gray-600">{benefit.description}</p>
+                <p className="text-gray-600">{type.description}</p>
               </div>
             </div>
           ))}
@@ -171,57 +161,23 @@ function WhatYouCanDo() {
     </section>
   );
 }
+
 function Resources() {
   const resources = [
     {
-      title: "ReSisters on Facebook",
-      description: "Join our Facebook group to connect with fellow activists.",
-      href: "https://www.facebook.com/groups/493346374331322/",
-      icon: (
-        <svg className="w-8 h-8" fill="#1877F2" viewBox="0 0 24 24">
-          <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
-        </svg>
-      ),
-    },
-    {
-      title: "ReSisters on Instagram",
-      description: "Follow us on Instagram for updates and action alerts.",
-      href: "https://www.instagram.com/resistersct/",
-      icon: (
-        <svg className="w-8 h-8" fill="#E4405F" viewBox="0 0 24 24">
-          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
-        </svg>
-      ),
-    },
-    {
-      title: "ReSisters on Bluesky",
-      description: "Follow us on Bluesky for news and activism updates.",
-      href: "https://bsky.app/profile/resistersct.bsky.social",
-      icon: (
-        <svg className="w-8 h-8" fill="#0085FF" viewBox="0 0 24 24">
-          <path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.785 2.643 3.593 3.519 6.178 3.279-3.91.567-7.369 2.17-2.977 7.594 4.913 5.207 6.852-1.39 7.447-3.346.141-.465.226-.742.728-.742s.587.277.728.742c.595 1.956 2.534 8.553 7.447 3.346 4.392-5.424.933-7.027-2.977-7.594 2.585.24 5.393-.636 6.178-3.279C23.622 9.418 24 4.458 24 3.768c0-.688-.139-1.86-.902-2.203-.659-.299-1.664-.621-4.3 1.24C16.046 4.747 13.087 8.686 12 10.8z" />
-        </svg>
-      ),
-    },
-    {
-      title: "ReSisters on Threads",
-      description: "Follow us on Threads to stay connected and take action.",
-      href: "https://www.threads.net/@resistersct",
-      icon: (
-        <svg className="w-8 h-8" fill="#000000" viewBox="0 0 24 24">
-          <path d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.03-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-2.04.569c-1.104-3.96-3.898-5.984-8.304-6.015-2.91.022-5.11.936-6.54 2.717C4.307 6.504 3.616 8.914 3.589 12c.027 3.086.718 5.496 2.057 7.164 1.43 1.783 3.631 2.698 6.54 2.717 2.623-.02 4.358-.631 5.8-2.045 1.647-1.613 1.618-3.593 1.09-4.798-.31-.71-.873-1.3-1.634-1.75-.192 1.352-.622 2.446-1.284 3.272-.886 1.102-2.14 1.704-3.73 1.79-1.202.065-2.361-.218-3.259-.801-1.063-.689-1.685-1.74-1.752-2.96-.065-1.182.408-2.256 1.33-3.022.88-.733 2.088-1.146 3.495-1.196 1.03-.036 1.988.067 2.867.31-.024-1.058-.31-1.872-.848-2.394-.607-.588-1.49-.885-2.636-.885h-.063c-.85.01-1.573.248-2.09.688l-1.34-1.537c.844-.735 1.952-1.131 3.208-1.148h.088c1.665 0 2.97.494 3.882 1.468.796.852 1.237 2.04 1.312 3.532.427.2.82.43 1.178.69 1.059.768 1.832 1.764 2.233 2.88.568 1.578.553 4.205-1.578 6.294-1.834 1.797-4.063 2.582-7.222 2.607zm.698-6.392c1.162-.062 1.828-.498 2.228-.994.36-.447.616-1.042.748-1.76-.86-.326-1.807-.504-2.826-.468-1.725.06-2.838.742-2.792 1.71.025.537.35.963.916 1.2.455.19 1.03.312 1.726.312z" />
-        </svg>
-      ),
+      title: "CT Legislature Testimony",
+      description: "Guide to giving testimony before Connecticut State Legislature Committees.",
+      href: "https://www.cga.ct.gov/asp/Content/YourVoice.asp",
     },
   ];
 
   return (
-    <section className="py-16 px-6">
+    <section className="py-16 px-6 bg-plum-50">
       <div className="mx-auto max-w-4xl">
         <h2 className="text-3xl font-bold text-berry-900 mb-4">
-          Resources & Links
+          Resources & Tools
         </h2>
-        <div className="w-16 h-1 bg-berry-600 rounded-full mb-8" />
+        <div className="w-16 h-1 bg-green-600 rounded-full mb-8" />
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           {resources.map((resource) => (
             <a
@@ -232,10 +188,22 @@ function Resources() {
               className="group bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg hover:border-green-200 transition-all"
             >
               <div className="flex items-center gap-3 mb-3">
-                <div className="w-10 h-10 flex items-center justify-center">
-                  {resource.icon}
+                <div className="w-10 h-10 bg-green-50 text-green-700 rounded-lg flex items-center justify-center group-hover:bg-green-700 group-hover:text-white transition-colors">
+                  <svg
+                    className="w-5 h-5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={1.5}
+                      d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                    />
+                  </svg>
                 </div>
-                <h3 className="font-semibold text-gray-900">{resource.title}</h3>
+                <h3 className="font-semibold text-gray-900 text-sm">{resource.title}</h3>
               </div>
               <p className="text-gray-600 text-sm">{resource.description}</p>
             </a>
@@ -251,11 +219,10 @@ function CTA() {
     <section className="py-16 px-6 bg-gradient-to-r from-green-50 to-white">
       <div className="mx-auto max-w-3xl text-center">
         <h2 className="text-3xl font-bold mb-4 text-berry-800">
-          Ready to Amplify Your Voice?
+          Ready to Make Your Voice Heard?
         </h2>
         <p className="text-xl text-gray-600 mb-8">
           Join our email list using this form.
-
         </p>
         <SignupForm />
       </div>
@@ -286,24 +253,16 @@ function Footer() {
             <h3 className="text-white font-semibold mb-3">Quick Links</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/#about" className="hover:text-white transition-colors">
-                  Who We Are
-                </Link>
+                <Link href="/#about" className="hover:text-white transition-colors">Who We Are</Link>
               </li>
               <li>
-                <Link href="/#actions" className="hover:text-white transition-colors">
-                  Take Action
-                </Link>
+                <Link href="/#actions" className="hover:text-white transition-colors">Take Action</Link>
               </li>
               <li>
-                <Link href="/#cafe" className="hover:text-white transition-colors">
-                  Resistance Cafe
-                </Link>
+                <Link href="/#cafe" className="hover:text-white transition-colors">Resistance Cafe</Link>
               </li>
               <li>
-                <Link href="/#resources" className="hover:text-white transition-colors">
-                  Resources
-                </Link>
+                <Link href="/#resources" className="hover:text-white transition-colors">Resources</Link>
               </li>
             </ul>
           </div>
@@ -311,15 +270,11 @@ function Footer() {
             <h3 className="text-white font-semibold mb-3">Contact</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a
-                  href="mailto:ReSistersCT@gmail.com"
-                  className="hover:text-white transition-colors"
-                >
+                <a href="mailto:ReSistersCT@gmail.com" className="hover:text-white transition-colors">
                   ReSistersCT@gmail.com
                 </a>
               </li>
-              <li>Founded in Westport, CT — now throughout CT &amp; beyond</li>
-              <li>Zoom Mondays at 10 a.m. and 7 p.m.</li>
+              <li>Founded in Westport, CT &mdash; now throughout CT &amp; beyond</li>
             </ul>
             <div className="flex gap-4 mt-4">
               <a
@@ -366,14 +321,14 @@ function Footer() {
   );
 }
 
-export default function SocialMedia() {
+export default function Testimony() {
   return (
     <>
       <Navbar />
       <main>
         <Hero />
-        <WhySocialMedia />
-        <WhatYouCanDo />
+        <WhyTestimony />
+        <TestimonyTypes />
         <Resources />
         <CTA />
       </main>

@@ -80,7 +80,7 @@ function Navbar({ onOpenSignup }: { onOpenSignup: () => void }) {
 
 function Hero({ onOpenSignup }: { onOpenSignup: () => void }) {
   return (
-    <section className="relative bg-gradient-to-br from-green-50 via-green-50 to-emerald-50 pt-32 pb-20 px-6">
+    <section className="relative bg-gradient-to-br from-green-50 to-white pt-32 pb-20 px-6">
       <div className="relative mx-auto max-w-4xl text-center">
         <Image
           src="/logo.png"
@@ -266,7 +266,7 @@ function TakeAction() {
 
 function ResistanceCafe({ onOpenSignup }: { onOpenSignup: () => void }) {
   return (
-    <section id="cafe" className="py-20 px-6 bg-gradient-to-br from-green-50 via-green-50 to-emerald-50">
+    <section id="cafe" className="py-20 px-6 bg-gradient-to-br from-green-50 to-white">
       <div className="mx-auto max-w-4xl text-center">
         <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-green-logo">
           Resistance Cafe
@@ -376,7 +376,7 @@ function Resources() {
 
 function CTA({ onOpenSignup }: { onOpenSignup: () => void }) {
   return (
-    <section className="py-20 px-6 bg-gradient-to-br from-green-50 via-green-50 to-emerald-50">
+    <section className="py-20 px-6 bg-gradient-to-br from-green-50 to-white">
       <div className="mx-auto max-w-3xl text-center">
         <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-green-logo">
           New to ReSisters?

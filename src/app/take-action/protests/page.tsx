@@ -151,7 +151,7 @@ function Social() {
 
 function CTA() {
   return (
-    <section className="py-16 px-6 bg-gradient-to-r from-berry-100 to-green-50 text-gray-900">
+    <section className="py-16 px-6 bg-gradient-to-r from-green-50 to-white text-gray-900">
       <div className="mx-auto max-w-3xl text-center">
         <h2 className="text-3xl font-bold mb-4 text-berry-800">Ready to Show Up?</h2>
         <p className="text-xl text-gray-600 mb-8">

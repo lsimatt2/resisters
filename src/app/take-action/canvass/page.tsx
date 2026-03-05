@@ -52,7 +52,7 @@ function Navbar() {
 
 function Hero() {
   return (
-    <section className="relative bg-gradient-to-br from-green-50 via-green-50 to-emerald-50 pt-28 pb-16 px-6">
+    <section className="relative bg-gradient-to-br from-green-50 to-white pt-28 pb-16 px-6">
       <div className="relative mx-auto max-w-4xl text-center">
         <Link
           href="/#actions"
@@ -85,8 +85,7 @@ function Canvassing() {
           <p>
             Canvassing is an amazingly effective tool for winning elections.
             Knocking on doors to connect with voters has always been an
-            invaluable way to make a difference. We offer canvassing
-            opportunities when possible for those who are comfortable.
+            invaluable way to make a difference.
           </p>
           <p>
             Deep canvassing is an especially important technique &mdash; it
@@ -180,11 +179,7 @@ function Resources() {
       description: "Learn about deep canvassing techniques and their effectiveness.",
       href: "https://callhub.io/deep-canvassing/",
     },
-    {
-      title: "Deep Canvass Persuasion",
-      description: "A detailed document on deep canvass persuasion strategies.",
-      href: "https://docs.google.com/document/d/1jcz-jxl0P8e_UjdZ2gFjfdmtDxlogrEj/edit",
-    },
+
   ];
 
   return (
@@ -232,7 +227,7 @@ function Resources() {
 
 function CTA() {
   return (
-    <section className="py-16 px-6 bg-gradient-to-r from-berry-100 to-green-50">
+    <section className="py-16 px-6 bg-gradient-to-r from-green-50 to-white">
       <div className="mx-auto max-w-3xl text-center">
         <h2 className="text-3xl font-bold mb-4 text-berry-800">
           Ready to Make Connections?

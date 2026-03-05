@@ -52,7 +52,7 @@ function Navbar() {
 
 function Hero() {
   return (
-    <section className="relative bg-gradient-to-br from-green-50 via-green-50 to-emerald-50 pt-28 pb-16 px-6">
+    <section className="relative bg-gradient-to-br from-green-50 to-white pt-28 pb-16 px-6">
       <div className="relative mx-auto max-w-4xl text-center">
         <Link
           href="/#actions"
@@ -216,7 +216,7 @@ function Resources() {
 
 function CTA() {
   return (
-    <section className="py-16 px-6 bg-gradient-to-r from-berry-100 to-green-50">
+    <section className="py-16 px-6 bg-gradient-to-r from-green-50 to-white">
       <div className="mx-auto max-w-3xl text-center">
         <h2 className="text-3xl font-bold mb-4 text-berry-800">
           Ready to Write Postcards?

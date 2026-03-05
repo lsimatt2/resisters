@@ -49,7 +49,7 @@ function HeroBlock({
       </div>
 
       {/* Hero replica */}
-      <section className="relative bg-gradient-to-br from-green-50 via-green-50 to-emerald-50 pt-16 pb-16 px-6 rounded-2xl border border-gray-200 shadow-sm">
+      <section className="relative bg-gradient-to-br from-green-50 to-white pt-16 pb-16 px-6 rounded-2xl border border-gray-200 shadow-sm">
         <div className="relative mx-auto max-w-4xl text-center">
           <Image
             src="/logo.png"
