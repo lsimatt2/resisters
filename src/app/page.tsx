@@ -41,7 +41,7 @@ function Navbar({ onOpenSignup }: { onOpenSignup: () => void }) {
         <a href="#" className="flex items-center gap-3">
           <Image src="/logo.png" alt="ReSisters CT" width={60} height={38} />
           <span className="text-lg font-bold text-berry-800 hidden sm:inline">
-            ReSisters CT
+            ReSistersCT
           </span>
         </a>
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-700">
@@ -268,7 +268,7 @@ function ResistanceCafe({ onOpenSignup }: { onOpenSignup: () => void }) {
   return (
     <section id="cafe" className="py-20 px-6 bg-gradient-to-br from-green-50 to-white">
       <div className="mx-auto max-w-4xl text-center">
-        <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-green-logo">
+        <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-berry-800">
           Resistance Cafe
         </h2>
         <div className="w-16 h-1 bg-purple-logo mx-auto mb-10 rounded-full" />
@@ -342,7 +342,7 @@ function Resources() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-green-logo">Voting</h3>
+              <h3 className="text-xl font-bold text-berry-800">Voting</h3>
             </div>
             <p className="text-sm text-gray-700 mb-4">
               Registration, absentee ballots, and voting information.
@@ -363,7 +363,7 @@ function Resources() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m9.86-2.54a4.5 4.5 0 00-6.364-6.364L4.5 8.188" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-green-logo">Other Resources</h3>
+              <h3 className="text-xl font-bold text-berry-800">Other Resources</h3>
             </div>
             <p className="text-sm text-gray-700 mb-4">
               Helpful links for activists.
@@ -494,6 +494,18 @@ function Footer() {
               >
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.785 2.643 3.593 3.519 6.178 3.279-3.91.567-7.369 2.17-2.977 7.594 4.913 5.207 6.852-1.39 7.447-3.346.141-.465.226-.742.728-.742s.587.277.728.742c.595 1.956 2.534 8.553 7.447 3.346 4.392-5.424.933-7.027-2.977-7.594 2.585.24 5.393-.636 6.178-3.279C23.622 9.418 24 4.458 24 3.768c0-.688-.139-1.86-.902-2.203-.659-.299-1.664-.621-4.3 1.24C16.046 4.747 13.087 8.686 12 10.8z" />
+                </svg>
+              </a>
+
+              <a
+                href="https://www.threads.net/@resistersct"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-berry-700 hover:text-gray-600 transition-colors"
+                aria-label="Follow on Threads"
+              >
+                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.03-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-2.04.569c-1.104-3.96-3.898-5.984-8.304-6.015-2.91.022-5.11.936-6.54 2.717C4.307 6.504 3.616 8.914 3.589 12c.027 3.086.718 5.496 2.057 7.164 1.43 1.783 3.631 2.698 6.54 2.717 2.623-.02 4.358-.631 5.8-2.045 1.647-1.613 1.618-3.593 1.09-4.798-.31-.71-.873-1.3-1.634-1.75-.192 1.352-.622 2.446-1.284 3.272-.886 1.102-2.14 1.704-3.73 1.79-1.202.065-2.361-.218-3.259-.801-1.063-.689-1.685-1.74-1.752-2.96-.065-1.187.408-2.26 1.33-3.017.88-.724 2.105-1.133 3.552-1.186 1.14-.042 2.172.078 3.089.343-.09-.783-.318-1.404-.683-1.857-.475-.588-1.222-.9-2.22-.929h-.068c-.752 0-1.702.216-2.37.838l-1.353-1.562c1.04-.903 2.378-1.394 3.723-1.394h.094c2.467.07 4.163 1.548 4.5 3.925.138.96.168 2.065.089 3.297l-.005.084c.688.382 1.282.85 1.772 1.396 1.293 1.446 1.882 3.345 1.658 5.348-.295 2.633-1.827 4.964-4.327 6.572C17.7 23.4 15.193 24.02 12.186 24zM10.39 14.906c-.07 0-.14.002-.21.006-.963.052-1.713.364-2.173.904-.345.405-.505.913-.476 1.472.043.78.477 1.382 1.257 1.746.615.287 1.357.397 2.102.355 1.073-.059 1.896-.44 2.446-1.133.394-.495.667-1.17.81-2.005-1.06-.394-2.27-.568-3.544-.53l-.212.005v.18z" />
                 </svg>
               </a>
             </div>
