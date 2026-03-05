@@ -287,18 +287,22 @@ function ResistanceCafe({ onOpenSignup }: { onOpenSignup: () => void }) {
           </div>
           <div className="bg-white rounded-2xl p-6 border border-gray-200 shadow-sm">
             <h3 className="font-semibold text-lg mb-2 text-green-logo">Weekly Menu</h3>
-            <ul className="text-gray-600 space-y-1">
+            <ul className="text-gray-600 space-y-2">
               <li>
-                <strong className="text-gray-800">Lift Your Spirits</strong>, positive news
+                <strong className="text-gray-800">Lift Your Spirits</strong>
+                <div className="ml-6">Positive news</div>
               </li>
               <li>
-                <strong className="text-gray-800">Starters</strong>, between-meeting actions
+                <strong className="text-gray-800">Starters</strong>
+                <div className="ml-6">Between-meeting actions</div>
               </li>
               <li>
-                <strong className="text-gray-800">Mains</strong>, group activities & speakers
+                <strong className="text-gray-800">Mains</strong>
+                <div className="ml-6">Group activities &amp; speakers</div>
               </li>
               <li>
-                <strong className="text-gray-800">Desserts</strong>, articles & humor
+                <strong className="text-gray-800">Desserts</strong>
+                <div className="ml-6">Articles &amp; humor</div>
               </li>
             </ul>
             <p className="text-gray-600 mt-4 italic">
