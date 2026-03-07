@@ -317,7 +317,6 @@ export default function WhereToVote() {
           <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 6 }}>
             <div style={{ width: 4, height: 36, background: colors.pink, borderRadius: 2 }} />
             <div>
-              <p style={{ fontSize: 11, fontWeight: 700, color: colors.green, textTransform: "uppercase", letterSpacing: "0.1em" }}>ReSisters CT</p>
               <h1 style={{ fontSize: "clamp(22px, 4vw, 32px)", fontWeight: 700, color: colors.textDark, fontFamily: "'Playfair Display', serif", lineHeight: 1.1 }}>
                 Make Your Vote Count
               </h1>
