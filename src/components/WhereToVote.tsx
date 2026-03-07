@@ -29,8 +29,8 @@ const steps = [
     question: "What type of election are you voting in?",
     subtitle: "This matters because some elections only affect local residents",
     options: [
-      { label: "Presidential or U.S. Senate/House (federal)", next: "competitive" },
-      { label: "State or local election (governor, state legislature, ballot measures)", next: "local_matters" },
+      { label: "Federal", next: "competitive" },
+      { label: "State and/or local", next: "local_matters" },
     ],
   },
   {
