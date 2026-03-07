@@ -202,7 +202,24 @@ function OtherStates() {
         <p className="text-lg text-gray-700 leading-relaxed mb-8">
           Find voting information for any state in the country using these nonpartisan resources.
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+          <Link
+            href="/take-action/voting/where-to-vote"
+            className="group bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg hover:border-green-200 transition-all"
+          >
+            <div className="flex items-center gap-3 mb-3">
+              <div className="w-12 h-12 bg-green-50 text-green-700 rounded-xl flex items-center justify-center group-hover:bg-green-700 group-hover:text-white transition-colors">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                </svg>
+              </div>
+              <h3 className="font-semibold text-gray-900 text-lg">Where Should I Vote?</h3>
+            </div>
+            <p className="text-gray-600 text-sm">
+              Interactive tool for students and temporary residents to decide where their vote has the most impact.
+            </p>
+          </Link>
           <a
             href="https://iwillvote.com"
             target="_blank"
