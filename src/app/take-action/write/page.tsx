@@ -113,7 +113,7 @@ function WriteOptions() {
               <h2 className="text-2xl font-bold text-gray-900">Write Letters</h2>
             </div>
             <p className="text-gray-600 mb-4">
-              There is nothing quite like receiving an envelope hand-addressed to you. Your letter won’t get thrown out.
+              There is nothing quite like receiving an envelope hand-addressed to you.
             </p>
             <span className="inline-block bg-purple-logo hover:bg-berry-700 text-white font-semibold px-5 py-2.5 rounded-full text-sm transition-colors shadow-md mt-auto self-start">
               Learn More &rarr;
@@ -132,7 +132,7 @@ function WriteOptions() {
               <h2 className="text-2xl font-bold text-gray-900">Give Testimony</h2>
             </div>
             <p className="text-gray-600 mb-4">
-              Make your voice heard through written and oral testimony on the issues that matter most.
+              Make your voice heard through written and oral testimony on legislation that is under consideration.
             </p>
             <span className="inline-block bg-purple-logo hover:bg-berry-700 text-white font-semibold px-5 py-2.5 rounded-full text-sm transition-colors shadow-md mt-auto self-start">
               Learn More &rarr;

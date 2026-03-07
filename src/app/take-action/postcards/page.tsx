@@ -104,7 +104,7 @@ function WhenAndWhere() {
     {
       title: "Do Them Anywhere",
       description:
-        "The beauty of postcards is that you can write them at any time or any place. At home, at a cafe, while traveling — no internet needed.",
+        "The beauty of postcards is that you can write them at any time or any place. At home, at a cafe, while traveling. No internet needed.",
       icon: (
         <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -174,6 +174,39 @@ function WhenAndWhere() {
   );
 }
 function Resources() {
+  const resources = [
+    {
+      title: "Find a Campaign",
+      description: "Find a current postcard campaign to join.",
+      href: "https://docs.google.com/document/d/1tdT3bXhs6kmgHb0yMEmrxQyhJS--g0h1rE568YgRNn0/edit?usp=sharing",
+      icon: (
+        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+        </svg>
+      ),
+    },
+    {
+      title: "Get Postcards",
+      description: "Find out where to get postcards for your campaign.",
+      href: "https://docs.google.com/document/d/1N8RkcW9LdpejAEE91v2tXCgFhL_5ougZu80JdB4eE4k/edit?usp=sharing",
+      icon: (
+        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+        </svg>
+      ),
+    },
+    {
+      title: "Get Stamps",
+      description: "Purchase postcard stamps online from the USPS store.",
+      href: "https://store.usps.com/store/m/category.jsp?id=mobile-stamp",
+      icon: (
+        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+        </svg>
+      ),
+    },
+  ];
+
   return (
     <section className="py-16 px-6">
       <div className="mx-auto max-w-4xl">
@@ -181,33 +214,24 @@ function Resources() {
           Supplies & Resources
         </h2>
         <div className="w-16 h-1 bg-berry-600 rounded-full mb-8" />
-        <div className="max-w-md">
-          <a
-            href="https://store.usps.com/store/m/category.jsp?id=mobile-stamp"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg hover:border-green-200 transition-all block"
-          >
-            <div className="flex items-center gap-3 mb-3">
-              <div className="w-10 h-10 bg-green-50 text-green-700 rounded-lg flex items-center justify-center group-hover:bg-green-700 group-hover:text-white transition-colors">
-                <svg
-                  className="w-5 h-5"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={1.5}
-                    d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
-                  />
-                </svg>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+          {resources.map((resource) => (
+            <a
+              key={resource.title}
+              href={resource.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg hover:border-green-200 transition-all block"
+            >
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-10 h-10 bg-green-50 text-green-700 rounded-lg flex items-center justify-center group-hover:bg-green-700 group-hover:text-white transition-colors">
+                  {resource.icon}
+                </div>
+                <h3 className="font-semibold text-gray-900">{resource.title}</h3>
               </div>
-              <h3 className="font-semibold text-gray-900">Buy Postcard Stamps</h3>
-            </div>
-            <p className="text-gray-600 text-sm">Purchase postcard stamps online from the USPS store.</p>
-          </a>
+              <p className="text-gray-600 text-sm">{resource.description}</p>
+            </a>
+          ))}
         </div>
       </div>
     </section>

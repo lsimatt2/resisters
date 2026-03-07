@@ -101,8 +101,7 @@ function WhatIsTextBanking() {
             tablet, or any device with internet access.
           </p>
           <p>
-            Texting works because people read text messages, especially short,
-            direct ones. It also gives recipients an easy, low-pressure way to
+            Texting works because people read text messages, especially short direct ones. It also gives recipients an easy, low-pressure way to
             ask questions or engage in conversation. Because you can send
             hundreds of messages quickly, It is an efficient way
             to take action.
@@ -231,11 +230,6 @@ function WhyTextBank() {
 function TrainingResources() {
   const resources = [
     {
-      title: "Text Banking Step-by-Step",
-      description: "A handy recap guide from Lean Left VT covering everything you need to know.",
-      href: "https://docs.google.com/document/d/1RSlwbPxRbzDQc84s0Ixd85zrbXf9hCXhHnILKrD3c-o/edit?usp=sharing",
-    },
-    {
       title: "Slack Guide",
       description: "Learn how to use Slack to coordinate with other texters and stay in the loop.",
       href: "https://slack.com/help/articles/360059928654-How-to-use-Slack--your-quick-start-guide",
@@ -252,8 +246,7 @@ function TrainingResources() {
         <p className="text-lg text-gray-700 mb-8 leading-relaxed">
           We partner with various organizations for our texting activities. They
           provide regular training sessions, tips, and tools to get started.
-          When you first start texting it can seem confusing, but
-          it&rsquo;s easy once you&rsquo;ve done it a few times!
+          It&rsquo;s easy to get started!
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           {resources.map((resource) => (

@@ -64,8 +64,9 @@ function Hero() {
           Voting Resources
         </h1>
         <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-          Everything you need to check your registration, register to vote,
-          and request an absentee ballot.
+          Everything you need to check your
+          <br />
+          registration, register to vote, and request an absentee ballot.
         </p>
       </div>
     </section>

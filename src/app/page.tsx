@@ -298,7 +298,7 @@ function ResistanceCafe({ onOpenSignup }: { onOpenSignup: () => void }) {
               </li>
               <li>
                 <strong className="text-gray-800">Mains</strong>
-                <div className="ml-6">Group activities &amp; speakers</div>
+                <div className="ml-6">Priority issues &amp; guest speakers</div>
               </li>
               <li>
                 <strong className="text-gray-800">Desserts</strong>
@@ -414,9 +414,7 @@ function Footer() {
               className="mb-4"
             />
             <p className="text-sm leading-relaxed">
-              ReSisters is a grassroots activist organization founded in Westport, CT in 2016.
-              Now active throughout Connecticut and beyond, we are dedicated to promoting candidates
-              and causes in support of American democracy.
+              The ReSisters began meeting weekly shortly after the 2016 Presidential Election, when a group of formerly politically inactive women felt compelled to become politically engaged. Our mission is to campaign for pro-democracy candidates at local and national levels, research policy impacts, and advocate for initiatives that strengthen our democracy.
             </p>
           </div>
           <div>

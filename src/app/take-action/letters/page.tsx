@@ -65,7 +65,7 @@ function Hero() {
         </h1>
         <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
           There is nothing quite like receiving an envelope hand-addressed to
-          you. Your letter won&rsquo;t get thrown out with the junk mail.
+          you.
         </p>
       </div>
     </section>
@@ -89,12 +89,10 @@ function WhyLetters() {
           <p>Our letter writing takes two main forms:</p>
           <ul className="list-disc list-inside space-y-2 ml-4">
             <li>
-              <strong>Letters to officials</strong>, to our governor,
-              legislators, and government employees on state and federal issues
+              <strong>Letters to voters</strong>
             </li>
             <li>
-              <strong>Letters to the Editor</strong>, to gain press
-              coverage for candidates or issues we care about
+              <strong>Letters to the Editor</strong>
             </li>
           </ul>
         </div>
@@ -108,18 +106,16 @@ function VoteForward() {
     <section className="py-16 px-6">
       <div className="mx-auto max-w-4xl">
         <h2 className="text-3xl font-bold text-berry-900 mb-4">
-          Vote Forward Letters
+          Letters to Voters
         </h2>
         <div className="w-16 h-1 bg-berry-600 rounded-full mb-8" />
         <div className="space-y-5 text-lg text-gray-700 leading-relaxed mb-10">
           <p>
-            We work with Vote Forward writing letters that are stockpiled and
-            mailed to voters at set dates. Some actions target Get Out The Vote
-            on Election Day, while others focus on primaries, voter registration,
-            or ballot chasing.
+            We work with Vote Forward to write letters that are stockpiled and
+            mailed to voters at set dates. These letters focus on a variety of actions.
           </p>
           <p>
-            Vote Forward letter writing is easy: you download letters, briefly
+            Vote Forward letter writing is easy. You download letters, briefly
             personalize them, and put them in a stamped envelope that you
             provide. It&rsquo;s a simple, powerful way to make an impact.
           </p>
@@ -140,22 +136,6 @@ function VoteForward() {
               <h3 className="font-semibold text-gray-900 text-sm">Sign Up with Vote Forward</h3>
             </div>
             <p className="text-gray-500 text-xs">Get started with the Vote Forward platform</p>
-          </a>
-          <a
-            href="https://docs.google.com/document/d/1iI49Z_DO0QGZekJDQcQS7Vhqmlzx7kCF6MN4Pr0MMaM/edit?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group bg-white border border-gray-200 rounded-2xl p-5 hover:shadow-lg hover:border-green-200 transition-all"
-          >
-            <div className="flex items-center gap-3 mb-2">
-              <div className="w-10 h-10 bg-green-50 text-green-700 rounded-lg flex items-center justify-center group-hover:bg-green-700 group-hover:text-white transition-colors">
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10" />
-                </svg>
-              </div>
-              <h3 className="font-semibold text-gray-900 text-sm">Sample Paragraphs</h3>
-            </div>
-            <p className="text-gray-500 text-xs">Examples for personalizing Vote Forward letters</p>
           </a>
           <a
             href="https://www.usps.com/"
@@ -196,25 +176,9 @@ function LettersToEditor() {
           <p>
             Letters to the Editor are a powerful way to shape public opinion and
             draw attention to the candidates and causes we support. Your local
-            newspaper is always looking for reader voices.
+            newspaper is always looking for reader voices. A great first step would be to comment on an article should you feel so inclined.
           </p>
         </div>
-        <a
-          href="https://drive.google.com/file/d/1O7aOqyF04VeCVBVxVgpCxrqTdxiSCeT2/view?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="group inline-flex items-center gap-3 bg-white border border-gray-200 rounded-2xl px-6 py-4 hover:shadow-lg hover:border-green-200 transition-all"
-        >
-          <div className="w-10 h-10 bg-green-50 text-green-700 rounded-lg flex items-center justify-center group-hover:bg-green-700 group-hover:text-white transition-colors">
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-            </svg>
-          </div>
-          <div>
-            <h3 className="font-semibold text-gray-900">ReSisters LTE Toolkit</h3>
-            <p className="text-gray-500 text-sm">Tips, templates, and guidance for writing effective letters</p>
-          </div>
-        </a>
       </div>
     </section>
   );
@@ -227,22 +191,24 @@ function Resources() {
           Resources & Tools
         </h2>
         <div className="w-16 h-1 bg-berry-600 rounded-full mb-8" />
-        <a
-          href="https://docs.google.com/document/d/1upx-dP_nJSVoQGmI_pBvBUSQpOpA10dS/edit"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="group bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg hover:border-green-200 transition-all inline-block"
-        >
-          <div className="flex items-center gap-3 mb-3">
-            <div className="w-10 h-10 bg-green-50 text-green-700 rounded-lg flex items-center justify-center group-hover:bg-green-700 group-hover:text-white transition-colors">
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-              </svg>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+          <a
+            href="https://drive.google.com/file/d/1O7aOqyF04VeCVBVxVgpCxrqTdxiSCeT2/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg hover:border-green-200 transition-all"
+          >
+            <div className="flex items-center gap-3 mb-3">
+              <div className="w-10 h-10 bg-green-50 text-green-700 rounded-lg flex items-center justify-center group-hover:bg-green-700 group-hover:text-white transition-colors">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                </svg>
+              </div>
+              <h3 className="font-semibold text-gray-900 text-sm">ReSisters LTE Toolkit</h3>
             </div>
-            <h3 className="font-semibold text-gray-900 text-sm">Sample Letters to Friends & Family</h3>
-          </div>
-          <p className="text-gray-600 text-sm">Templates for reaching out to friends and family about getting involved.</p>
-        </a>
+            <p className="text-gray-600 text-sm">Tips, templates, and guidance for writing effective letters</p>
+          </a>
+        </div>
       </div>
     </section>
   );

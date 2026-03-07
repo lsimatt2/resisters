@@ -6,7 +6,7 @@ import SignupForm from "@/components/SignupForm";
 export const metadata: Metadata = {
   title: "Give Testimony | ReSisters CT",
   description:
-    "Make your voice heard through written and oral testimony on issues that matter.",
+    "Make your voice heard through written and oral testimony on legislation that is under consideration.",
 };
 
 function Navbar() {
@@ -84,7 +84,7 @@ function WhyTestimony() {
           <p>
             Testimony is one of the most direct ways to influence legislation
             and policy. When you testify, whether in writing or in
-            person, you put your personal story and perspective directly
+            person, you put your perspective and personal story directly
             in front of the people making decisions.
           </p>
           <p>
