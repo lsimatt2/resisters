@@ -15,9 +15,6 @@ function Navbar() {
       <div className="mx-auto max-w-6xl flex items-center justify-between px-6 py-3">
         <Link href="/" className="flex items-center gap-3">
           <Image src="/logo.png" alt="ReSisters CT" width={60} height={38} />
-          <span className="text-lg font-bold text-berry-800 hidden sm:inline">
-            ReSisters CT
-          </span>
         </Link>
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-700">
           <Link
