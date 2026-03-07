@@ -76,8 +76,8 @@ function Hero() {
           Text Banking
         </h1>
         <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-          Send 100&ndash;500 texts in minutes from the comfort of your home.
-          It&rsquo;s one of the most efficient ways to reach voters.
+          Send hundreds of texts in minutes from the comfort of your home.
+          It&rsquo;s an efficient way to reach voters.
         </p>
       </div>
     </section>
@@ -94,10 +94,10 @@ function WhatIsTextBanking() {
         <div className="w-16 h-1 bg-green-600 rounded-full mb-8" />
         <div className="space-y-5 text-lg text-gray-700 leading-relaxed">
           <p>
-            When we text bank, we send large numbers of messages to cell phones
+            When you text bank, you send large numbers of messages to cell phones
             using specialized software provided by partner organizations.
-            not your personal texting plan. You can do this from your computer,
-            iPad, or any device with internet access.
+            You do not use your personal texting plan. You can do this from your computer,
+            tablet, or any device with internet access.
           </p>
           <p>
             Texting works because people read text messages, especially short,
@@ -319,8 +319,8 @@ function Footer() {
               className="mb-4"
             />
             <p className="text-sm leading-relaxed">
-              ReSistersCT is a grassroots activist organization founded in Westport, CT in 2016.
-              Now active throughout Connecticut and beyond, promoting candidates
+              ReSisters is a grassroots activist organization founded in Westport, CT in 2016.
+              Now active throughout Connecticut and beyond, we are dedicated to promoting candidates
               and causes in support of American democracy.
             </p>
           </div>

@@ -86,7 +86,7 @@ function VisibilityBrigade() {
         <div className="w-16 h-1 bg-berry-600 rounded-full mb-8" />
         <div className="space-y-5 text-lg text-gray-700 leading-relaxed">
           <p>
-            Our Visibility Brigade takes to the streets with signs, banners, and energy to raise awareness on critical issues. Standing on busy corners and at key locations, we make sure our community sees that people care.
+            Our Visibility Brigade takes to the streets with signs, banners, and energy to raise awareness on critical issues. Standing at key locations, we make sure our community sees that people care.
           </p>
           <p>
             Whether it&rsquo;s a response to current events or an ongoing campaign, the Visibility Brigade is a powerful way to show solidarity, spark conversation, and remind our neighbors that democracy requires active participation.
@@ -107,7 +107,7 @@ function ActivistAfternoon() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
             </svg>
           </div>
-          <h2 className="text-3xl font-bold text-berry-900">Activist Afternoon</h2>
+          <h2 className="text-3xl font-bold text-berry-900">Activist Afternoons</h2>
         </div>
         <div className="w-16 h-1 bg-green-600 rounded-full mb-8" />
         <div className="space-y-5 text-lg text-gray-700 leading-relaxed">
@@ -115,7 +115,7 @@ function ActivistAfternoon() {
             Activist Afternoons are in-person gatherings where ReSisters come together to take action side by side. Whether it&rsquo;s writing postcards, making phone calls, or preparing materials for an upcoming campaign, we get more done together.
           </p>
           <p>
-            These sessions combine the productivity of focused activism with the camaraderie of working alongside fellow reSisters and Misters. It&rsquo;s a great way to learn new skills, stay motivated, and make a tangible impact in just a few hours.
+            These sessions combine the productivity of focused activism with the camaraderie of working alongside fellow activists. It&rsquo;s a great way to learn new skills, stay motivated, and make a tangible impact in just a few hours.
           </p>
         </div>
       </div>
@@ -141,7 +141,7 @@ function Social() {
             Activism is fueled by connection. Our social events bring us together to celebrate wins, recharge, and build the relationships that sustain our movement. From casual get-togethers to themed gatherings, these events remind us that we&rsquo;re stronger together.
           </p>
           <p>
-            Taking time to enjoy each other&rsquo;s company isn&rsquo;t a break from the work; it&rsquo;s part of the work. Strong bonds make for a stronger, more resilient community of activists.
+            Taking time to enjoy each other&rsquo;s company isn&rsquo;t a break from the work. It&rsquo;s part of the work. Strong bonds make for a stronger, more resilient community of activists.
           </p>
         </div>
       </div>
@@ -170,12 +170,12 @@ function ResistanceCafe() {
           <p>
             A weekly gathering where activists come together to support each
             other and work to make significant political change. Every Monday
-            morning from 10 &ndash; 11 a.m. on Zoom, with a 7 p.m. recap for
+            morning from 10 &ndash; 11 a.m. on Zoom with a 7 p.m. recap for
             those who cannot attend in the morning.
           </p>
           <p>
             Each week features a &ldquo;menu&rdquo; of options for engagement,
-            action, and education, from positive news and between-meeting
+            action, and education from positive news and between-meeting
             actions to group activities, guest speakers, and more.
           </p>
         </div>
@@ -211,8 +211,8 @@ function Footer() {
               className="mb-4"
             />
             <p className="text-sm leading-relaxed">
-              ReSistersCT is a grassroots activist organization founded in Westport, CT in 2016.
-              Now active throughout Connecticut and beyond, promoting candidates
+              ReSisters is a grassroots activist organization founded in Westport, CT in 2016.
+              Now active throughout Connecticut and beyond, we are dedicated to promoting candidates
               and causes in support of American democracy.
             </p>
           </div>

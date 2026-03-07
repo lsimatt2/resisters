@@ -83,13 +83,13 @@ function WhySocialMedia() {
         <div className="space-y-5 text-lg text-gray-700 leading-relaxed">
           <p>
             Social media is a powerful, free tool for reaching people quickly and
-            spreading important messages. When you post, share, or comment, you
+            spreading important messages. When you post, share, like or comment, you
             help amplify information to a broader audience, including
             policymakers, politicians, and the general public.
           </p>
           <p>
-            The snappy nature of social media means it&rsquo;s widely used by
-            people on the go who want quick, digestible content. Your posts can
+            The nature of social media is that it is widely used by
+            people who want quick, digestible content. Your posts can
             inform, persuade, and inspire others to take action.
           </p>
         </div>
@@ -277,8 +277,8 @@ function Footer() {
               className="mb-4"
             />
             <p className="text-sm leading-relaxed">
-              ReSistersCT is a grassroots activist organization founded in Westport, CT in 2016.
-              Now active throughout Connecticut and beyond, promoting candidates
+              ReSisters is a grassroots activist organization founded in Westport, CT in 2016.
+              Now active throughout Connecticut and beyond, we are dedicated to promoting candidates
               and causes in support of American democracy.
             </p>
           </div>

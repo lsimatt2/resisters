@@ -244,8 +244,8 @@ function Footer() {
               className="mb-4"
             />
             <p className="text-sm leading-relaxed">
-              ReSistersCT is a grassroots activist organization founded in Westport, CT in 2016.
-              Now active throughout Connecticut and beyond, promoting candidates
+              ReSisters is a grassroots activist organization founded in Westport, CT in 2016.
+              Now active throughout Connecticut and beyond, we are dedicated to promoting candidates
               and causes in support of American democracy.
             </p>
           </div>

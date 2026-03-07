@@ -65,7 +65,7 @@ function Hero() {
         </h1>
         <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
           Nothing is more effective than one-on-one personal contact. From
-          canvassing to testimony to friends and family. Your voice
+          canvassing to talking to friends and family, your voice
           matters most when it&rsquo;s personal.
         </p>
       </div>
@@ -83,14 +83,14 @@ function Canvassing() {
         <div className="w-16 h-1 bg-green-600 rounded-full mb-8" />
         <div className="space-y-5 text-lg text-gray-700 leading-relaxed">
           <p>
-            Canvassing is an amazingly effective tool for winning elections.
+            Canvassing is the most effective tool for winning elections.
             Knocking on doors to connect with voters has always been an
             invaluable way to make a difference.
           </p>
           <p>
             Deep canvassing is an especially important technique. It
-            involves longer, more meaningful conversations with voters that can
-            genuinely change minds and build lasting connections. The newest form of deep canvassing is Ground Truth, launched in 2025 by Swing Left, which is gathering citizen feedback from all residents.
+            involves longer, more meaningful conversations with voters and can
+            genuinely change minds and build lasting connections. The newest form of deep canvassing is Ground Truth, launched in 2025 by Swing Left, which is gathering feedback from all citizens.
           </p>
         </div>
       </div>
@@ -103,7 +103,7 @@ function ActionAreas() {
     {
       title: "Canvass Door-to-Door",
       description:
-        "Connect with voters face-to-face in their communities. Knocking on doors is one of the most impactful forms of voter outreach.",
+        "Connect with voters face-to-face in their community. Knocking on doors is one of the most impactful forms of voter outreach.",
       icon: (
         <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
@@ -113,7 +113,7 @@ function ActionAreas() {
     {
       title: "Reach Friends & Family",
       description:
-        "Grow your own army by reaching out to people you know. Match their skills and availability to our action efforts — from postcards to phone banking.",
+        "You are an influencer among the people you know. Help them match their skills and availability to our actions.",
       icon: (
         <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
@@ -123,7 +123,7 @@ function ActionAreas() {
     {
       title: "Deep Canvassing",
       description:
-        "Have longer, more meaningful conversations with voters. Deep canvassing builds genuine connections and can truly change minds on important issues.",
+        "Have longer, more meaningful conversations with voters. Deep canvassing can build real connections with voters.",
       icon: (
         <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
@@ -251,8 +251,8 @@ function Footer() {
               className="mb-4"
             />
             <p className="text-sm leading-relaxed">
-              ReSistersCT is a grassroots activist organization founded in Westport, CT in 2016.
-              Now active throughout Connecticut and beyond, promoting candidates
+              ReSisters is a grassroots activist organization founded in Westport, CT in 2016.
+              Now active throughout Connecticut and beyond, we are dedicated to promoting candidates
               and causes in support of American democracy.
             </p>
           </div>

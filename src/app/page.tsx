@@ -40,9 +40,6 @@ function Navbar({ onOpenSignup }: { onOpenSignup: () => void }) {
       <div className="mx-auto max-w-6xl flex items-center justify-between px-6 py-3">
         <a href="#" className="flex items-center gap-3">
           <Image src="/logo.png" alt="ReSisters CT" width={60} height={38} />
-          <span className="text-lg font-bold text-berry-800 hidden sm:inline">
-            ReSistersCT
-          </span>
         </a>
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-700">
           <a href="#about" className="hover:text-berry-700 transition-colors">
@@ -95,8 +92,8 @@ function Hero({ onOpenSignup }: { onOpenSignup: () => void }) {
           <span className="!text-purple-logo">Defend Democracy.</span>
         </h1>
         <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed">
-          ReSistersCT is a grassroots activist organization founded in Westport, CT in 2016. Now active throughout
-          Connecticut and beyond, promoting candidates and causes in support of American democracy.
+          ReSisters is a grassroots activist organization founded in Westport, CT in 2016. Now active throughout
+          Connecticut and beyond, we are dedicated to promoting candidates and causes in support of American democracy.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button
@@ -158,7 +155,7 @@ function About() {
 const actions = [
   {
     title: "Amplify",
-    description: "On your own, get the message out on social media.",
+    description: "Get the message out on your own on social media platforms.",
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
@@ -192,7 +189,7 @@ const actions = [
   },
   {
     title: "Phone",
-    description: "Make persuasive calls for votes and actions.",
+    description: "Make persuasive calls for voters and legislators.",
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
@@ -202,7 +199,7 @@ const actions = [
   },
   {
     title: "Text",
-    description: "Mobilize voters through effective text messages.",
+    description: "Mobilize voters by sending text messages.",
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z" />
@@ -232,8 +229,8 @@ function TakeAction() {
         </h2>
         <div className="w-16 h-1 bg-green-600 mx-auto mb-4 rounded-full" />
         <p className="text-center text-gray-600 text-lg mb-12 max-w-2xl mx-auto">
-          You are the Power of One! More and more elections are decided by
-          razor-thin margins. Your actions can make the difference.
+          You have power! Your actions can make the difference because more
+          and more elections are decided by razor-thin margins.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {actions.map((action) => (
@@ -287,6 +284,9 @@ function ResistanceCafe({ onOpenSignup }: { onOpenSignup: () => void }) {
           </div>
           <div className="bg-white rounded-2xl p-6 border border-gray-200 shadow-sm">
             <h3 className="font-semibold text-lg mb-2 text-green-logo">Weekly Menu</h3>
+            <p className="text-green-logo ml-6 mb-2">
+              A literal menu of options for engagement, action and education.
+            </p>
             <ul className="text-gray-600 space-y-2">
               <li>
                 <strong className="text-gray-800">Lift Your Spirits</strong>
@@ -305,9 +305,6 @@ function ResistanceCafe({ onOpenSignup }: { onOpenSignup: () => void }) {
                 <div className="ml-6">Articles &amp; humor</div>
               </li>
             </ul>
-            <p className="text-gray-600 mt-4 italic">
-              A literal menu of options for engagement, action and education.
-            </p>
           </div>
         </div>
         <button
@@ -414,8 +411,8 @@ function Footer() {
               className="mb-4"
             />
             <p className="text-sm leading-relaxed">
-              ReSistersCT is a grassroots activist organization founded in Westport, CT in 2016.
-              Now active throughout Connecticut and beyond, promoting candidates
+              ReSisters is a grassroots activist organization founded in Westport, CT in 2016.
+              Now active throughout Connecticut and beyond, we are dedicated to promoting candidates
               and causes in support of American democracy.
             </p>
           </div>

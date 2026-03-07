@@ -96,7 +96,7 @@ function WriteOptions() {
             <p className="text-gray-600 mb-4">
               In a sea of junk mail, a personally addressed handwritten message has real meaning. No internet required!
             </p>
-            <span className="inline-block bg-purple-logo hover:bg-berry-700 text-white font-semibold px-5 py-2.5 rounded-full text-sm transition-colors shadow-md mt-auto">
+            <span className="inline-block bg-purple-logo hover:bg-berry-700 text-white font-semibold px-5 py-2.5 rounded-full text-sm transition-colors shadow-md mt-auto self-start">
               Learn More &rarr;
             </span>
           </a>
@@ -115,7 +115,7 @@ function WriteOptions() {
             <p className="text-gray-600 mb-4">
               There is nothing quite like receiving an envelope hand-addressed to you. Your letter won’t get thrown out.
             </p>
-            <span className="inline-block bg-purple-logo hover:bg-berry-700 text-white font-semibold px-5 py-2.5 rounded-full text-sm transition-colors shadow-md mt-auto">
+            <span className="inline-block bg-purple-logo hover:bg-berry-700 text-white font-semibold px-5 py-2.5 rounded-full text-sm transition-colors shadow-md mt-auto self-start">
               Learn More &rarr;
             </span>
           </a>
@@ -134,7 +134,7 @@ function WriteOptions() {
             <p className="text-gray-600 mb-4">
               Make your voice heard through written and oral testimony on the issues that matter most.
             </p>
-            <span className="inline-block bg-purple-logo hover:bg-berry-700 text-white font-semibold px-5 py-2.5 rounded-full text-sm transition-colors shadow-md mt-auto">
+            <span className="inline-block bg-purple-logo hover:bg-berry-700 text-white font-semibold px-5 py-2.5 rounded-full text-sm transition-colors shadow-md mt-auto self-start">
               Learn More &rarr;
             </span>
           </a>
@@ -175,8 +175,8 @@ function Footer() {
               className="mb-4"
             />
             <p className="text-sm leading-relaxed">
-              ReSistersCT is a grassroots activist organization founded in Westport, CT in 2016.
-              Now active throughout Connecticut and beyond, promoting candidates
+              ReSisters is a grassroots activist organization founded in Westport, CT in 2016.
+              Now active throughout Connecticut and beyond, we are dedicated to promoting candidates
               and causes in support of American democracy.
             </p>
           </div>

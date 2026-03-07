@@ -77,7 +77,7 @@ function Hero() {
         </h1>
         <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
           Outside of face-to-face contact, calling is the most effective
-          way to communicate with others.
+          way to communicate your message.
         </p>
       </div>
     </section>
@@ -94,7 +94,7 @@ function WhyPhoneBank() {
         <div className="w-16 h-1 bg-green-600 rounded-full mb-8" />
         <div className="space-y-5 text-lg text-gray-700 leading-relaxed">
           <p>
-            Some people are annoyed by phone calls but, for someone who has been
+            Some people are annoyed by phone calls but for someone who has been
             purged from the voter rolls, your call can be a conversation of hope.
             There are many stories of reluctant phone bankers who had such
             inspiring conversations that they are now phone bankers for life.
@@ -106,8 +106,8 @@ function WhyPhoneBank() {
             issues they can&rsquo;t discuss at home.
           </p>
           <p>
-            Amazing technology tools now let you phone without revealing your
-            phone number. The rewards of a successful call are substantial
+            Technology tools now let you phone without revealing your
+            phone number. The rewards of a successful call are substantial.
             Imagine helping someone get registered so they can exercise
             their most fundamental democratic right.
           </p>
@@ -362,8 +362,8 @@ function Footer() {
               className="mb-4"
             />
             <p className="text-sm leading-relaxed">
-              ReSistersCT is a grassroots activist organization founded in Westport, CT in 2016.
-              Now active throughout Connecticut and beyond, promoting candidates
+              ReSisters is a grassroots activist organization founded in Westport, CT in 2016.
+              Now active throughout Connecticut and beyond, we are dedicated to promoting candidates
               and causes in support of American democracy.
             </p>
           </div>

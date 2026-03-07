@@ -17,7 +17,7 @@ export default function SignupForm() {
               name="FNAME"
               id="mce-FNAME"
               required
-              className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-logo focus:border-purple-logo outline-none transition-colors"
+              className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-logo focus:border-purple-logo outline-none transition-colors bg-white"
             />
           </div>
           <div>
@@ -29,7 +29,7 @@ export default function SignupForm() {
               name="LNAME"
               id="mce-LNAME"
               required
-              className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-logo focus:border-purple-logo outline-none transition-colors"
+              className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-logo focus:border-purple-logo outline-none transition-colors bg-white"
             />
           </div>
         </div>
@@ -43,7 +43,7 @@ export default function SignupForm() {
             name="EMAIL"
             id="mce-EMAIL"
             required
-            className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-logo focus:border-purple-logo outline-none transition-colors"
+            className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-logo focus:border-purple-logo outline-none transition-colors bg-white"
           />
         </div>
 
@@ -59,7 +59,7 @@ export default function SignupForm() {
               id="mce-PHONE-area"
               maxLength={3}
               pattern="[0-9]*"
-              className="w-16 px-2 py-2.5 border border-gray-300 rounded-lg text-center focus:ring-2 focus:ring-purple-logo focus:border-purple-logo outline-none transition-colors"
+              className="w-16 px-2 py-2.5 border border-gray-300 rounded-lg text-center focus:ring-2 focus:ring-purple-logo focus:border-purple-logo outline-none transition-colors bg-white"
             />
             <span className="text-gray-500">)</span>
             <input
@@ -68,7 +68,7 @@ export default function SignupForm() {
               id="mce-PHONE-detail1"
               maxLength={3}
               pattern="[0-9]*"
-              className="w-16 px-2 py-2.5 border border-gray-300 rounded-lg text-center focus:ring-2 focus:ring-purple-logo focus:border-purple-logo outline-none transition-colors"
+              className="w-16 px-2 py-2.5 border border-gray-300 rounded-lg text-center focus:ring-2 focus:ring-purple-logo focus:border-purple-logo outline-none transition-colors bg-white"
             />
             <span className="text-gray-500">-</span>
             <input
@@ -77,7 +77,7 @@ export default function SignupForm() {
               id="mce-PHONE-detail2"
               maxLength={4}
               pattern="[0-9]*"
-              className="w-20 px-2 py-2.5 border border-gray-300 rounded-lg text-center focus:ring-2 focus:ring-purple-logo focus:border-purple-logo outline-none transition-colors"
+              className="w-20 px-2 py-2.5 border border-gray-300 rounded-lg text-center focus:ring-2 focus:ring-purple-logo focus:border-purple-logo outline-none transition-colors bg-white"
             />
           </div>
         </div>
@@ -92,7 +92,7 @@ export default function SignupForm() {
               name="MMERGE5"
               id="mce-MMERGE5"
               required
-              className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-logo focus:border-purple-logo outline-none transition-colors"
+              className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-logo focus:border-purple-logo outline-none transition-colors bg-white"
             />
           </div>
           <div>
@@ -104,7 +104,7 @@ export default function SignupForm() {
               name="MMERGE7"
               id="mce-MMERGE7"
               required
-              className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-logo focus:border-purple-logo outline-none transition-colors"
+              className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-logo focus:border-purple-logo outline-none transition-colors bg-white"
             />
           </div>
         </div>
@@ -117,7 +117,7 @@ export default function SignupForm() {
             type="text"
             name="MMERGE6"
             id="mce-MMERGE6"
-            className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-logo focus:border-purple-logo outline-none transition-colors"
+            className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-logo focus:border-purple-logo outline-none transition-colors bg-white"
           />
         </div>
 
@@ -135,7 +135,7 @@ export default function SignupForm() {
                 name="MMERGE3[addr1]"
                 id="mce-MMERGE3-addr1"
                 maxLength={70}
-                className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-logo focus:border-purple-logo outline-none transition-colors"
+                className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-logo focus:border-purple-logo outline-none transition-colors bg-white"
               />
             </div>
             <div>
@@ -147,7 +147,7 @@ export default function SignupForm() {
                 name="MMERGE3[addr2]"
                 id="mce-MMERGE3-addr2"
                 maxLength={70}
-                className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-logo focus:border-purple-logo outline-none transition-colors"
+                className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-logo focus:border-purple-logo outline-none transition-colors bg-white"
               />
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
@@ -160,7 +160,7 @@ export default function SignupForm() {
                   name="MMERGE3[city]"
                   id="mce-MMERGE3-city"
                   maxLength={40}
-                  className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-logo focus:border-purple-logo outline-none transition-colors"
+                  className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-logo focus:border-purple-logo outline-none transition-colors bg-white"
                 />
               </div>
               <div>
@@ -172,7 +172,7 @@ export default function SignupForm() {
                   name="MMERGE3[state]"
                   id="mce-MMERGE3-state"
                   maxLength={20}
-                  className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-logo focus:border-purple-logo outline-none transition-colors"
+                  className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-logo focus:border-purple-logo outline-none transition-colors bg-white"
                 />
               </div>
               <div>
@@ -184,7 +184,7 @@ export default function SignupForm() {
                   name="MMERGE3[zip]"
                   id="mce-MMERGE3-zip"
                   maxLength={10}
-                  className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-logo focus:border-purple-logo outline-none transition-colors"
+                  className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-logo focus:border-purple-logo outline-none transition-colors bg-white"
                 />
               </div>
             </div>
