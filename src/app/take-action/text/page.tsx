@@ -77,6 +77,7 @@ function Hero() {
         </h1>
         <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
           Send hundreds of texts in minutes from the comfort of your home.
+          <br />
           It&rsquo;s an efficient way to reach voters.
         </p>
       </div>
@@ -103,8 +104,8 @@ function WhatIsTextBanking() {
             Texting works because people read text messages, especially short,
             direct ones. It also gives recipients an easy, low-pressure way to
             ask questions or engage in conversation. Because you can send
-            hundreds of messages quickly, it&rsquo;s an incredibly efficient use
-            of your time.
+            hundreds of messages quickly, It is an efficient way
+            to take action.
           </p>
         </div>
       </div>
