@@ -241,9 +241,7 @@ function TrainingResources() {
         </h2>
         <div className="w-16 h-1 bg-berry-600 rounded-full mb-8" />
         <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-          We partner with various organizations for our texting activities. They
-          provide regular training sessions, tips, and tools to get started.
-          It&rsquo;s easy to get started!
+          We partner with various organizations for our texting activities. They provide regular training sessions, tips, and tools to get started. When you first start texting it can seem confusing, but it&rsquo;s easy once you&rsquo;ve done it a few times!
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           {resources.map((resource) => (

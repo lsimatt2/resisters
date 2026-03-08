@@ -213,6 +213,9 @@ function Resources() {
           Training & Resources
         </h2>
         <div className="w-16 h-1 bg-berry-600 rounded-full mb-8" />
+        <p className="text-lg text-gray-700 leading-relaxed mb-8">
+          We partner with various organizations and campaigns when we join a Phone Banking campaign. Once you sign up, they provide all the training, tips, and tools you will need to get started.
+        </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           {resources.map((resource) => (
             <a
