@@ -208,7 +208,7 @@ function Resources() {
     <section className="py-16 px-6">
       <div className="mx-auto max-w-4xl">
         <h2 className="text-3xl font-bold text-berry-900 mb-4">
-          Supplies & Resources
+          Resources & Tools
         </h2>
         <div className="w-16 h-1 bg-berry-600 rounded-full mb-8" />
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">

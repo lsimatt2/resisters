@@ -237,7 +237,7 @@ function TrainingResources() {
     <section className="py-16 px-6">
       <div className="mx-auto max-w-4xl">
         <h2 className="text-3xl font-bold text-berry-900 mb-4">
-          Training & Resources
+          Resources & Tools
         </h2>
         <div className="w-16 h-1 bg-berry-600 rounded-full mb-8" />
         <p className="text-lg text-gray-700 mb-8 leading-relaxed">
