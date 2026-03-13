@@ -190,7 +190,7 @@ function Resources() {
         <div className="w-16 h-1 bg-berry-600 rounded-full mb-8" />
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
           <a
-            href="https://drive.google.com/file/d/1O7aOqyF04VeCVBVxVgpCxrqTdxiSCeT2/view?usp=sharing"
+            href="https://mail.google.com/mail/u/0/#inbox/KtbxLvHLqKJzHKJLWDLCRhzZmBHQlTvGVB?projector=1&messagePartId=0.1"
             target="_blank"
             rel="noopener noreferrer"
             className="group bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg hover:border-green-200 transition-all"
