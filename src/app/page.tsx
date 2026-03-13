@@ -45,11 +45,11 @@ function Navbar({ onOpenSignup }: { onOpenSignup: () => void }) {
           <a href="#about" className="hover:text-berry-700 transition-colors">
             Who We Are
           </a>
-          <a href="#actions" className="hover:text-berry-700 transition-colors">
-            Take Action
-          </a>
           <a href="#cafe" className="hover:text-berry-700 transition-colors">
             Resistance Cafe
+          </a>
+          <a href="#actions" className="hover:text-berry-700 transition-colors">
+            Take Action
           </a>
           <a
             href="#resources"
@@ -427,16 +427,16 @@ function Footer() {
                 </a>
               </li>
               <li>
+                <a href="#cafe" className="hover:text-gray-600 transition-colors">
+                  Resistance Cafe
+                </a>
+              </li>
+              <li>
                 <a
                   href="#actions"
                   className="hover:text-white transition-colors"
                 >
                   Take Action
-                </a>
-              </li>
-              <li>
-                <a href="#cafe" className="hover:text-gray-600 transition-colors">
-                  Resistance Cafe
                 </a>
               </li>
               <li>
@@ -533,8 +533,8 @@ export default function Home() {
       <main>
         <Hero onOpenSignup={openSignup} />
         <About />
-        <TakeAction />
         <ResistanceCafe onOpenSignup={openSignup} />
+        <TakeAction />
         <Resources />
         <CTA onOpenSignup={openSignup} />
       </main>
