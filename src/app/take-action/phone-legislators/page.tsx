@@ -86,26 +86,34 @@ function WhyCallLegislators() {
     <section className="py-16 px-6 bg-plum-50">
       <div className="mx-auto max-w-4xl">
         <h2 className="text-3xl font-bold text-berry-900 mb-4">
-          Why Call Your Legislators?
+          Why Phone Legislators?
         </h2>
         <div className="w-16 h-1 bg-green-600 rounded-full mb-8" />
         <div className="space-y-5 text-lg text-gray-700 leading-relaxed">
           <p>
-            Congressional staffers consistently report that phone calls are one
-            of the most effective ways to influence a legislator&rsquo;s
-            position. A flood of calls on a specific issue signals to elected
-            officials that their constituents care deeply.
+            Activists are regularly urged to make calls to the offices of their
+            elected representatives on the Federal, State and Municipal levels.
           </p>
           <p>
-            Unlike emails that can be filtered or petitions that may be
-            overlooked, phone calls demand real-time attention. Each call is
-            logged and tallied, and when the numbers are significant, legislators
-            take notice.
+            We make these calls in order to let our elected leaders know where
+            we stand on issues, and to let them know where we would like them
+            to stand. We do it in order to have an impact on their votes, their
+            priorities, and the outcomes that follow.
           </p>
           <p>
-            You don&rsquo;t need to be an expert on policy to make a call. A
-            short, polite message about where you stand on an issue is all it
-            takes. Your representatives work for you &mdash; remind them.
+            Most often when you reach the office of a legislator, you will find
+            yourself speaking to a young aid or intern. That person will take
+            down your name and address and maybe other contact information, and
+            they will listen while you explain your issue. They will then tally
+            the calls they receive <strong>on each issue</strong> and inform
+            their elected representative/boss regarding what constituents are
+            calling about.
+          </p>
+          <p>
+            This information, in turn, allows elected representatives to speak
+            out more freely on the concerns and priorities of their constituents
+            and gives the representative the &ldquo;runway&rdquo; to actually
+            lead on issues. Or at least, that&rsquo;s the goal!
           </p>
         </div>
       </div>
@@ -187,47 +195,6 @@ function HowToCall() {
   );
 }
 
-function SampleScript() {
-  return (
-    <section className="py-16 px-6 bg-plum-50">
-      <div className="mx-auto max-w-4xl">
-        <h2 className="text-3xl font-bold text-berry-900 mb-4">
-          Sample Call Script
-        </h2>
-        <div className="w-16 h-1 bg-green-600 rounded-full mb-8" />
-        <div className="bg-white border border-gray-200 rounded-2xl p-8">
-          <div className="space-y-4 text-lg text-gray-700 leading-relaxed">
-            <p>
-              <strong className="text-berry-800">&ldquo;Hello,</strong> my name
-              is <em>[Your Name]</em> and I&rsquo;m a constituent from{" "}
-              <em>[Your Town]</em>.
-            </p>
-            <p>
-              I&rsquo;m calling to ask <em>[Senator/Representative Name]</em> to{" "}
-              <em>[support/oppose]</em> <em>[bill name or issue]</em>.
-            </p>
-            <p>
-              This issue is important to me because <em>[one brief reason]</em>.
-            </p>
-            <p>
-              Thank you for your time.
-              <strong className="text-berry-800">&rdquo;</strong>
-            </p>
-          </div>
-          <div className="mt-6 p-4 bg-green-50 rounded-xl">
-            <p className="text-sm text-green-800">
-              <strong>Tip:</strong> It&rsquo;s okay to be nervous! Staffers are
-              used to hearing from constituents. Keep it short (under 60
-              seconds), be polite, and remember &mdash; you have every right to
-              call.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
 function Resources() {
   const resources = [
     {
@@ -244,6 +211,11 @@ function Resources() {
       title: "5 Calls",
       description: "Get phone numbers and scripts for the most pressing issues in Congress right now.",
       href: "https://5calls.org",
+    },
+    {
+      title: "Climate Action Now",
+      description: "Call your representatives about climate issues with this easy-to-use app.",
+      href: "https://apps.apple.com/app/id1497924893",
     },
   ];
 
@@ -439,7 +411,6 @@ export default function PhoneLegislatorsPage() {
         <Hero />
         <WhyCallLegislators />
         <HowToCall />
-        <SampleScript />
         <Resources />
         <CTA />
       </main>

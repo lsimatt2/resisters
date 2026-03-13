@@ -86,7 +86,7 @@ function WhyPhoneBank() {
     <section className="py-16 px-6 bg-plum-50">
       <div className="mx-auto max-w-4xl">
         <h2 className="text-3xl font-bold text-berry-900 mb-4">
-          Why Phone?
+          Why Phone Voters?
         </h2>
         <div className="w-16 h-1 bg-green-600 rounded-full mb-8" />
         <div className="space-y-5 text-lg text-gray-700 leading-relaxed">
@@ -326,6 +326,22 @@ function Resources() {
             <p className="text-gray-600 text-sm">
               Cool new dialer that a recent Shelton, CT campaign used. Will likely be used again, especially if HubDialer goes away.
             </p>
+          </a>
+
+          <a
+            href="https://www.youtube.com/watch?v=zlJVO10WCRk"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg hover:border-green-200 transition-all"
+          >
+            <div className="flex items-center gap-3 mb-3">
+              <div className="w-10 h-10 bg-red-50 text-red-600 rounded-lg flex items-center justify-center group-hover:bg-red-600 group-hover:text-white transition-colors">
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </div>
+              <h3 className="font-semibold text-gray-900">Call Burner</h3>
+            </div>
           </a>
         </div>
       </div>
