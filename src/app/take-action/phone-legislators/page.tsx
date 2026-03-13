@@ -4,9 +4,9 @@ import Link from "next/link";
 import SignupForm from "@/components/SignupForm";
 
 export const metadata: Metadata = {
-  title: "Phone | ReSisters CT",
+  title: "Phone Legislators | ReSisters CT",
   description:
-    "Make persuasive calls to voters and legislators. Phone banking is one of the most effective ways to make your voice heard.",
+    "Learn how to call your legislators effectively. Make your voice heard on the issues that matter most.",
 };
 
 function Navbar() {
@@ -64,65 +64,226 @@ function Hero() {
     <section className="relative bg-green-50 text-gray-900 pt-28 pb-16 px-6">
       <div className="relative mx-auto max-w-4xl text-center">
         <Link
-          href="/#actions"
+          href="/take-action/phone"
           className="inline-block text-green-700 hover:text-green-800 text-sm mb-4 transition-colors"
         >
-          &larr; Back to Take Action
+          &larr; Back to Phone
         </Link>
         <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight mb-4 text-berry-800">
-          Phone
+          Phone Legislators
         </h1>
         <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-          Make persuasive calls for voters and legislators.
+          A phone call to your representative is one of the most powerful ways
+          to influence policy and make your voice heard.
         </p>
       </div>
     </section>
   );
 }
 
-function PhoneOptions() {
+function WhyCallLegislators() {
+  return (
+    <section className="py-16 px-6 bg-plum-50">
+      <div className="mx-auto max-w-4xl">
+        <h2 className="text-3xl font-bold text-berry-900 mb-4">
+          Why Call Your Legislators?
+        </h2>
+        <div className="w-16 h-1 bg-green-600 rounded-full mb-8" />
+        <div className="space-y-5 text-lg text-gray-700 leading-relaxed">
+          <p>
+            Congressional staffers consistently report that phone calls are one
+            of the most effective ways to influence a legislator&rsquo;s
+            position. A flood of calls on a specific issue signals to elected
+            officials that their constituents care deeply.
+          </p>
+          <p>
+            Unlike emails that can be filtered or petitions that may be
+            overlooked, phone calls demand real-time attention. Each call is
+            logged and tallied, and when the numbers are significant, legislators
+            take notice.
+          </p>
+          <p>
+            You don&rsquo;t need to be an expert on policy to make a call. A
+            short, polite message about where you stand on an issue is all it
+            takes. Your representatives work for you &mdash; remind them.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function HowToCall() {
+  const steps = [
+    {
+      title: "Find Your Representatives",
+      description:
+        "Look up your federal and state legislators using your address. Know who represents you at every level of government.",
+      icon: (
+        <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+        </svg>
+      ),
+    },
+    {
+      title: "Prepare Your Message",
+      description:
+        "Keep it brief and focused on one issue. State your name, that you're a constituent, your position, and what action you want them to take.",
+      icon: (
+        <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+        </svg>
+      ),
+    },
+    {
+      title: "Make the Call",
+      description:
+        "Call the local or D.C. office. You'll likely speak to a staffer — that's normal and effective. Be polite, be clear, and be brief.",
+      icon: (
+        <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+        </svg>
+      ),
+    },
+    {
+      title: "Follow Up",
+      description:
+        "Call again when there's a vote coming up. Consistent constituent pressure over time is what moves the needle on legislation.",
+      icon: (
+        <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182" />
+        </svg>
+      ),
+    },
+  ];
+
   return (
     <section className="py-16 px-6">
       <div className="mx-auto max-w-4xl">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-          <a
-            href="/take-action/phone-voters"
-            className="group bg-white border border-gray-200 rounded-2xl p-8 hover:shadow-lg hover:border-green-200 transition-all flex flex-col"
-          >
-            <div className="flex items-center gap-4 mb-4">
-              <div className="w-14 h-14 bg-green-50 text-green-700 rounded-xl flex items-center justify-center group-hover:bg-green-700 group-hover:text-white transition-colors">
-                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
-                </svg>
+        <h2 className="text-3xl font-bold text-berry-900 mb-4">
+          How to Make an Effective Call
+        </h2>
+        <div className="w-16 h-1 bg-berry-600 rounded-full mb-10" />
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          {steps.map((step) => (
+            <div
+              key={step.title}
+              className="flex gap-4 bg-white border border-gray-200 rounded-2xl p-6"
+            >
+              <div className="w-12 h-12 bg-green-50 text-green-700 rounded-xl flex items-center justify-center shrink-0">
+                {step.icon}
               </div>
-              <h2 className="text-2xl font-bold text-gray-900">Phone Voters</h2>
-            </div>
-            <p className="text-gray-600 mb-4">
-              Phone banking is one of the most effective ways to personally connect with voters and encourage them to exercise their democratic right.
-            </p>
-            <span className="inline-block bg-purple-logo hover:bg-berry-700 text-white font-semibold px-5 py-2.5 rounded-full text-sm transition-colors shadow-md mt-auto self-start">
-              Learn More &rarr;
-            </span>
-          </a>
-          <a
-            href="/take-action/phone-legislators"
-            className="group bg-white border border-gray-200 rounded-2xl p-8 hover:shadow-lg hover:border-green-200 transition-all flex flex-col"
-          >
-            <div className="flex items-center gap-4 mb-4">
-              <div className="w-14 h-14 bg-green-50 text-green-700 rounded-xl flex items-center justify-center group-hover:bg-green-700 group-hover:text-white transition-colors">
-                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
-                </svg>
+              <div>
+                <h3 className="font-semibold text-gray-900 text-lg mb-1">
+                  {step.title}
+                </h3>
+                <p className="text-gray-600">{step.description}</p>
               </div>
-              <h2 className="text-2xl font-bold text-gray-900">Phone Legislators</h2>
             </div>
-            <p className="text-gray-600 mb-4">
-              A phone call to your representative is one of the most powerful ways to influence policy and make your voice heard on the issues that matter.
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function SampleScript() {
+  return (
+    <section className="py-16 px-6 bg-plum-50">
+      <div className="mx-auto max-w-4xl">
+        <h2 className="text-3xl font-bold text-berry-900 mb-4">
+          Sample Call Script
+        </h2>
+        <div className="w-16 h-1 bg-green-600 rounded-full mb-8" />
+        <div className="bg-white border border-gray-200 rounded-2xl p-8">
+          <div className="space-y-4 text-lg text-gray-700 leading-relaxed">
+            <p>
+              <strong className="text-berry-800">&ldquo;Hello,</strong> my name
+              is <em>[Your Name]</em> and I&rsquo;m a constituent from{" "}
+              <em>[Your Town]</em>.
             </p>
-            <span className="inline-block bg-purple-logo hover:bg-berry-700 text-white font-semibold px-5 py-2.5 rounded-full text-sm transition-colors shadow-md mt-auto self-start">
-              Learn More &rarr;
-            </span>
-          </a>
+            <p>
+              I&rsquo;m calling to ask <em>[Senator/Representative Name]</em> to{" "}
+              <em>[support/oppose]</em> <em>[bill name or issue]</em>.
+            </p>
+            <p>
+              This issue is important to me because <em>[one brief reason]</em>.
+            </p>
+            <p>
+              Thank you for your time.
+              <strong className="text-berry-800">&rdquo;</strong>
+            </p>
+          </div>
+          <div className="mt-6 p-4 bg-green-50 rounded-xl">
+            <p className="text-sm text-green-800">
+              <strong>Tip:</strong> It&rsquo;s okay to be nervous! Staffers are
+              used to hearing from constituents. Keep it short (under 60
+              seconds), be polite, and remember &mdash; you have every right to
+              call.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function Resources() {
+  const resources = [
+    {
+      title: "Find Your CT Legislators",
+      description: "Look up your state senator and state representative using the CT General Assembly website.",
+      href: "https://www.cga.ct.gov/asp/menu/cgafindleg.asp",
+    },
+    {
+      title: "Find Your U.S. Congress Members",
+      description: "Look up your U.S. senators and representative using your address.",
+      href: "https://www.congress.gov/members/find-your-member",
+    },
+    {
+      title: "5 Calls",
+      description: "Get phone numbers and scripts for the most pressing issues in Congress right now.",
+      href: "https://5calls.org",
+    },
+  ];
+
+  return (
+    <section className="py-16 px-6">
+      <div className="mx-auto max-w-4xl">
+        <h2 className="text-3xl font-bold text-berry-900 mb-4">
+          Resources & Tools
+        </h2>
+        <div className="w-16 h-1 bg-berry-600 rounded-full mb-8" />
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          {resources.map((resource) => (
+            <a
+              key={resource.title}
+              href={resource.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg hover:border-green-200 transition-all"
+            >
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-10 h-10 bg-green-50 text-green-700 rounded-lg flex items-center justify-center group-hover:bg-green-700 group-hover:text-white transition-colors">
+                  <svg
+                    className="w-5 h-5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={1.5}
+                      d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                    />
+                  </svg>
+                </div>
+                <h3 className="font-semibold text-gray-900">{resource.title}</h3>
+              </div>
+              <p className="text-gray-600 text-sm">{resource.description}</p>
+            </a>
+          ))}
         </div>
       </div>
     </section>
@@ -131,14 +292,11 @@ function PhoneOptions() {
 
 function CTA() {
   return (
-    <section className="py-20 px-6 bg-gradient-to-br from-green-50 to-white">
+    <section className="py-16 px-6 bg-gradient-to-r from-green-50 to-white text-gray-900">
       <div className="mx-auto max-w-3xl text-center">
-        <h2 id="signup" className="text-3xl sm:text-4xl font-bold text-berry-800 mb-3">
-          New to ReSisters?
-        </h2>
-        <p className="text-gray-600 text-lg mb-8 max-w-xl mx-auto">
-          Join our email list to receive the Weekly Menu with Zoom links, action
-          items, and ways to get involved.
+        <h2 className="text-3xl font-bold mb-4 text-berry-800">Ready to Call Your Legislators?</h2>
+        <p className="text-xl text-gray-600 mb-8">
+          Join our email list using this form.
         </p>
         <SignupForm />
       </div>
@@ -260,10 +418,10 @@ function Footer() {
         <div className="border-t border-gray-300 pt-6 text-center text-sm text-black">
           <div className="mb-4">
             <Link
-              href="/#actions"
+              href="/take-action/phone"
               className="text-green-logo hover:text-berry-700 transition-colors"
             >
-              &larr; Back to Take Action
+              &larr; Back to Phone
             </Link>
           </div>
           &copy; {new Date().getFullYear()} ReSisters CT. All rights reserved.
@@ -273,13 +431,16 @@ function Footer() {
   );
 }
 
-export default function PhonePage() {
+export default function PhoneLegislatorsPage() {
   return (
     <>
       <Navbar />
       <main>
         <Hero />
-        <PhoneOptions />
+        <WhyCallLegislators />
+        <HowToCall />
+        <SampleScript />
+        <Resources />
         <CTA />
       </main>
       <Footer />
