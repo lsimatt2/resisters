@@ -73,7 +73,7 @@ function Hero() {
           Phone
         </h1>
         <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-          Make persuasive calls for voters and legislators.
+          Make persuasive calls to voters and legislators.
         </p>
       </div>
     </section>
