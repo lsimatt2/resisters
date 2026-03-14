@@ -276,10 +276,10 @@ function ResistanceCafe({ onOpenSignup }: { onOpenSignup: () => void }) {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10 text-left">
           <div className="bg-white rounded-2xl p-6 border border-gray-200 shadow-sm">
             <h3 className="font-semibold text-lg mb-2 text-green-logo">When</h3>
-            <p className="text-green-logo">
+            <p className="text-green-800">
               Every Monday morning from 10 - 11 a.m. on Zoom.
             </p>
-            <p className="text-green-logo mt-2">
+            <p className="text-green-800 mt-2">
               Every Monday evening at 7 p.m. on Zoom, a recap for those not able to attend the earlier Zoom.
             </p>
           </div>

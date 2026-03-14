@@ -95,9 +95,9 @@ function WhyCallLegislators() {
             elected representatives on the Federal, State and Municipal levels.
           </p>
           <p>
-            We make these calls in order to let our elected leaders know where
+            We make these calls to let our elected leaders know where
             we stand on issues, and to let them know where we would like them
-            to stand. We do it in order to have an impact on their votes, their
+            to stand. We do it to have an impact on their votes, their
             priorities, and the outcomes that follow.
           </p>
           <p>
