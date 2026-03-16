@@ -198,14 +198,14 @@ function HowToCall() {
 function Resources() {
   const resources = [
     {
-      title: "Find Your CT Legislators",
-      description: "Look up your state senator and state representative using the CT General Assembly website.",
-      href: "https://www.cga.ct.gov/asp/menu/cgafindleg.asp",
+      title: "Find Elected Federal Officials",
+      description: "Handy links for emailing or phoning officials.",
+      href: "/take-action/phone-legislators/federal-officials",
     },
     {
-      title: "Find Your U.S. Congress Members",
-      description: "Look up your U.S. senators and representative using your address.",
-      href: "https://www.congress.gov/members/find-your-member",
+      title: "Find Your CT State Legislators",
+      description: "Look up your state senator and state representative using the CT General Assembly website.",
+      href: "https://www.cga.ct.gov/asp/menu/cgafindleg.asp",
     },
     {
       title: "5 Calls",
@@ -216,6 +216,21 @@ function Resources() {
       title: "Climate Action Now",
       description: "Call your representatives about climate issues with this easy-to-use app.",
       href: "https://apps.apple.com/app/id1497924893",
+    },
+    {
+      title: "Contact a US Senator",
+      description: "Find and contact your US Senators.",
+      href: "https://www.senate.gov/senators/senators-contact.htm",
+    },
+    {
+      title: "Contact a US Representative",
+      description: "Find and contact your US Representative.",
+      href: "https://www.house.gov/representatives",
+    },
+    {
+      title: "Contact the White House",
+      description: "Send a message to the White House.",
+      href: "https://www.whitehouse.gov/contact/",
     },
   ];
 
