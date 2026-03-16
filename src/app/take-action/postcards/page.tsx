@@ -79,7 +79,7 @@ function WhyPostcards() {
         <div className="w-16 h-1 bg-green-600 rounded-full mb-8" />
         <div className="space-y-5 text-lg text-gray-700 leading-relaxed">
           <p>
-            Handwritten postcards are personal and they are an effective tool for
+            Handwritten postcards are personal and an effective tool for
             reaching people. A personally addressed message stands out and is
             memorable. Fun, attractive postcards make an impact that digital
             messages simply can&rsquo;t match.
@@ -87,7 +87,7 @@ function WhyPostcards() {
           <p>
             Postcards are used to Get Out The Vote, create awareness about voter
             registration, and support specific political candidates. They&rsquo;re
-            also incredibly easy to do from any location. All you need is
+            also incredibly easy to write from any location. All you need is
             a pen, a postcard, and a stamp.
           </p>
         </div>
