@@ -87,7 +87,7 @@ function Canvassing() {
           <p>
             Deep canvassing is an especially important technique. It
             involves longer, more meaningful conversations with voters and can
-            genuinely change minds and build lasting connections. The newest form of deep canvassing is Ground Truth, launched in 2025 by Swing Left, which is gathering feedback from all citizens.
+            genuinely change minds and build lasting connections. The newest version of deep canvassing is Ground Truth. Launched in 2025 by Swing Left, it gathers feedback from all citizens without regard to party affiliation.
           </p>
         </div>
       </div>

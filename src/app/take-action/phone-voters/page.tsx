@@ -149,7 +149,7 @@ function TheImpact() {
     {
       title: "Community Support",
       description:
-        "As a ReSister, you can phone bank during our Resistance Cafe. It's great to have company — share tips, celebrate successes, and commiserate with others.",
+        "ReSister often phone bank during our Resistance Cafe. It's great to have company — share tips, celebrate successes, and learn from others.",
       icon: (
         <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
@@ -196,7 +196,7 @@ function Resources() {
     },
     {
       title: "Masking Your Phone Number",
-      description: "Instructions for how to mask your personal number when making calls.",
+      description: "If you are using an automatic dialer, you'll be calling through your computer, not your phone. But if you are using your phone, here are instructions for how to hide your number on the receiver's end.",
       href: "https://docs.google.com/document/d/1saXUBNnRAbvPBS8YSRD_EMw2xv4tVm7zlZEv8XOaxYc/edit",
     },
     {
@@ -206,7 +206,7 @@ function Resources() {
     },
     {
       title: "Phone Bank Training Videos",
-      description: "Watch a training video for the software being used by a phone bank.",
+      description: "Watch a training video for the auto-dialer software being used by a phone bank.",
       href: "/take-action/phone-voters/training-videos",
     },
   ];

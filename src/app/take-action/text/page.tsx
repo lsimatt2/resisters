@@ -100,7 +100,7 @@ function WhatIsTextBanking() {
           <p>
             Texting works because people read text messages, especially short direct ones. It also gives recipients an easy, low-pressure way to
             ask questions or engage in conversation. Because you can send
-            hundreds of messages quickly, It is an efficient way
+            hundreds of messages quickly, it is an efficient way
             to take action.
           </p>
         </div>
