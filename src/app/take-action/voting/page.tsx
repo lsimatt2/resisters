@@ -63,7 +63,7 @@ function Hero() {
         <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
           Everything you need to check your
           <br />
-          registration, register to vote, and request an absentee ballot.
+          registration, register to vote, request an absentee ballot and more.
         </p>
       </div>
     </section>
