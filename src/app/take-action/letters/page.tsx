@@ -166,7 +166,7 @@ function LettersToEditor() {
         <div className="w-16 h-1 bg-green-600 rounded-full mb-8" />
         <div className="space-y-5 text-lg text-gray-700 leading-relaxed mb-8">
           <p>
-            We encourage ReSisters to write personal messages to the press. With
+            We encourage ReSisters to write Letters to the Editor and/or submit comments in response to articles. With
             some specific issues, we provide sample letters as thought starters
             to help you get going.
           </p>
