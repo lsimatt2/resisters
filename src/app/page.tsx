@@ -346,7 +346,7 @@ function Resources() {
               <h3 className="text-xl font-bold text-berry-800">Voting</h3>
             </div>
             <p className="text-sm text-gray-700 mb-4">
-              Detailed information on registering to vote, voting by mail, checking the status of your ballot, and more.
+              Detailed information on registering to vote, voting in person or by mail, checking the status of your ballot, and more.
             </p>
             <span className="inline-block bg-purple-logo hover:bg-berry-700 text-white font-semibold px-5 py-2.5 rounded-full text-sm transition-colors shadow-md">
               View Resources &rarr;

@@ -206,7 +206,7 @@ function Resources() {
     },
     {
       title: "Phone Bank Training Videos",
-      description: "Watch a training video for the auto-dialer software being used by a phone bank.",
+      description: "Watch a training video for the software being used by a phone bank.",
       href: "/take-action/phone-voters/training-videos",
     },
   ];
