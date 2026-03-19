@@ -36,7 +36,7 @@ function SignupModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => void
 
 function Navbar({ onOpenSignup }: { onOpenSignup: () => void }) {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-green-50/95 backdrop-blur-sm border-b border-green-200 shadow-sm">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-green-50/95 backdrop-blur-sm border-b-2 border-berry-700 shadow-sm">
       <div className="mx-auto max-w-6xl flex items-center justify-between px-6 py-3">
         <a href="#" className="flex items-center gap-3">
           <Image src="/logo.png" alt="ReSisters CT" width={60} height={38} />
