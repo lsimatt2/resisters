@@ -110,7 +110,7 @@ function ResourcesList() {
             </p>
           </a>
           <a
-            href="https://docs.google.com/document/d/1RFLkJq6LDGE-T9oHw-qHGmqsmMyhfCl-cV1gS4lygdY/edit"
+            href="https://docs.google.com/document/d/11fNGkuJrS8iIeYfkbnUjL5NMKdYeRx9iV-eRFfiZKtI/edit?tab=t.0"
             target="_blank"
             rel="noopener noreferrer"
             className="group bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg hover:border-green-200 transition-all"
