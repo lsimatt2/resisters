@@ -36,7 +36,7 @@ function SignupModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => void
 
 function Navbar({ onOpenSignup }: { onOpenSignup: () => void }) {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-green-50/95 backdrop-blur-sm border-b border-green-100 shadow-sm">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-green-50/95 backdrop-blur-sm border-b border-green-200 shadow-sm">
       <div className="mx-auto max-w-6xl flex items-center justify-between px-6 py-3">
         <a href="#" className="flex items-center gap-3">
           <Image src="/logo.png" alt="ReSisters CT" width={60} height={38} />
@@ -527,9 +527,6 @@ export default function Home() {
     <>
       <SignupModal isOpen={isSignupOpen} onClose={closeSignup} />
       <Navbar onOpenSignup={openSignup} />
-      <div className="bg-purple-logo text-white text-center py-6 px-6 text-2xl font-bold mt-[60px]">
-        Website is under development
-      </div>
       <main>
         <Hero onOpenSignup={openSignup} />
         <About />
