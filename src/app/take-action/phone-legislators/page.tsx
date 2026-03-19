@@ -199,7 +199,7 @@ function Resources() {
   const resources = [
     {
       title: "Find Elected Federal Officials",
-      description: "Handy links for phoning officials.",
+      description: "Handy links for communicating with officials.",
       href: "/take-action/phone-legislators/federal-officials",
     },
     {
@@ -216,21 +216,6 @@ function Resources() {
       title: "Climate Action Now",
       description: "Call your representatives about climate issues with this easy-to-use app.",
       href: "https://apps.apple.com/app/id1497924893",
-    },
-    {
-      title: "Contact a US Senator",
-      description: "Find and contact your US Senators.",
-      href: "https://www.senate.gov/senators/senators-contact.htm",
-    },
-    {
-      title: "Contact a US Representative",
-      description: "Find and contact your US Representative.",
-      href: "https://www.house.gov/representatives",
-    },
-    {
-      title: "Contact the White House",
-      description: "Send a message to the White House.",
-      href: "https://www.whitehouse.gov/contact/",
     },
   ];
 

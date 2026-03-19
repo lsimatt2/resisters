@@ -196,7 +196,7 @@ function Resources() {
     },
     {
       title: "Masking Your Phone Number",
-      description: "If you are using an automatic dialer, you'll be calling through your computer, not your phone. But if you are using your phone, here are instructions for how to hide your number on the receiver's end.",
+      description: "If you are using an automatic dialer, you'll be calling through your computer, not your phone. If you are using your phone, here are instructions for how to hide your number on the receiver's end.",
       href: "https://docs.google.com/document/d/1saXUBNnRAbvPBS8YSRD_EMw2xv4tVm7zlZEv8XOaxYc/edit",
     },
     {
@@ -219,7 +219,7 @@ function Resources() {
         </h2>
         <div className="w-16 h-1 bg-berry-600 rounded-full mb-8" />
         <p className="text-lg text-gray-700 leading-relaxed mb-8">
-          We partner with various organizations and campaigns when we join a Phone Banking campaign. Once you sign up, they provide all the training, tips, and tools you will need to get started.
+          When we participate in a phone bank, we partner with various organizations and campaigns. Once you sign up, they provide all the training, tips, and tools you will need to get started.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           {resources.map((resource) => (

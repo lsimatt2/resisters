@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Find Elected Federal Officials | ReSisters CT",
   description:
-    "Handy links for phoning your elected federal officials.",
+    "Handy links for communicating with elected federal officials.",
 };
 
 function Navbar() {
@@ -66,7 +66,7 @@ function Hero() {
           Find Elected Federal Officials
         </h1>
         <p className="text-xl text-gray-600 leading-relaxed">
-          Handy links for phoning officials.
+          Handy links for communicating with officials.
         </p>
       </div>
     </section>
@@ -76,10 +76,19 @@ function Hero() {
 function FederalOfficials() {
   const resources = [
     {
-      title: "Find Your U.S. Congress Members",
-      description:
-        "Look up your U.S. senators and representative using your address.",
-      href: "https://www.congress.gov/members/find-your-member",
+      title: "Contact a US Senator",
+      description: "Click here to find a member of Congress and contact info. You can also call 202-224-3121, the US Capitol Switchboard.",
+      href: "https://www.senate.gov/senators/senators-contact.htm",
+    },
+    {
+      title: "Contact a US Representative",
+      description: "Click here to find a member of Congress and contact info. You can also call 202-224-3121, the US Capitol Switchboard.",
+      href: "https://www.house.gov/representatives",
+    },
+    {
+      title: "Contact the White House",
+      description: "Send a message to the White House.",
+      href: "https://www.whitehouse.gov/contact/",
     },
   ];
 
