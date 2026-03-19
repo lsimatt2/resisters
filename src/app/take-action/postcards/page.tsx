@@ -175,7 +175,7 @@ function Resources() {
     {
       title: "Find a Campaign",
       description: "Find a current postcard campaign to join.",
-      href: "https://docs.google.com/document/d/1tdT3bXhs6kmgHb0yMEmrxQyhJS--g0h1rE568YgRNn0/edit?usp=sharing",
+      href: "/take-action/postcards/find-a-campaign",
       icon: (
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
@@ -185,7 +185,7 @@ function Resources() {
     {
       title: "Get Postcards",
       description: "Find out where to get postcards for your campaign.",
-      href: "https://docs.google.com/document/d/1N8RkcW9LdpejAEE91v2tXCgFhL_5ougZu80JdB4eE4k/edit?usp=sharing",
+      href: "/take-action/postcards/get-postcards",
       icon: (
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
