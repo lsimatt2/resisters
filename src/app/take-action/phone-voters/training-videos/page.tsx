@@ -125,12 +125,6 @@ function TrainingVideos() {
               {video.description && (
                 <p className="text-gray-600 text-sm">
                   {video.description}
-                  {video.descriptionNote && (
-                    <>
-                      {" "}
-                      <em className="text-gray-500">{video.descriptionNote}</em>
-                    </>
-                  )}
                 </p>
               )}
             </a>
