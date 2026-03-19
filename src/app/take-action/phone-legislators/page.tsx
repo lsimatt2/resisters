@@ -199,7 +199,7 @@ function Resources() {
   const resources = [
     {
       title: "Find Elected Federal Officials",
-      description: "Handy links for emailing or phoning officials.",
+      description: "Handy links for phoning officials.",
       href: "/take-action/phone-legislators/federal-officials",
     },
     {

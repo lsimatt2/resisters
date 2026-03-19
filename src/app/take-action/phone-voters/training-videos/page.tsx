@@ -77,21 +77,17 @@ function TrainingVideos() {
   const videos = [
     {
       title: "Open VPB",
-      description:
-        "You dial yourself on your own phone (or sometimes on the computer. Depends on how the campaign sets it up.)",
+      description: "",
       href: "https://youtu.be/mgQsjCl06vE?feature=shared",
     },
     {
       title: "Scale To Win",
-      description:
-        "Computer dials and only connects you when someone picks up.",
+      description: "",
       href: "https://youtu.be/cMqsfqpHPvU?si=2WRygm5QXX3B1OgL",
     },
     {
       title: "Hub Dialer",
-      description:
-        "Computer dials and only connects you when someone picks up.",
-      descriptionNote: "May be going out of business.",
+      description: "",
       href: "https://youtu.be/mgQsjCl06vE?feature=shared",
     },
     {
@@ -101,8 +97,7 @@ function TrainingVideos() {
     },
     {
       title: "Callfire",
-      description:
-        "Cool new dialer that a recent Shelton, CT campaign used. Will likely be used again, especially if HubDialer goes away.",
+      description: "",
       href: "https://youtu.be/l6vpmz01ZDE?si=HR2tvJYbZHrao-4f",
     },
   ];

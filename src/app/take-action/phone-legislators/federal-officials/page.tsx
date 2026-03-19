@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Find Elected Federal Officials | ReSisters CT",
   description:
-    "Handy links for emailing or phoning your elected federal officials.",
+    "Handy links for phoning your elected federal officials.",
 };
 
 function Navbar() {
@@ -66,7 +66,7 @@ function Hero() {
           Find Elected Federal Officials
         </h1>
         <p className="text-xl text-gray-600 leading-relaxed">
-          Handy links for emailing or phoning officials.
+          Handy links for phoning officials.
         </p>
       </div>
     </section>
