@@ -73,7 +73,7 @@ function Hero() {
           Phone Legislators
         </h1>
         <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-          A phone call to your representative is one of the most powerful ways
+          A phone call to an elected official is one of the most powerful ways
           to influence policy and make your voice heard.
         </p>
       </div>
@@ -214,7 +214,7 @@ function Resources() {
     },
     {
       title: "Climate Action Now",
-      description: "Call your representatives about climate issues with this easy-to-use app.",
+      description: "Call an elected official about climate issues with this easy-to-use app.",
       href: "https://apps.apple.com/app/id1497924893",
     },
   ];

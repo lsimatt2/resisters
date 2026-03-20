@@ -117,7 +117,7 @@ function PhoneOptions() {
               <h2 className="text-2xl font-bold text-gray-900">Phone Legislators</h2>
             </div>
             <p className="text-gray-600 mb-4">
-              A phone call to your representative is one of the most powerful ways to influence policy and make your voice heard on the issues that matter.
+              A phone call to an elected official is one of the most powerful ways to influence policy and make your voice heard on the issues that matter.
             </p>
             <span className="inline-block bg-purple-logo hover:bg-berry-700 text-white font-semibold px-5 py-2.5 rounded-full text-sm transition-colors shadow-md mt-auto self-start">
               Learn More &rarr;
