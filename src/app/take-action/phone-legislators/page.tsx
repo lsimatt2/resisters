@@ -42,14 +42,14 @@ function Navbar() {
             Resources
           </Link>
           <a
-            href="#signup"
+            href="/#signup"
             className="bg-purple-logo text-white px-5 py-2 rounded-full hover:bg-berry-700 transition-colors"
           >
             Join Us
           </a>
         </div>
         <a
-          href="#signup"
+          href="/#signup"
           className="md:hidden bg-purple-logo text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-berry-700 transition-colors"
         >
           Join Us
@@ -299,26 +299,26 @@ function Footer() {
             <h3 className="text-black font-semibold mb-3">Quick Links</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#about" className="hover:text-gray-600 transition-colors">
+                <a href="/#about" className="hover:text-gray-600 transition-colors">
                   Who We Are
                 </a>
               </li>
               <li>
                 <a
-                  href="#actions"
+                  href="/#actions"
                   className="hover:text-white transition-colors"
                 >
                   Take Action
                 </a>
               </li>
               <li>
-                <a href="#cafe" className="hover:text-gray-600 transition-colors">
+                <a href="/#cafe" className="hover:text-gray-600 transition-colors">
                   Resistance Cafe
                 </a>
               </li>
               <li>
                 <a
-                  href="#resources"
+                  href="/#resources"
                   className="hover:text-gray-600 transition-colors"
                 >
                   Resources

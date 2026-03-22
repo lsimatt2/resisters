@@ -158,22 +158,22 @@ function Footer() {
             <h3 className="text-black font-semibold mb-3">Quick Links</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#about" className="hover:text-gray-600 transition-colors">
+                <a href="/#about" className="hover:text-gray-600 transition-colors">
                   Who We Are
                 </a>
               </li>
               <li>
-                <a href="#actions" className="hover:text-white transition-colors">
+                <a href="/#actions" className="hover:text-white transition-colors">
                   Take Action
                 </a>
               </li>
               <li>
-                <a href="#cafe" className="hover:text-gray-600 transition-colors">
+                <a href="/#cafe" className="hover:text-gray-600 transition-colors">
                   Resistance Cafe
                 </a>
               </li>
               <li>
-                <a href="#resources" className="hover:text-gray-600 transition-colors">
+                <a href="/#resources" className="hover:text-gray-600 transition-colors">
                   Resources
                 </a>
               </li>

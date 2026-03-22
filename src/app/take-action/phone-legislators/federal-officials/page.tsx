@@ -158,7 +158,7 @@ function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <a
-                  href="#about"
+                  href="/#about"
                   className="hover:text-gray-600 transition-colors"
                 >
                   Who We Are
@@ -166,7 +166,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="#actions"
+                  href="/#actions"
                   className="hover:text-white transition-colors"
                 >
                   Take Action
@@ -174,7 +174,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="#cafe"
+                  href="/#cafe"
                   className="hover:text-gray-600 transition-colors"
                 >
                   Resistance Cafe
@@ -182,7 +182,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="#resources"
+                  href="/#resources"
                   className="hover:text-gray-600 transition-colors"
                 >
                   Resources
