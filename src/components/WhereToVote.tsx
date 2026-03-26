@@ -103,7 +103,7 @@ const results: Record<string, { type: string; headline: string; body: string; ct
   result_home_fallback: {
     type: "home",
     headline: "Vote in your home state (by absentee)",
-    body: "Since you can't register at your current address, you should vote in your home state using an absentee ballot. Contact your home state's election office to request one.",
+    body: "Since you cannot register at your current address, you should vote in your home state using an absentee ballot. Contact your home state's election office to request one.",
     cta: { label: "Request an Absentee Ballot →", url: "https://vote411.org" },
     tip: "⚠️ Remember: It is illegal to vote in both states. Choose one.",
   },
