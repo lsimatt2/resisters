@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import SignupForm from "@/components/SignupForm";
+import Countdown from "@/components/Countdown";
 
 function SignupModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) {
   if (!isOpen) return null;
@@ -529,6 +530,7 @@ export default function Home() {
       <Navbar onOpenSignup={openSignup} />
       <main>
         <Hero onOpenSignup={openSignup} />
+        <Countdown />
         <About />
         <ResistanceCafe onOpenSignup={openSignup} />
         <TakeAction />
